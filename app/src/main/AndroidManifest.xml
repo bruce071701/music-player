@@ -4,7 +4,6 @@
 
     <!-- Audio file access -->
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
@@ -26,12 +25,13 @@
     <application
         android:name="com.app.musicplayer.MusicPlayerApplication"
         android:allowBackup="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer"
-        tools:targetApi="34">
+        tools:targetApi="35">
 
         <activity
             android:name="com.app.musicplayer.MainActivity"

@@ -110,8 +110,6 @@
     <string name="exo_track_surround_7_point_1">7.1 көлөмдүү добуш</string>
     <string name="exo_track_unknown">Белгисиз</string>
     <string name="exo_track_unknown_name">Белгисиз (%1$s)</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text"><b><tt>"GlanceAppWidget"</tt></b>" cурамы менен издеп, "<b><tt>"adb logcat"</tt></b>" аркылуу катаны аныктаңыз"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance колдонмосунун виджет катасы"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"Аткарылууда"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Жарым-жартылай текшерилди"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Ылдыйкы экранды жыйыштыруу"</string>

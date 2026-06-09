@@ -159,8 +159,6 @@
     <string name="feedback">フィードバック</string>
     <string name="folders_count">%d フォルダ</string>
     <string name="for_you">あなたへのおすすめ</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text"><b><tt>"adb logcat"</tt></b>" を使用して "<b><tt>"GlanceAppWidget"</tt></b>" を検索し、エラーを詳しくご確認ください"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Google Pixel のスナップショット アプリ ウィジェット エラー"</b></string>
     <string name="hidden_folders">非表示フォルダ</string>
     <string name="import_playlist">プレイリストをインポート</string>
     <string msgid="6827826412747255547" name="in_progress">"処理しています"</string>

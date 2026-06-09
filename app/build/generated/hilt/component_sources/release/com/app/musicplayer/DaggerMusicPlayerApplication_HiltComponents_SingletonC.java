@@ -429,24 +429,18 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
     private static final class LazyClassKeyProvider {
       static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
 
-      static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
-
-      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
-
       static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
 
       static String com_app_musicplayer_feature_backup_BackupViewModel = "com.app.musicplayer.feature.backup.BackupViewModel";
 
+      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
+
       static String com_app_musicplayer_feature_equalizer_EqualizerViewModel = "com.app.musicplayer.feature.equalizer.EqualizerViewModel";
+
+      static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
 
       @KeepFieldType
       SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
-
-      @KeepFieldType
-      LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
-
-      @KeepFieldType
-      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
 
       @KeepFieldType
       SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
@@ -455,7 +449,13 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
       BackupViewModel com_app_musicplayer_feature_backup_BackupViewModel2;
 
       @KeepFieldType
+      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
+
+      @KeepFieldType
       EqualizerViewModel com_app_musicplayer_feature_equalizer_EqualizerViewModel2;
+
+      @KeepFieldType
+      LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
     }
   }
 
@@ -513,33 +513,33 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
     private static final class LazyClassKeyProvider {
       static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
 
-      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
-
       static String com_app_musicplayer_feature_equalizer_EqualizerViewModel = "com.app.musicplayer.feature.equalizer.EqualizerViewModel";
 
-      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
+      static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
+
+      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
 
       static String com_app_musicplayer_feature_backup_BackupViewModel = "com.app.musicplayer.feature.backup.BackupViewModel";
 
-      static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
+      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
 
       @KeepFieldType
       LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
 
       @KeepFieldType
-      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
-
-      @KeepFieldType
       EqualizerViewModel com_app_musicplayer_feature_equalizer_EqualizerViewModel2;
 
       @KeepFieldType
-      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
+      SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
+
+      @KeepFieldType
+      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
 
       @KeepFieldType
       BackupViewModel com_app_musicplayer_feature_backup_BackupViewModel2;
 
       @KeepFieldType
-      SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
+      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {

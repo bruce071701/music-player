@@ -110,8 +110,6 @@
     <string name="exo_track_surround_7_point_1">7.1 સરાઉન્ડ સાઉન્ડ</string>
     <string name="exo_track_unknown">અજાણ્યો</string>
     <string name="exo_track_unknown_name">અજાણ્યું (%1$s)</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text"><b><tt>"adb logcat"</tt></b>"નો ઉપયોગ કરીને, "<b><tt>"GlanceAppWidget"</tt></b>" શોધીને ચોક્કસ ભૂલ ચેક કરો"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance ઍપ વિજેટમાં ભૂલ"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"પ્રક્રિયામાં છે"</string>
     <string msgid="7933458017204019916" name="indeterminate">"આંશિક રીતે ચેક કરેલા વિકલ્પો"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"બોટમ શીટ નાની કરો"</string>

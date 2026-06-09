@@ -204,29 +204,6 @@
 }
 
 # End of content from /Users/shareit/.gradle/caches/transforms-4/493a8e4cdf668ab9921344d792ad524a/transformed/fragment-1.5.4/proguard.txt
-# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/b1edff1432ce24b534ee8c4c35c9a11c/transformed/glance-appwidget-1.0.0/proguard.txt
-#  Copyright (C) 2021 The Android Open Source Project
-#
-#  Licensed under the Apache License, Version 2.0 (the "License");
-#  you may not use this file except in compliance with the License.
-#  You may obtain a copy of the License at
-#
-#       http://www.apache.org/licenses/LICENSE-2.0
-#
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an "AS IS" BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
-
-# libproto uses reflection to deserialize a Proto, which Proguard can't accurately detect.
-# Keep all the class members of any generated messages to ensure we can deserialize properly inside
-# these classes.
--keepclassmembers class * extends androidx.glance.appwidget.protobuf.GeneratedMessageLite {
-  <fields>;
-}
--keep public class * extends androidx.glance.appwidget.action.ActionCallback
-# End of content from /Users/shareit/.gradle/caches/transforms-4/b1edff1432ce24b534ee8c4c35c9a11c/transformed/glance-appwidget-1.0.0/proguard.txt
 # The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/8812fe98fc1a913939a363f620f1ce2c/transformed/savedstate-1.2.1/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
@@ -480,17 +457,6 @@
     public static final android.os.Parcelable$Creator *;
 }
 # End of content from /Users/shareit/.gradle/caches/transforms-4/f3b6c17c7f1d1182d2fe4d820f74c7f1/transformed/media-1.7.0/proguard.txt
-# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/1d100f944bc612ecba6965959379bff0/transformed/work-runtime-2.7.1/proguard.txt
--keep class * extends androidx.work.Worker
--keep class * extends androidx.work.InputMerger
-# Keep all constructors on ListenableWorker, Worker (also marked with @Keep)
--keep public class * extends androidx.work.ListenableWorker {
-    public <init>(...);
-}
-# We need to keep WorkerParameters for the ListenableWorker constructor
--keep class androidx.work.WorkerParameters
-
-# End of content from /Users/shareit/.gradle/caches/transforms-4/1d100f944bc612ecba6965959379bff0/transformed/work-runtime-2.7.1/proguard.txt
 # The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/4d884ee1cabd0e9629f477fee1bc9215/transformed/vectordrawable-animated-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
@@ -738,60 +704,6 @@
 }
 
 # End of content from /Users/shareit/.gradle/caches/transforms-4/97f8d6a52d55aebc728142f6e742560e/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
-# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/fd48661675c1671cda74263763628e98/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# Allow R8 to optimize away the FastServiceLoader.
-# Together with ServiceLoader optimization in R8
-# this results in direct instantiation when loading Dispatchers.Main
--assumenosideeffects class kotlinx.coroutines.internal.MainDispatcherLoader {
-    boolean FAST_SERVICE_LOADER_ENABLED return false;
-}
-
--assumenosideeffects class kotlinx.coroutines.internal.FastServiceLoaderKt {
-    boolean ANDROID_DETECTED return true;
-}
-
-# Disable support for "Missing Main Dispatcher", since we always have Android main dispatcher
--assumenosideeffects class kotlinx.coroutines.internal.MainDispatchersKt {
-    boolean SUPPORT_MISSING return false;
-}
-
-# Statically turn off all debugging facilities and assertions
--assumenosideeffects class kotlinx.coroutines.DebugKt {
-    boolean getASSERTIONS_ENABLED() return false;
-    boolean getDEBUG() return false;
-    boolean getRECOVER_STACK_TRACES() return false;
-}
-
-# End of content from /Users/shareit/.gradle/caches/transforms-4/fd48661675c1671cda74263763628e98/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/b3251a4f4b7bd8bfe73c94eae857b967/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
-# When editing this file, update the following files as well:
-# - META-INF/proguard/coroutines.pro
-# - META-INF/com.android.tools/proguard/coroutines.pro
-
-# Most of volatile fields are updated with AFU and should not be mangled
--keepclassmembers class kotlinx.coroutines.** {
-    volatile <fields>;
-}
-
-# Same story for the standard library's SafeContinuation that also uses AtomicReferenceFieldUpdater
--keepclassmembers class kotlin.coroutines.SafeContinuation {
-    volatile <fields>;
-}
-
-# These classes are only required by kotlinx.coroutines.debug.AgentPremain, which is only loaded when
-# kotlinx-coroutines-core is used as a Java agent, so these are not needed in contexts where ProGuard is used.
--dontwarn java.lang.instrument.ClassFileTransformer
--dontwarn sun.misc.SignalHandler
--dontwarn java.lang.instrument.Instrumentation
--dontwarn sun.misc.Signal
-
-# Only used in `kotlinx.coroutines.internal.ExceptionsConstructor`.
-# The case when it is not available is hidden in a `try`-`catch`, as well as a check for Android.
--dontwarn java.lang.ClassValue
-
-# An annotation used for build tooling, won't be directly accessed.
--dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-# End of content from /Users/shareit/.gradle/caches/transforms-4/b3251a4f4b7bd8bfe73c94eae857b967/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
 # The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/80991c224fc492227bdc9c5e38bd79b0/transformed/rules/lib/META-INF/proguard/retrofit2.pro
 # Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
 # EnclosingMethod is required to use InnerClasses.
@@ -860,6 +772,60 @@
 -dontwarn org.openjsse.**
 
 # End of content from /Users/shareit/.gradle/caches/transforms-4/9f06f6e8fd5eb62211fc25324d290a67/transformed/rules/lib/META-INF/proguard/okhttp3.pro
+# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/b3251a4f4b7bd8bfe73c94eae857b967/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# When editing this file, update the following files as well:
+# - META-INF/proguard/coroutines.pro
+# - META-INF/com.android.tools/proguard/coroutines.pro
+
+# Most of volatile fields are updated with AFU and should not be mangled
+-keepclassmembers class kotlinx.coroutines.** {
+    volatile <fields>;
+}
+
+# Same story for the standard library's SafeContinuation that also uses AtomicReferenceFieldUpdater
+-keepclassmembers class kotlin.coroutines.SafeContinuation {
+    volatile <fields>;
+}
+
+# These classes are only required by kotlinx.coroutines.debug.AgentPremain, which is only loaded when
+# kotlinx-coroutines-core is used as a Java agent, so these are not needed in contexts where ProGuard is used.
+-dontwarn java.lang.instrument.ClassFileTransformer
+-dontwarn sun.misc.SignalHandler
+-dontwarn java.lang.instrument.Instrumentation
+-dontwarn sun.misc.Signal
+
+# Only used in `kotlinx.coroutines.internal.ExceptionsConstructor`.
+# The case when it is not available is hidden in a `try`-`catch`, as well as a check for Android.
+-dontwarn java.lang.ClassValue
+
+# An annotation used for build tooling, won't be directly accessed.
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+# End of content from /Users/shareit/.gradle/caches/transforms-4/b3251a4f4b7bd8bfe73c94eae857b967/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/fd48661675c1671cda74263763628e98/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# Allow R8 to optimize away the FastServiceLoader.
+# Together with ServiceLoader optimization in R8
+# this results in direct instantiation when loading Dispatchers.Main
+-assumenosideeffects class kotlinx.coroutines.internal.MainDispatcherLoader {
+    boolean FAST_SERVICE_LOADER_ENABLED return false;
+}
+
+-assumenosideeffects class kotlinx.coroutines.internal.FastServiceLoaderKt {
+    boolean ANDROID_DETECTED return true;
+}
+
+# Disable support for "Missing Main Dispatcher", since we always have Android main dispatcher
+-assumenosideeffects class kotlinx.coroutines.internal.MainDispatchersKt {
+    boolean SUPPORT_MISSING return false;
+}
+
+# Statically turn off all debugging facilities and assertions
+-assumenosideeffects class kotlinx.coroutines.DebugKt {
+    boolean getASSERTIONS_ENABLED() return false;
+    boolean getDEBUG() return false;
+    boolean getRECOVER_STACK_TRACES() return false;
+}
+
+# End of content from /Users/shareit/.gradle/caches/transforms-4/fd48661675c1671cda74263763628e98/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # The proguard configuration file for the following section is /Users/shareit/.gradle/caches/transforms-4/688d9b9561b872ea5b8b5aca29edcc22/transformed/rules/lib/META-INF/com.android.tools/r8/r8.pro
 -identifiernamestring @dagger.internal.IdentifierNameString class ** {
     static java.lang.String *;
@@ -868,26 +834,9 @@
 # The proguard configuration file for the following section is /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/aapt_proguard_file/release/processReleaseResources/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.core.content.FileProvider { <init>(); }
--keep class androidx.core.widget.RemoteViewsCompatService { <init>(); }
--keep class androidx.glance.appwidget.GlanceRemoteViewsService { <init>(); }
--keep class androidx.glance.appwidget.MyPackageReplacedReceiver { <init>(); }
--keep class androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver { <init>(); }
--keep class androidx.glance.appwidget.action.ActionTrampolineActivity { <init>(); }
--keep class androidx.glance.appwidget.action.InvisibleActionTrampolineActivity { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
--keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
--keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
--keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
--keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
--keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
--keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
--keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
 -keep class com.app.musicplayer.MainActivity { <init>(); }
 -keep class com.app.musicplayer.MusicPlayerApplication { <init>(); }
 -keep class com.app.musicplayer.core.media.MusicPlaybackService { <init>(); }

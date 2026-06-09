@@ -159,8 +159,6 @@
     <string name="feedback">Masukan</string>
     <string name="folders_count">%d folder</string>
     <string name="for_you">Untuk Anda</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Periksa error yang tepat menggunakan "<b><tt>"logcat adb"</tt></b>" saat menelusuri "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Error library Widget Aplikasi Glance"</b></string>
     <string name="hidden_folders">Folder Tersembunyi</string>
     <string name="import_playlist">Impor Playlist</string>
     <string msgid="6827826412747255547" name="in_progress">"Dalam proses"</string>

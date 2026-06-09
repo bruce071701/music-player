@@ -110,8 +110,6 @@
     <string name="exo_track_surround_7_point_1">7.1 na surround sound</string>
     <string name="exo_track_unknown">Hindi Alam</string>
     <string name="exo_track_unknown_name">Hindi Alam (%1$s)</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Tingnan ang eksaktong error gamit ang "<b><tt>"adb logcat"</tt></b>", at paghahanap sa "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Error sa Widget ng Glance App"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"Isinasagawa"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Bahagyang may check"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"I-collapse ang bottom sheet"</string>

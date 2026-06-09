@@ -110,8 +110,6 @@
     <string name="exo_track_surround_7_point_1">7.1 సరౌండ్ ధ్వని</string>
     <string name="exo_track_unknown">తెలియదు</string>
     <string name="exo_track_unknown_name">తెలియదు (%1$s)</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text"><b><tt>"adb logcat"</tt></b>"‌ను ఉపయోగించి ఖచ్చితమైన ఎర్రర్‌ను చెక్ చేయండి, "<b><tt>"GlanceAppWidget"</tt></b>" కోసం సెర్చ్ చేస్తుంది"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance యాప్ విడ్జెట్ ఎర్రర్"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"ప్రోగ్రెస్‌లో ఉంది"</string>
     <string msgid="7933458017204019916" name="indeterminate">"పాక్షికంగా ఎంచుకోబడింది"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"దిగువున ఉన్న షీట్‌ను కుదిస్తుంది"</string>

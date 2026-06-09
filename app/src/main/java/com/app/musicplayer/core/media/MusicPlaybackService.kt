@@ -288,8 +288,8 @@ class MusicPlaybackService : MediaSessionService() {
     }
 
     companion object {
-        const val ACTION_PLAY_PAUSE = "com.app.musicplayer.ACTION_PLAY_PAUSE"
-        const val ACTION_NEXT = "com.app.musicplayer.ACTION_NEXT"
-        const val ACTION_PREVIOUS = "com.app.musicplayer.ACTION_PREVIOUS"
+        const val ACTION_PLAY_PAUSE = "com.penji.musicplayer.offline.ACTION_PLAY_PAUSE"
+        const val ACTION_NEXT = "com.penji.musicplayer.offline.ACTION_NEXT"
+        const val ACTION_PREVIOUS = "com.penji.musicplayer.offline.ACTION_PREVIOUS"
     }
 }

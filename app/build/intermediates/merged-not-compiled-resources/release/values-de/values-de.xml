@@ -159,8 +159,6 @@
     <string name="feedback">Feedback</string>
     <string name="folders_count">%d Ordner</string>
     <string name="for_you">Für Sie</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Prüfe den genauen Fehler mithilfe von "<b><tt>"adb logcat"</tt></b>" und suche dabei nach "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"„Glance App Widget“-Fehler"</b></string>
     <string name="hidden_folders">Versteckte Ordner</string>
     <string name="import_playlist">Wiedergabeliste importieren</string>
     <string msgid="6827826412747255547" name="in_progress">"In Bearbeitung"</string>

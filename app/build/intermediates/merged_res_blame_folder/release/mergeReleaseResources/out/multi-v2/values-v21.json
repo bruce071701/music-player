@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.penji.musicplayer.offline.app-mergeReleaseResources-74:/values-v21/values-v21.xml",
+            "outputFile": "com.penji.musicplayer.offline.app-mergeReleaseResources-67:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/shareit/.gradle/caches/transforms-4/067bf7b6b29319b1fbf601d17dd2766c/transformed/media3-ui-1.3.1/res/values-v21/values-v21.xml",

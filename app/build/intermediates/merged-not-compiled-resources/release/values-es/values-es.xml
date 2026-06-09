@@ -159,8 +159,6 @@
     <string name="feedback">Comentarios</string>
     <string name="folders_count">%d carpetas</string>
     <string name="for_you">Para ti</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Revisa el error exacto mediante "<b><tt>"adb logcat"</tt></b>" y buscando "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Error del widget de la aplicación Glance"</b></string>
     <string name="hidden_folders">Carpetas ocultas</string>
     <string name="import_playlist">Importar lista</string>
     <string msgid="6827826412747255547" name="in_progress">"En curso"</string>

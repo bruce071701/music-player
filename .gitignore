@@ -100,3 +100,7 @@ INTERNATIONALIZATION.md
 # Test outputs
 app/src/test/java/**/build/
 app/src/androidTest/java/**/build/
+
+# Keystore and signing
+release-keystore.jks
+keystore.properties

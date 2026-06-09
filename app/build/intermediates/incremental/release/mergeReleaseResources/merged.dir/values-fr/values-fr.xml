@@ -159,8 +159,6 @@
     <string name="feedback">Commentaires</string>
     <string name="folders_count">%d dossiers</string>
     <string name="for_you">Pour vous</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Vous pouvez utiliser "<b><tt>"adb logcat"</tt></b>" pour connaître l\'erreur exacte lorsque vous recherchez "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Erreur du widget de l\'appli Aperçu"</b></string>
     <string name="hidden_folders">Dossiers cachés</string>
     <string name="import_playlist">Importer une liste</string>
     <string msgid="6827826412747255547" name="in_progress">"En cours"</string>

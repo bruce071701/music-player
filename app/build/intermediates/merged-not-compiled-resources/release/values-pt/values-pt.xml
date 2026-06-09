@@ -159,8 +159,6 @@
     <string name="feedback">Feedback</string>
     <string name="folders_count">%d pastas</string>
     <string name="for_you">Para você</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Pesquise "<b><tt>"GlanceAppWidget"</tt></b>" no "<b><tt>"adb logcat"</tt></b>" para consultar o erro exato"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Erro no widget do app Glance"</b></string>
     <string name="hidden_folders">Pastas ocultas</string>
     <string name="import_playlist">Importar playlist</string>
     <string msgid="6827826412747255547" name="in_progress">"Em andamento"</string>

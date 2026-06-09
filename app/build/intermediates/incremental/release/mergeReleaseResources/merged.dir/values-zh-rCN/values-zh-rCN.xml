@@ -159,8 +159,6 @@
     <string name="feedback">反馈</string>
     <string name="folders_count">%d 个文件夹</string>
     <string name="for_you">为你推荐</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"运行 "<b><tt>"adb logcat"</tt></b>" 后搜索 "<b><tt>"GlanceAppWidget"</tt></b>" 可查看确切错误"</string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance 应用微件错误"</b></string>
     <string name="hidden_folders">隐藏文件夹</string>
     <string name="import_playlist">导入歌单</string>
     <string msgid="6827826412747255547" name="in_progress">"进行中"</string>

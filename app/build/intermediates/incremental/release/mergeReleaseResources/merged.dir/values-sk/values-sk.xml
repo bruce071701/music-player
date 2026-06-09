@@ -114,8 +114,6 @@
     <string name="exo_track_surround_7_point_1">Priestorový zvuk 7.1</string>
     <string name="exo_track_unknown">Neznáme</string>
     <string name="exo_track_unknown_name">Neznáme (%1$s)</string>
-    <string msgid="2863935784364843033" name="glance_error_layout_text">"Pomocou nástroja "<b><tt>"adb logcat"</tt></b>" zistite presnú príčinu chyby tak, že vyhľadáte parameter "<b><tt>"GlanceAppWidget"</tt></b></string>
-    <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Chyba miniaplikácie Glance"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"Prebieha"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Čiastočne začiarknuté"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Zbaliť dolný hárok"</string>
