@@ -1,10 +1,102 @@
-*.iml
-.gradle
-/local.properties
-/.idea
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Files for the ART/Dalvik VM
+*.odex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Android Studio
+/.idea/
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+.idea/assetWizardSettings.xml
+.idea/navEditor.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder
+.externalNativeBuild/
+.cxx/
+
+# Google Services (if contains sensitive data)
+google-services.json
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Log files
+*.log
+
+# Captures (Android Studio profiling)
+/captures/
+
+# Signing config
+signing.properties
+
+# Release outputs (APK/AAB should not be in repo)
+app/release/
+app/build/outputs/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Firebase
+firebase-debug.log
+
+# Kotlin
+.kotlin/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Documentation build artifacts (keep source)
+INTERNATIONALIZATION.md
+
+# Test outputs
+app/src/test/java/**/build/
+app/src/androidTest/java/**/build/
