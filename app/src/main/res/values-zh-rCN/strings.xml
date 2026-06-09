@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音乐播放器离线版 - MP3</string>
+    <string name="nav_library">音乐库</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_video">视频</string>
+    <string name="nav_settings">设置</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_tracks">歌曲</string>
+    <string name="tab_playlists">歌单</string>
+    <string name="tab_folders">文件夹</string>
+    <string name="tab_albums">专辑</string>
+    <string name="tab_artists">歌手</string>
+    <string name="tab_genres">流派</string>
+    <string name="now_playing">正在播放</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="next">下一首</string>
+    <string name="previous">上一首</string>
+    <string name="shuffle">随机播放</string>
+    <string name="repeat">循环播放</string>
+    <string name="favorite">收藏</string>
+    <string name="queue">播放队列</string>
+    <string name="lyrics">歌词</string>
+    <string name="no_lyrics">暂无歌词</string>
+    <string name="not_playing">未在播放</string>
+    <string name="pick_a_song">选择一首歌曲开始播放</string>
+    <string name="play_all">全部播放</string>
+    <string name="shuffle_all">随机播放全部</string>
+    <string name="for_you">为你推荐</string>
+    <string name="scan_music">扫描音乐</string>
+    <string name="scan_videos">扫描视频</string>
+    <string name="feedback">反馈</string>
+    <string name="no_tracks">暂无歌曲</string>
+    <string name="no_artists">未找到歌手</string>
+    <string name="no_albums">未找到专辑</string>
+    <string name="no_folders">未找到文件夹</string>
+    <string name="no_genres">未找到歌曲</string>
+    <string name="no_videos">未找到视频</string>
+    <string name="tracks_count">%d 首歌曲</string>
+    <string name="artists_count">%d 位歌手</string>
+    <string name="folders_count">%d 个文件夹</string>
+    <string name="albums_count">%d 张专辑</string>
+    <string name="videos_count">%d 个视频</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_desc">应用皮肤和外观</string>
+    <string name="settings_transfer">音乐传输</string>
+    <string name="settings_transfer_desc">将歌曲和歌单传输到其他设备</string>
+    <string name="settings_backup">备份与恢复</string>
+    <string name="settings_backup_desc">将数据备份到云端</string>
+    <string name="settings_pause_disconnect">断开时暂停</string>
+    <string name="settings_pause_disconnect_desc">拔出耳机时暂停播放</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_system">跟随系统</string>
+    <string name="settings_scan_music">扫描音乐</string>
+    <string name="settings_sleep_timer">睡眠定时器</string>
+    <string name="settings_equalizer">均衡器</string>
+    <string name="settings_crossfade">交叉淡入淡出</string>
+    <string name="settings_crossfade_desc">歌曲之间平滑过渡</string>
+    <string name="settings_gapless">无缝播放</string>
+    <string name="settings_gapless_desc">无间隙连续播放音频</string>
+    <string name="settings_widget">小组件</string>
+    <string name="settings_widget_desc">将小组件添加到主屏幕</string>
+    <string name="settings_faq">常见问题</string>
+    <string name="settings_feedback">反馈</string>
+    <string name="settings_rate">给我们评分</string>
+    <string name="settings_subscription">管理订阅</string>
+    <string name="section_general">通用</string>
+    <string name="section_music">音乐</string>
+    <string name="section_help">帮助</string>
+    <string name="video_player">视频播放器</string>
+    <string name="directory">目录</string>
+    <string name="hidden_folders">隐藏文件夹</string>
+    <string name="favorites">收藏</string>
+    <string name="recently_added">最近添加</string>
+    <string name="recently_played">最近播放</string>
+    <string name="most_played">最常播放</string>
+    <string name="my_playlists">我的歌单</string>
+    <string name="create_playlist">创建新歌单</string>
+    <string name="restore_playlist">恢复歌单</string>
+    <string name="import_playlist">导入歌单</string>
+    <string name="playlist_name">歌单名称</string>
+    <string name="create">创建</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="delete">删除</string>
+    <string name="loading_lyrics">正在加载歌词…</string>
+    <string name="sleep_timer">睡眠定时器</string>
+    <string name="cancel_timer">取消定时</string>
+    <string name="permission_title">需要存储权限</string>
+    <string name="permission_desc">音乐播放器需要访问您的音频文件以浏览和播放本地音乐。</string>
+    <string name="permission_grant">授予权限</string>
+    <string name="permission_settings">打开设置</string>
+    
+    <!-- 错误信息 -->
+    <string name="error_file_not_found">文件未找到</string>
+    <string name="error_playback_failed">播放失败</string>
+    <string name="error_network_unavailable">网络不可用</string>
+    <string name="error_storage_permission">需要存储权限</string>
+    
+    <!-- 提示信息 -->
+    <string name="toast_added_to_playlist">已添加到歌单</string>
+    <string name="toast_removed_from_playlist">已从歌单移除</string>
+    <string name="toast_playlist_created">歌单已创建</string>
+    <string name="toast_playlist_deleted">歌单已删除</string>
+    <string name="toast_song_removed">歌曲已移除</string>
+    
+    <!-- 对话框信息 -->
+    <string name="dialog_delete_playlist_title">删除歌单</string>
+    <string name="dialog_delete_playlist_message">您确定要删除这个歌单吗？</string>
+    <string name="dialog_clear_queue_title">清空队列</string>
+    <string name="dialog_clear_queue_message">您确定要清空播放队列吗？</string>
+    
+    <!-- 无障碍 -->
+    <string name="accessibility_play_button">播放按钮</string>
+    <string name="accessibility_pause_button">暂停按钮</string>
+    <string name="accessibility_next_button">下一首按钮</string>
+    <string name="accessibility_previous_button">上一首按钮</string>
+    <string name="accessibility_shuffle_button">随机播放按钮</string>
+    <string name="accessibility_repeat_button">循环播放按钮</string>
+
+    <!-- 排序 -->
+    <string name="sort_title">排序</string>
+    <string name="sort_song_title">歌曲名</string>
+    <string name="sort_artist">歌手名</string>
+    <string name="sort_album">专辑名称</string>
+    <string name="sort_folder">文件夹名称</string>
+    <string name="sort_date_added">添加时间</string>
+    <string name="sort_play_count">播放次数</string>
+    <string name="sort_year">年份</string>
+    <string name="sort_duration">时长</string>
+    <string name="sort_asc">从A到Z</string>
+    <string name="sort_desc">从Z到A</string>
+    <string name="ok">确认</string>
+    <!-- 扫描 -->
+    <string name="scan_title">扫描音乐</string>
+    <string name="scan_select_folder">选择文件夹</string>
+    <string name="scan_folder_hint">(留空则扫描所有文件夹)</string>
+    <string name="scan_min_duration">忽略时间短于</string>
+    <string name="scan_min_size">忽略大小小于</string>
+    <string name="scan_no_limit">不限制</string>
+    <string name="scan_button">扫描</string>
+    <string name="scan_scanning">扫描中…</string>
+    <string name="scan_tracks_found">找到 %d 首歌曲</string>
+    <string name="scan_sec">%d 秒</string>
+    <!-- 备份 -->
+    <string name="backup_title">备份与恢复</string>
+    <string name="backup_music_title">备份音乐和设置</string>
+    <string name="backup_music_subtitle">上传所有音乐文件到云盘或本地存储</string>
+    <string name="backup_settings_title">仅备份设置</string>
+    <string name="backup_settings_subtitle">歌单、收藏、均衡器预设（小文件）</string>
+    <string name="backup_restore_title">从备份恢复</string>
+    <string name="backup_restore_subtitle">从云盘或本地存储选择备份文件</string>
+    <string name="backup_all_button">全部备份</string>
+    <string name="backup_settings_button">备份设置</string>
+    <string name="backup_select_file">选择备份文件</string>
+    <string name="backup_success">备份保存成功！</string>
+    <string name="backup_failed">备份失败</string>
+    <string name="backup_restoring">正在读取备份文件…</string>
+    <string name="backup_packing">正在打包音乐文件…</string>
+    <string name="backup_what_title">备份内容包括：</string>
+    <string name="backup_what_content">• 歌单和曲目\n• 收藏列表\n• 播放次数和历史\n• 均衡器预设\n• 应用设置</string>
+    <string name="backup_how_title">使用说明</string>
+    <!-- 传输 -->
+    <string name="transfer_title">音乐传输</string>
+    <string name="transfer_no_music">没有音乐可传输</string>
+    <string name="transfer_scan_first">请先扫描音乐库</string>
+    <string name="transfer_selected">已选 %d 首</string>
+    <string name="transfer_share">分享 %d 首歌曲</string>
+    <!-- 启动页 -->
+    <string name="splash_offline">100%% 离线</string>
+    <string name="splash_subtitle">无需网络，无限畅听</string>
+    <string name="splash_feature1_title">播放本地MP3文件</string>
+    <string name="splash_feature1_desc">支持 MP3、FLAC、AAC、OGG、WAV 等格式</string>
+    <string name="splash_feature2_title">按文件夹浏览</string>
+    <string name="splash_feature2_desc">在保存的位置直接找到音乐</string>
+    <string name="splash_feature3_title">轻量快速</string>
+    <string name="splash_feature3_desc">瞬间启动，省电节能</string>
+    <string name="splash_feature4_title">内置均衡器</string>
+    <string name="splash_feature4_desc">低音增强、3D音效和自定义预设</string>
+    <string name="splash_get_started">开始使用</string>
+    <!-- 搜索 -->
+    <string name="search_placeholder">搜索歌曲、歌手、专辑…</string>
+    <string name="search_youtube_placeholder">搜索YouTube音乐视频…</string>
+    <string name="search_from_library">来自您的音乐库</string>
+    <string name="search_tips">搜索提示</string>
+    <string name="search_no_results">未找到 \"%s\" 的结果</string>
+    <string name="search_results_count">%d 个结果</string>
+    <!-- 播放器对话框 -->
+    <string name="new_playlist">新建歌单</string>
+    <string name="add_to_playlist">添加到歌单</string>
+    <string name="create_new_playlist">创建新歌单</string>
+    <string name="existing_playlists">已有歌单</string>
+    <string name="no_playlists_yet">暂无歌单，请先创建。</string>
+    <string name="track_info">歌曲信息</string>
+    <!-- 隐私 -->
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_of_service">服务条款</string>
+</resources>
