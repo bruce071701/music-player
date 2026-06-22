@@ -157,6 +157,7 @@
     <string name="favorite">Favorito</string>
     <string name="favorites">Favoritos</string>
     <string name="feedback">Comentarios</string>
+    <string name="find_music_desc">Buscar música en el dispositivo</string>
     <string name="folders_count">%d carpetas</string>
     <string name="for_you">Para ti</string>
     <string name="hidden_folders">Carpetas ocultas</string>
@@ -258,6 +259,8 @@
     <string name="pick_a_song">Elige una canción para empezar</string>
     <string name="play">Reproducir</string>
     <string name="play_all">Reproducir todo</string>
+    <string name="play_all_songs_desc">Reproducir todas las canciones</string>
+    <string name="play_favorites_desc">Reproducir tus favoritos</string>
     <string name="playlist_name">Nombre de la lista</string>
     <string name="previous">Anterior</string>
     <string name="privacy_policy">Política de privacidad</string>
@@ -316,6 +319,7 @@
     <string name="settings_widget_desc">Añadir widget a la pantalla de inicio</string>
     <string name="shuffle">Aleatorio</string>
     <string name="shuffle_all">Mezclar todo</string>
+    <string name="shuffle_all_songs_desc">Reproducir todas en aleatorio</string>
     <string name="sleep_timer">Temporizador de sueño</string>
     <string name="sort_album">Álbum</string>
     <string name="sort_artist">Artista</string>

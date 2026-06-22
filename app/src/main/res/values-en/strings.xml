@@ -29,6 +29,10 @@
     <string name="shuffle_all">Shuffle All</string>
     <string name="for_you">For You</string>
     <string name="scan_music">Scan Music</string>
+    <string name="shuffle_all_songs_desc">Shuffle all songs</string>
+    <string name="play_favorites_desc">Play your favorites</string>
+    <string name="find_music_desc">Find music on device</string>
+    <string name="play_all_songs_desc">Play all songs</string>
     <string name="scan_videos">Scan Videos</string>
     <string name="feedback">Feedback</string>
     <string name="no_tracks">No tracks yet</string>

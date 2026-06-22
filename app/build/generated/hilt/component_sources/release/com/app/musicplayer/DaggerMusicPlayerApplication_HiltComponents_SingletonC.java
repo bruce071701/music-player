@@ -427,26 +427,20 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
-
-      static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
-
-      static String com_app_musicplayer_feature_backup_BackupViewModel = "com.app.musicplayer.feature.backup.BackupViewModel";
+      static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
 
       static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
 
       static String com_app_musicplayer_feature_equalizer_EqualizerViewModel = "com.app.musicplayer.feature.equalizer.EqualizerViewModel";
 
-      static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
+      static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
+
+      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
+
+      static String com_app_musicplayer_feature_backup_BackupViewModel = "com.app.musicplayer.feature.backup.BackupViewModel";
 
       @KeepFieldType
-      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
-
-      @KeepFieldType
-      SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
-
-      @KeepFieldType
-      BackupViewModel com_app_musicplayer_feature_backup_BackupViewModel2;
+      LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
 
       @KeepFieldType
       PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
@@ -455,7 +449,13 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
       EqualizerViewModel com_app_musicplayer_feature_equalizer_EqualizerViewModel2;
 
       @KeepFieldType
-      LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
+      SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
+
+      @KeepFieldType
+      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
+
+      @KeepFieldType
+      BackupViewModel com_app_musicplayer_feature_backup_BackupViewModel2;
     }
   }
 
@@ -511,17 +511,23 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
+      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
+
+      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
+
       static String com_app_musicplayer_feature_library_LibraryViewModel = "com.app.musicplayer.feature.library.LibraryViewModel";
 
       static String com_app_musicplayer_feature_equalizer_EqualizerViewModel = "com.app.musicplayer.feature.equalizer.EqualizerViewModel";
 
       static String com_app_musicplayer_feature_search_SearchViewModel = "com.app.musicplayer.feature.search.SearchViewModel";
 
-      static String com_app_musicplayer_feature_settings_SettingsViewModel = "com.app.musicplayer.feature.settings.SettingsViewModel";
-
       static String com_app_musicplayer_feature_backup_BackupViewModel = "com.app.musicplayer.feature.backup.BackupViewModel";
 
-      static String com_app_musicplayer_feature_player_PlayerViewModel = "com.app.musicplayer.feature.player.PlayerViewModel";
+      @KeepFieldType
+      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
+
+      @KeepFieldType
+      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
 
       @KeepFieldType
       LibraryViewModel com_app_musicplayer_feature_library_LibraryViewModel2;
@@ -533,13 +539,7 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
       SearchViewModel com_app_musicplayer_feature_search_SearchViewModel2;
 
       @KeepFieldType
-      SettingsViewModel com_app_musicplayer_feature_settings_SettingsViewModel2;
-
-      @KeepFieldType
       BackupViewModel com_app_musicplayer_feature_backup_BackupViewModel2;
-
-      @KeepFieldType
-      PlayerViewModel com_app_musicplayer_feature_player_PlayerViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -671,6 +671,8 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
 
     private final SingletonCImpl singletonCImpl = this;
 
+    private Provider<LanguageManager> languageManagerProvider;
+
     private Provider<AppPreferences> provideAppPreferencesProvider;
 
     private Provider<MusicDatabase> provideDatabaseProvider;
@@ -690,8 +692,6 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
     private Provider<LyricsManager> lyricsManagerProvider;
 
     private Provider<SleepTimer> sleepTimerProvider;
-
-    private Provider<LanguageManager> languageManagerProvider;
 
     private SingletonCImpl(ApplicationContextModule applicationContextModuleParam) {
       this.applicationContextModule = applicationContextModuleParam;
@@ -717,21 +717,22 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
 
     @SuppressWarnings("unchecked")
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
-      this.provideAppPreferencesProvider = DoubleCheck.provider(new SwitchingProvider<AppPreferences>(singletonCImpl, 0));
-      this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<MusicDatabase>(singletonCImpl, 1));
-      this.audioEqualizerProvider = DoubleCheck.provider(new SwitchingProvider<AudioEqualizer>(singletonCImpl, 2));
-      this.metadataExtractorProvider = DoubleCheck.provider(new SwitchingProvider<MetadataExtractor>(singletonCImpl, 4));
-      this.mediaScannerProvider = DoubleCheck.provider(new SwitchingProvider<MediaScanner>(singletonCImpl, 3));
-      this.playQueueManagerProvider = DoubleCheck.provider(new SwitchingProvider<PlayQueueManager>(singletonCImpl, 6));
-      this.playerControllerProvider = DoubleCheck.provider(new SwitchingProvider<PlayerController>(singletonCImpl, 5));
-      this.replayGainProcessorProvider = DoubleCheck.provider(new SwitchingProvider<ReplayGainProcessor>(singletonCImpl, 7));
-      this.lyricsManagerProvider = DoubleCheck.provider(new SwitchingProvider<LyricsManager>(singletonCImpl, 8));
-      this.sleepTimerProvider = DoubleCheck.provider(new SwitchingProvider<SleepTimer>(singletonCImpl, 9));
-      this.languageManagerProvider = DoubleCheck.provider(new SwitchingProvider<LanguageManager>(singletonCImpl, 10));
+      this.languageManagerProvider = DoubleCheck.provider(new SwitchingProvider<LanguageManager>(singletonCImpl, 0));
+      this.provideAppPreferencesProvider = DoubleCheck.provider(new SwitchingProvider<AppPreferences>(singletonCImpl, 1));
+      this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<MusicDatabase>(singletonCImpl, 2));
+      this.audioEqualizerProvider = DoubleCheck.provider(new SwitchingProvider<AudioEqualizer>(singletonCImpl, 3));
+      this.metadataExtractorProvider = DoubleCheck.provider(new SwitchingProvider<MetadataExtractor>(singletonCImpl, 5));
+      this.mediaScannerProvider = DoubleCheck.provider(new SwitchingProvider<MediaScanner>(singletonCImpl, 4));
+      this.playQueueManagerProvider = DoubleCheck.provider(new SwitchingProvider<PlayQueueManager>(singletonCImpl, 7));
+      this.playerControllerProvider = DoubleCheck.provider(new SwitchingProvider<PlayerController>(singletonCImpl, 6));
+      this.replayGainProcessorProvider = DoubleCheck.provider(new SwitchingProvider<ReplayGainProcessor>(singletonCImpl, 8));
+      this.lyricsManagerProvider = DoubleCheck.provider(new SwitchingProvider<LyricsManager>(singletonCImpl, 9));
+      this.sleepTimerProvider = DoubleCheck.provider(new SwitchingProvider<SleepTimer>(singletonCImpl, 10));
     }
 
     @Override
     public void injectMusicPlayerApplication(MusicPlayerApplication musicPlayerApplication) {
+      injectMusicPlayerApplication2(musicPlayerApplication);
     }
 
     @Override
@@ -749,6 +750,11 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
       return new ServiceCBuilder(singletonCImpl);
     }
 
+    private MusicPlayerApplication injectMusicPlayerApplication2(MusicPlayerApplication instance) {
+      MusicPlayerApplication_MembersInjector.injectLanguageManager(instance, languageManagerProvider.get());
+      return instance;
+    }
+
     private static final class SwitchingProvider<T> implements Provider<T> {
       private final SingletonCImpl singletonCImpl;
 
@@ -763,38 +769,38 @@ public final class DaggerMusicPlayerApplication_HiltComponents_SingletonC {
       @Override
       public T get() {
         switch (id) {
-          case 0: // com.app.musicplayer.core.datastore.AppPreferences 
+          case 0: // com.app.musicplayer.core.datastore.LanguageManager 
+          return (T) new LanguageManager(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
+
+          case 1: // com.app.musicplayer.core.datastore.AppPreferences 
           return (T) AppModule_ProvideAppPreferencesFactory.provideAppPreferences(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
-          case 1: // com.app.musicplayer.core.database.MusicDatabase 
+          case 2: // com.app.musicplayer.core.database.MusicDatabase 
           return (T) DatabaseModule_ProvideDatabaseFactory.provideDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
-          case 2: // com.app.musicplayer.core.media.AudioEqualizer 
+          case 3: // com.app.musicplayer.core.media.AudioEqualizer 
           return (T) new AudioEqualizer();
 
-          case 3: // com.app.musicplayer.feature.library.scanner.MediaScanner 
+          case 4: // com.app.musicplayer.feature.library.scanner.MediaScanner 
           return (T) new MediaScanner(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.trackDao(), singletonCImpl.provideAppPreferencesProvider.get(), singletonCImpl.metadataExtractorProvider.get());
 
-          case 4: // com.app.musicplayer.feature.library.scanner.MetadataExtractor 
+          case 5: // com.app.musicplayer.feature.library.scanner.MetadataExtractor 
           return (T) new MetadataExtractor();
 
-          case 5: // com.app.musicplayer.core.media.PlayerController 
+          case 6: // com.app.musicplayer.core.media.PlayerController 
           return (T) new PlayerController(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.playQueueManagerProvider.get());
 
-          case 6: // com.app.musicplayer.core.media.PlayQueueManager 
+          case 7: // com.app.musicplayer.core.media.PlayQueueManager 
           return (T) new PlayQueueManager();
 
-          case 7: // com.app.musicplayer.core.media.ReplayGainProcessor 
+          case 8: // com.app.musicplayer.core.media.ReplayGainProcessor 
           return (T) new ReplayGainProcessor(singletonCImpl.provideAppPreferencesProvider.get());
 
-          case 8: // com.app.musicplayer.feature.player.LyricsManager 
+          case 9: // com.app.musicplayer.feature.player.LyricsManager 
           return (T) new LyricsManager();
 
-          case 9: // com.app.musicplayer.core.media.SleepTimer 
+          case 10: // com.app.musicplayer.core.media.SleepTimer 
           return (T) new SleepTimer();
-
-          case 10: // com.app.musicplayer.core.datastore.LanguageManager 
-          return (T) new LanguageManager(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
         }

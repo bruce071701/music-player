@@ -17,14 +17,20 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Folder
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.MusicNote
+import androidx.compose.material.icons.filled.QueueMusic
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.VideoLibrary
@@ -58,6 +64,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.app.musicplayer.core.common.PermissionHelper
+import com.app.musicplayer.core.ui.theme.AccentPrimary
 import com.app.musicplayer.core.ui.theme.AppSurfaceVariant
 import com.app.musicplayer.core.ui.theme.TextSecondary
 import com.app.musicplayer.core.ui.theme.TextTertiary
@@ -125,10 +132,14 @@ fun MainScreen(
         return
     }
 
+    // Shared tab index for bottom nav <-> pager sync
+    var selectedTabIndex by rememberSaveable { mutableIntStateOf(0) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
+            .statusBarsPadding()
     ) {
         when (currentScreen) {
             "search" -> {
@@ -183,7 +194,7 @@ fun MainScreen(
                 }
             }
             else -> {
-                // Main content with tabs
+                // Main content with tabs (takes remaining space)
                 MainContent(
                     playerViewModel = playerViewModel,
                     libraryViewModel = libraryViewModel,
@@ -196,23 +207,25 @@ fun MainScreen(
                     onVideoClick = { currentScreen = "video" },
                     onSettingsClick = { currentScreen = "settings" },
                     onScanClick = { previousScreen = "main"; currentScreen = "scan" },
+                    selectedTabIndex = selectedTabIndex,
+                    onTabChanged = { selectedTabIndex = it },
                     modifier = Modifier.weight(1f)
                 )
             }
         }
 
-        // MiniPlayer always at bottom
+        // MiniPlayer - between content and bottom nav
         MiniPlayer(onExpandPlayer = { playerViewModel.expandPlayer() })
 
-        // Bottom ad banner placeholder (50dp height reserved for future ads)
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(50.dp)
-                .background(MaterialTheme.colorScheme.surface),
-            contentAlignment = Alignment.Center
-        ) {
-            Text("", style = MaterialTheme.typography.bodySmall, color = TextTertiary)
+        // Bottom Navigation Bar - at the very bottom
+        if (currentScreen == "main") {
+            BottomNavigationBar(
+                selectedIndex = selectedTabIndex,
+                onTabSelected = { selectedTabIndex = it }
+            )
+        } else {
+            // When bottom nav is hidden, add nav bar padding so MiniPlayer isn't clipped
+            Spacer(modifier = Modifier.navigationBarsPadding())
         }
     }
 
@@ -244,6 +257,8 @@ private fun MainContent(
     onVideoClick: () -> Unit = {},
     onSettingsClick: () -> Unit,
     onScanClick: () -> Unit = {},
+    selectedTabIndex: Int = 0,
+    onTabChanged: (Int) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val tabs = listOf(
@@ -255,8 +270,20 @@ private fun MainContent(
         stringResource(R.string.tab_artists),
         stringResource(R.string.tab_genres)
     )
-    val pagerState = rememberPagerState(pageCount = { tabs.size })
+    val pagerState = rememberPagerState(initialPage = selectedTabIndex, pageCount = { tabs.size })
     val coroutineScope = rememberCoroutineScope()
+
+    // Sync pager with external selectedTabIndex
+    LaunchedEffect(selectedTabIndex) {
+        if (pagerState.currentPage != selectedTabIndex) {
+            pagerState.animateScrollToPage(selectedTabIndex)
+        }
+    }
+
+    // Notify parent when pager changes
+    LaunchedEffect(pagerState.currentPage) {
+        onTabChanged(pagerState.currentPage)
+    }
 
     Column(modifier = modifier.fillMaxWidth()) {
         // Top bar: App name + action icons
@@ -300,29 +327,26 @@ private fun MainContent(
                     modifier = Modifier
                         .clip(RoundedCornerShape(20.dp))
                         .then(
-                            if (isSelected) Modifier.border(
-                                1.5.dp,
-                                MaterialTheme.colorScheme.primary,
-                                RoundedCornerShape(20.dp)
-                            ) else Modifier.border(
+                            if (!isSelected) Modifier.border(
                                 1.dp,
-                                TextTertiary.copy(alpha = 0.3f),
+                                TextTertiary.copy(alpha = 0.4f),
                                 RoundedCornerShape(20.dp)
-                            )
+                            ) else Modifier
                         )
                         .clickable {
                             coroutineScope.launch { pagerState.animateScrollToPage(index) }
                         },
-                    color = if (isSelected) MaterialTheme.colorScheme.primary.copy(alpha = 0.15f) else Color.Transparent,
+                    color = if (isSelected) AccentPrimary else Color.Transparent,
                     shape = RoundedCornerShape(20.dp)
                 ) {
                     Text(
                         text = title,
-                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+                        modifier = Modifier.padding(horizontal = 18.dp, vertical = 9.dp),
                         style = MaterialTheme.typography.bodyMedium.copy(
-                            fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
+                            fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
+                            fontSize = 14.sp
                         ),
-                        color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
+                        color = if (isSelected) Color.White else Color.White.copy(alpha = 0.7f)
                     )
                 }
             }
@@ -333,7 +357,7 @@ private fun MainContent(
         // Pager content
         HorizontalPager(
             state = pagerState,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.weight(1f).fillMaxWidth()
         ) { page ->
             when (page) {
                 0 -> HomeTab(
@@ -367,6 +391,69 @@ private fun MainContent(
                     genres = genres,
                     onScanClick = { libraryViewModel.scanLibrary() }
                 )
+            }
+        }
+    }
+}
+
+/**
+ * Bottom navigation bar matching the reference design.
+ * Shows Home, Tracks, Playlists, Folders with icons and labels.
+ * Synced with pager state.
+ */
+@Composable
+private fun BottomNavigationBar(
+    selectedIndex: Int,
+    onTabSelected: (Int) -> Unit
+) {
+    data class NavItem(
+        val icon: androidx.compose.ui.graphics.vector.ImageVector,
+        val labelRes: Int
+    )
+
+    val items = listOf(
+        NavItem(Icons.Default.Home, R.string.tab_home),
+        NavItem(Icons.Default.MusicNote, R.string.tab_tracks),
+        NavItem(Icons.Default.QueueMusic, R.string.tab_playlists),
+        NavItem(Icons.Default.Folder, R.string.tab_folders)
+    )
+
+    // Map pager indices to bottom nav: 0->0, 1->1, 2->2, 3->3
+    val activeNavIndex = if (selectedIndex in 0..3) selectedIndex else -1
+
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        color = Color(0xFF0F0F0F)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 8.dp, bottom = 8.dp)
+                .navigationBarsPadding(),
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            items.forEachIndexed { index, item ->
+                val isSelected = index == activeNavIndex
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier
+                        .clickable { onTabSelected(index) }
+                        .padding(horizontal = 12.dp, vertical = 4.dp)
+                ) {
+                    Icon(
+                        imageVector = item.icon,
+                        contentDescription = stringResource(item.labelRes),
+                        tint = if (isSelected) AccentPrimary else Color.White.copy(alpha = 0.5f),
+                        modifier = Modifier.size(22.dp)
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = stringResource(item.labelRes),
+                        style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp),
+                        color = if (isSelected) AccentPrimary else Color.White.copy(alpha = 0.5f)
+                    )
+                }
             }
         }
     }

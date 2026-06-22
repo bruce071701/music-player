@@ -1,5 +1,6 @@
+Marking string:androidx_startup:2131755043 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:default_error_message:2131755079 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_dialog:2131755195 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_dialog:2131755201 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131230794 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ab_share_pack_mtrl_alpha:2131230720 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131230796 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -49,6 +50,8 @@ Marking color:abc_tint_btn_checkable:2131099667 reachable: referenced from /User
 Marking drawable:abc_seekbar_thumb_material:2131230778 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:abc_tint_seek_thumb:2131099670 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:abc_tint_spinner:2131099671 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131362043 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_albums:2131755236 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:icon:2131361945 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:title:2131362031 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:text:2131362025 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -91,13 +94,13 @@ Marking drawable:abc_vector_test:2131230798 reachable: referenced from /Users/sh
 Marking drawable:abc_seekbar_track_material:2131230780 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_list_divider_mtrl_alpha:2131230757 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_dialog_material_background:2131230739 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_albums:2131755230 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131362042 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:report_drawn:2131361978 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:cancel:2131755071 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:cancel_timer:2131755072 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:play:2131755250 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:shuffle:2131755308 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:playlist_name:2131755252 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:cancel:2131755071 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:play:2131755256 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:shuffle:2131755317 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:playlist_name:2131755260 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:create_playlist:2131755078 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:topPanel:2131362035 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:buttonPanel:2131361860 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -106,7 +109,7 @@ Marking id:customPanel:2131361874 reachable: referenced from /Users/shareit/work
 Marking layout:abc_action_menu_layout:2131558403 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_action_menu_item_layout:2131558402 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:create:2131755076 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:scan_music:2131755266 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:scan_music:2131755275 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_0:2131361799 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_1:2131361800 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_2:2131361811 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -139,13 +142,13 @@ Marking id:accessibility_custom_action_28:2131361820 reachable: referenced from 
 Marking id:accessibility_custom_action_29:2131361821 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_30:2131361823 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_31:2131361824 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:indeterminate:2131755156 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:off:2131755241 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:on:2131755243 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:selected:2131755284 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:not_selected:2131755239 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:template_percent:2131755343 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:in_progress:2131755155 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:indeterminate:2131755162 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:off:2131755247 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:on:2131755249 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:selected:2131755293 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:not_selected:2131755245 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:template_percent:2131755353 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:in_progress:2131755161 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_on_apply_window_listener:2131362016 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_window_insets_animation_callback:2131362024 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:cancel_action:2131361861 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -156,22 +159,51 @@ Marking layout:notification_template_big_media_narrow:2131558447 reachable: refe
 Marking layout:notification_template_big_media:2131558445 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:compat_notification_large_icon_max_width:2131165271 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:compat_notification_large_icon_max_height:2131165270 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:import_playlist:2131755154 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:restore_playlist:2131755261 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:import_playlist:2131755160 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:restore_playlist:2131755270 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_accessibility_actions:2131362012 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_action_clickable_span:2131361798 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_accessibility_clickable_spans:2131362013 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_folders:2131755238 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:not_playing:2131755244 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_equalizer:2131755298 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:lyrics:2131755164 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_playlists:2131755351 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_activity_content:2131361833 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_container:2131361834 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar:2131361832 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollViewStyle:2130968790 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionOverflowButtonStyle:2130968608 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_saved_state_registry_owner:2131362043 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:hide_in_inspector_tag:2131361942 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_on_back_pressed_dispatcher_owner:2131362042 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_folders:2131755232 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:not_playing:2131755238 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:lyrics:2131755158 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_artists:2131755237 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_home:2131755350 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_tracks:2131755352 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_folders:2131755348 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_albums:2131755346 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_artists:2131755347 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab_genres:2131755349 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:section_general:2131755290 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_theme:2131755311 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_theme_desc:2131755312 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_transfer:2131755313 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_transfer_desc:2131755314 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_backup:2131755294 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_backup_desc:2131755295 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_pause_disconnect:2131755305 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_pause_disconnect_desc:2131755306 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_language:2131755303 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:section_music:2131755292 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_scan_music:2131755308 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_sleep_timer:2131755309 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_crossfade:2131755296 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_crossfade_desc:2131755297 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_gapless:2131755301 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_gapless_desc:2131755302 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_widget:2131755315 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_widget_desc:2131755316 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:section_help:2131755291 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_faq:2131755299 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:settings_rate:2131755307 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:widget_music_compact:2131558461 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:widget_title:2131362052 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:widget_prev:2131362051 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -181,33 +213,32 @@ Marking style:Theme_AppCompat_Light:2131820842 reachable: referenced from /Users
 Marking id:inspection_slot_table_set:2131361950 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:spacer:2131362000 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:default_notification_channel_name:2131755080 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:sleep_timer:2131755310 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:sleep_timer:2131755320 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:wrapped_composition_tag:2131362055 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:seekBarStyle:2130968836 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:autoCompleteTextViewStyle:2130968627 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_equalizer:2131755289 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_dropdown_menu_expanded:2131755197 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_dropdown_menu_collapsed:2131755196 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_dropdown_menu_expanded:2131755203 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_dropdown_menu_collapsed:2131755202 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:toolbarStyle:2130968911 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:toolbarNavigationButtonStyle:2130968910 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarStyle:2130968582 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_action_bar_up_description:2131755009 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:media3_notification_small_icon:2131230900 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:media3_notification_seek_to_previous:2131230899 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:media3_controls_seek_to_previous_description:2131755220 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:media3_notification_pause:2131230894 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:media3_notification_play:2131230895 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:media3_controls_pause_description:2131755215 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:media3_controls_play_description:2131755216 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:media3_notification_seek_to_next:2131230898 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:media3_controls_seek_to_next_description:2131755219 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:media3_notification_small_icon:2131230901 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:media3_notification_seek_to_previous:2131230900 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:media3_controls_seek_to_previous_description:2131755226 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:media3_notification_pause:2131230895 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:media3_notification_play:2131230896 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:media3_controls_pause_description:2131755221 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:media3_controls_play_description:2131755222 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:media3_notification_seek_to_next:2131230899 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:media3_controls_seek_to_next_description:2131755225 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionOverflowMenuStyle:2130968609 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:pick_a_song:2131755249 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:folders_count:2131755151 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:pick_a_song:2131755255 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:folders_count:2131755152 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:artists_count:2131755045 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:app_name:2131755044 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:ic_launcher_foreground:2131230892 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_bottom_sheet_drag_handle_description:2131755161 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_launcher_foreground:2131230893 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_bottom_sheet_drag_handle_description:2131755167 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:alpha:2130968620 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:lStar:2130968758 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:DialogWindowTheme:2131820705 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -228,52 +259,26 @@ Marking id:action_mode_close_button:2131361847 reachable: referenced from /Users
 Marking layout:abc_action_bar_title_item:2131558400 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_title:2131361838 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_subtitle:2131361837 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_bottom_sheet_pane_title:2131755163 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_bottom_sheet_pane_title:2131755169 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:consume_window_insets_tag:2131361870 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_search_bar_search:2131755204 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_suggestions_available:2131755206 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking attr:radioButtonStyle:2130968818 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_bottom_sheet_collapse_description:2131755165 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_bottom_sheet_dismiss_description:2131755166 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:m3c_bottom_sheet_expand_description:2131755168 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:androidx_compose_ui_view_composition_context:2131361855 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_event_manager:2131362022 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_listeners:2131362023 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_tracks:2131755242 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_lyrics:2131755240 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:permission_title:2131755254 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:permission_desc:2131755251 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking attr:editTextStyle:2130968715 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarWidgetTheme:2130968587 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:decor_content_parent:2131361875 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_context_bar:2131361840 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking bool:abc_action_bar_embed_tabs:2131034112 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_search_bar_search:2131755198 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_suggestions_available:2131755200 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_event_manager:2131362022 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_listeners:2131362023 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_artists:2131755231 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_home:2131755340 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_tracks:2131755342 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_playlists:2131755341 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_folders:2131755338 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_albums:2131755336 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_artists:2131755337 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab_genres:2131755339 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:section_general:2131755281 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_theme:2131755302 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_theme_desc:2131755303 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_transfer:2131755304 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_transfer_desc:2131755305 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_backup:2131755285 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_backup_desc:2131755286 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_pause_disconnect:2131755296 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_pause_disconnect_desc:2131755297 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_language:2131755294 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:section_music:2131755283 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_scan_music:2131755299 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_sleep_timer:2131755300 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_crossfade:2131755287 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_crossfade_desc:2131755288 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_gapless:2131755292 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_gapless_desc:2131755293 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_widget:2131755306 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_widget_desc:2131755307 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:section_help:2131755282 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_faq:2131755290 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:settings_rate:2131755298 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking attr:radioButtonStyle:2130968818 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_bottom_sheet_collapse_description:2131755159 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_bottom_sheet_dismiss_description:2131755160 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:m3c_bottom_sheet_expand_description:2131755162 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:androidx_compose_ui_view_composition_context:2131361855 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking attr:editTextStyle:2130968715 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:listMenuViewStyle:2130968770 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_prepend_shortcut_label:2131755025 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_meta_shortcut_label:2131755021 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -293,21 +298,19 @@ Marking layout:abc_list_menu_item_radio:2131558417 reachable: referenced from /U
 Marking layout:abc_list_menu_item_checkbox:2131558414 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_icon:2131558415 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:directory:2131755087 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:hidden_folders:2131755153 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:loading_lyrics:2131755157 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:play_all:2131755251 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tracks_count:2131755353 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:nav_settings:2131755225 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:hidden_folders:2131755159 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:loading_lyrics:2131755163 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:find_music_desc:2131755151 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:play_all:2131755257 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:play_all_songs_desc:2131755258 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tracks_count:2131755363 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:nav_settings:2131755231 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:spinnerStyle:2130968858 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:support_simple_spinner_dropdown_item:2131558459 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:checkedTextViewStyle:2130968661 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_tracks:2131755236 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_lyrics:2131755234 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:permission_title:2131755248 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:permission_desc:2131755245 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:permission_grant:2131755246 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:permission_settings:2131755247 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:my_playlists:2131755222 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:permission_grant:2131755252 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:permission_settings:2131755253 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:my_playlists:2131755228 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_on_receive_content_mime_types:2131362018 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_accessibility_pane_title:2131362015 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_on_receive_content_listener:2131362017 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -324,22 +327,21 @@ Marking layout:abc_dialog_title_material:2131558412 reachable: referenced from /
 Marking layout:abc_screen_toolbar:2131558423 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_screen_simple_overlay_action_mode:2131558422 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_screen_simple:2131558421 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:tab:2131755335 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:switch_role:2131755334 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:tab:2131755345 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:switch_role:2131755344 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_config_prefDialogWidth:2131165207 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_cascading_menu_item_layout:2131558411 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_popup_menu_header_item_layout:2131558418 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:buttonStyle:2130968653 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Theme_AppCompat_Empty:2131820841 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:split_action_bar:2131362003 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:androidx_startup:2131755043 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:recyclerViewStyle:2130968822 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_default_thickness:2131165309 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_minimum_range:2131165311 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:fastscroll_margin:2131165310 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:is_pooling_container_tag:2131361951 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:no_genres:2131755233 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:pooling_container_listener_holder_tag:2131361974 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:no_genres:2131755239 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_popup_menu_item_layout:2131558419 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:abc_cascading_menus_min_smallest_width:2131165206 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:dialogTheme:2130968695 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -355,11 +357,13 @@ Marking id:titleDividerNoCustom:2131362032 reachable: referenced from /Users/sha
 Marking id:textSpacerNoTitle:2131362028 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:scrollIndicatorUp:2131361983 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:scrollIndicatorDown:2131361982 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:recently_played:2131755259 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:most_played:2131755221 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:recently_played:2131755268 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:most_played:2131755227 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:favorites:2131755149 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:recently_added:2131755258 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:for_you:2131755152 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:recently_added:2131755267 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:for_you:2131755153 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:shuffle_all_songs_desc:2131755319 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:play_favorites_desc:2131755259 reachable: referenced from /Users/shareit/workspace/android_workspace/music-player/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: true
 Referenced Strings:
@@ -1033,8 +1037,8 @@ zeroflte
 SDTP
 brown
 TKE
-bangu
 %.1f
+bangu
 Buhd
 appWidgetManager
 lushai
@@ -1073,8 +1077,8 @@ und
 grand
 cdef
 SDVP
-video/mpeg2
 %s
+video/mpeg2
 feat.
 on_update
 Osage
@@ -1097,8 +1101,8 @@ expectedKeys
 Captured
 Primus
 BULGARIA
-TOA
 primary.prof
+TOA
 TLS_AES_256_GCM_SHA384
 dns
 filepositions
@@ -1182,8 +1186,8 @@ CRA
 null
 TST
 CRC
-TSS
 android.support.v4.media.session.acti...
+TSS
 dsf
 MP4_FILE_NOT_CONTAINER
 data_search_extras
@@ -1218,8 +1222,8 @@ KANNADA
 DONE_RCV
 tromboon
 1
-Trace
 dub
+Trace
 quinto
 dua
 Norway
@@ -1253,8 +1257,8 @@ nagak
 09
 androidx.media3.session.IMediaSession
 Dialog:
-observer
 Laoo
+observer
 predicate
 INVOLVEDPEOPLE
 music_settings_backup.json
@@ -1299,11 +1303,11 @@ cus4
 cus1
 cus2
 0x
-scan
 ITUNESADVISORY
+scan
 Filled.CloudDownload
-index_tracks_genre
 long
+index_tracks_genre
 TXT
 coil.RealImageLoader$execute$2
 TXX
@@ -1487,8 +1491,8 @@ MONGOLIA
 exception
 Delete
 Romany
-year
 DFF
+year
 saxophone
 Repeat
 MPEG4_VIDEO
@@ -1887,8 +1891,8 @@ MediaSessionManager
 NZ
 Malta
 Mero
-OffsetTime
 Phone
+OffsetTime
 cvru
 multipart/parallel
 France
@@ -2118,8 +2122,8 @@ wav
 MSSLegacyStub
 WM/Mood
 grey
-.lck
 igil
+.lck
 WRITE_ALBUMARTIST
 XK
 HOURS
@@ -2354,8 +2358,8 @@ Yiii
 android.support.PARENT_ACTIVITY
 Tajikistan
 db
-font
 Restored
+font
 de
 PlaybackDurationRemaining
 f.
@@ -2477,8 +2481,8 @@ rosybrown
 IndexForKey
 Kpelle
 MediaSessionStub
-NioSystemFileSystem
 ja
+NioSystemFileSystem
 Cushitic
 ji
 charset
@@ -2504,8 +2508,8 @@ Cirt
 ReverbFeedbackRightToRight
 PALAU
 GPSLongitude
-ektara
 BLACKLIST
+ektara
 ReferenceBlackWhite
 wrapContentHeight
 MM_RATING
@@ -2641,6 +2645,7 @@ rt
 Dzongkha
 ru
 bells
+seed
 rw
 seashell
 doshpuluur
@@ -2745,8 +2750,8 @@ choir
 getInstance
 FLOW_CONTROL_ERROR
 Vai
-xx
 TRACKNO
+xx
 WCM
 WCP
 MUSICBRAINZ_WORK_PART_LEVEL1
@@ -2856,8 +2861,8 @@ mandolute
 gil
 SUBTITLE
 GPSDestLatitude
-DateTimeOriginal
 sqLiteQuery
+DateTimeOriginal
 OMX.qti.audio.decoder.flac
 0101
 leadingIcon
@@ -2957,8 +2962,8 @@ gor
 got
 Global
 KHAROSHTHI
-isTagEnabled
 taiko
+isTagEnabled
 ImageRenderer
 iTunes
 pūmotomoto
@@ -3365,8 +3370,8 @@ Remix
 titl
 java.lang.Cloneable
 getConstructorId
-publicKey.encoded
 WHITELIST
+publicKey.encoded
 GIF
 Alpha8
 SongKong
@@ -3398,20 +3403,20 @@ bypassRender
 Timer
 mean
 XML
-mvci
 classes.dex
+mvci
 Mohawk
 mvcg
 Left
 Bouvet_Island
 hmn
-audio/midi
 PINK_ORANGE
+audio/midi
 hmo
 Dream
 Freestyle
-darbuka
 Decimal
+darbuka
 GE_ID
 yor
 tlsVersionsIntersection
@@ -3633,8 +3638,8 @@ ACTVAutoSizeHelper
 liuqin
 Band/Orchestra
 mere
-callback
 UNINITIALIZED
+callback
 Suriname
 socket
 ACTION_PASTE
@@ -3962,10 +3967,10 @@ MP4_FILE_HAS_NO_METADATA
 Samba
 ism
 StreamFormatChunk
-getName
 Email
-isl
+getName
 Russian
+isl
 TMCL
 referent
 androidx.profileinstaller.action.SKIP...
@@ -4091,8 +4096,8 @@ resolvedState
 canDrag
 uncensored
 border
-systemGestures
 read
+systemGestures
 Acoustic
 mfro
 T_F_LC
@@ -4325,8 +4330,8 @@ Berber
 putInt
 updateEnabledCallbacks
 rubyPosition
-Q427
 Filled.ColorLens
+Q427
 bones
 CLOSED_EMPTY
 kotlin.collections.Iterator
@@ -4413,8 +4418,8 @@ MINF
 iTunSMPB
 DOUB
 T_F_MAIN
-OMX.SEC.vp8.dec
 digits
+OMX.SEC.vp8.dec
 Israel
 jug
 listRecursively
@@ -4483,8 +4488,8 @@ Guatemala
 ZZZ
 BATAK
 omx.
-violotta
 whitelist
+violotta
 Delaware
 MethodSymbol
 %d:%02d
@@ -4805,8 +4810,8 @@ kotlin.CharSequence
 EXTENDED_CONTENT
 MEXICO
 heroqlte
-.path
 kru
+.path
 findTrustAnchorByIssuerAndSignature
 CMPR
 migrations
@@ -4833,8 +4838,8 @@ zIndex
 CUSTOM_5
 Lahnda
 CUSTOM_4
-Compose:abandons
 Rgb565
+Compose:abandons
 CUSTOM_3
 CUSTOM_2
 cowbell
@@ -5127,6 +5132,7 @@ studio
 Strategy.Unspecified
 SAINT_BARTHOLEMY
 jeter
+Filled.MoreVert
 android.widget.RadioButton
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
 ID3_TAG_CRC_SIZE
@@ -5187,8 +5193,8 @@ errorCode
 AZERBAIJAN
 TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
 RESULT_INSTALL_SUCCESS
-internalTransactionExecutor
 marímbula
+internalTransactionExecutor
 Cornish
 BoundReached
 QWORD:
@@ -5448,8 +5454,8 @@ NO_EXCEEDS_CAPABILITIES
 Filled.Language
 LAO
 CatS41
-columnName
 biwa
+columnName
 Pranks
 RESUMED
 IPRO
@@ -5635,6 +5641,7 @@ mni
 setCookie
 COLR
 cello
+$this$LazyRow
 mno
 mp4
 mp3
@@ -5792,8 +5799,8 @@ Symphony
 TAMIL
 Braille
 upgrade
-playlists
 android.media.action.HDMI_AUDIO_PLUG
+playlists
 dimgrey
 flumpet
 ID3_TAG_EXTENDED
@@ -5811,8 +5818,8 @@ playerController
 android.intent.extra.PROCESS_TEXT_REA...
 LayingOut
 MESSAGE
-DIRTY
 http/1.1
+DIRTY
 http/1.0
 LocalInputManager
 padding:
@@ -6008,8 +6015,8 @@ Tavt
 OMX.SEC.mp3.dec
 Soul
 RATING
-dbObj
 verticalScrollAxisRange
+dbObj
 targetVector
 ENCODEDBY
 A3A_8_4G_TMO
@@ -6361,8 +6368,8 @@ Cancel
 android.support.v4.media.session.comm...
 OMX.Exynos.AAC.Decoder
 Cree
-delegate
 shakuhachi
+delegate
 kemenche
 strings
 Georgian
@@ -6545,9 +6552,9 @@ Mp4
 strikeout
 Mp3
 serrano
-p3.L
 android:menu:actionviewstates
 RESULT_ALREADY_INSTALLED
+p3.K
 reeds
 tamborim
 bg_yellow
@@ -6616,8 +6623,8 @@ MATHEMATICAL_NOTATION
 ALBUM_ARTIST_SORT
 oud
 TSEL
-MP4_CHANGES_TO_FILE_FAILED_INCORRECT_...
 columns
+MP4_CHANGES_TO_FILE_FAILED_INCORRECT_...
 Filled.Folder
 ColorAnimation
 German
@@ -6669,8 +6676,8 @@ duration_ms
 android.widget.TextView
 Inupiaq
 charango
-Favorite
 youtube
+Favorite
 line
 Filled.LibraryAdd
 daluo
@@ -6727,8 +6734,8 @@ image/heic
 afoxé
 Guinea_Bissau
 kotlin.String
-youtube_id
 lyricon
+youtube_id
 Tamil
 Manichaean
 Djibouti
@@ -6822,8 +6829,8 @@ BT2020
 spoons
 HTTP/1.1
 peo
-fullPackage
 per
+fullPackage
 spdy/3.1
 SensorLeftBorder
 GPSDestLatitudeRef
@@ -7149,8 +7156,8 @@ cümbüş
 MM_OCCASION
 coil.compose.AsyncImagePainter$update...
 soar
-TLS_1_3
 Flat
+TLS_1_3
 TLS_1_2
 audio/3gpp
 UPPER_CASE_WITH_UNDERSCORES
@@ -7301,8 +7308,8 @@ additional
 BINARY
 MP3_RECALCULATED_POSSIBLE_START_OF_MP...
 PDF
-ListPopupWindow
 columnNames
+ListPopupWindow
 SubjectArea
 Interlingua
 putIBinder
@@ -7346,8 +7353,8 @@ Japanese
 sonm
 minimoog
 BPCC
-applicationContext
 FractionAtIndex
+applicationContext
 getResId
 cancelled
 Sara
@@ -7725,8 +7732,8 @@ duration_played_ms
 publicsuffixes.gz
 JERSEY
 pgap
-aar
 French
+aar
 ContentOrLtr
 SubtitlePainter
 ALBUM_ARTISTS
@@ -7850,8 +7857,8 @@ exit
 putFloat
 system
 KOREA_SOUTH
-insertIndex
 FLOA
+insertIndex
 GHANA
 .dp
 ImageBitmap
@@ -7867,8 +7874,8 @@ routeDatabase
 A_TRUEHD
 PING
 androidx.media3.session.EXTRAS_KEY_CU...
-UPDATE
 FOOBAR2000
+UPDATE
 CCID
 overrideDescendants
 H150
@@ -7907,8 +7914,8 @@ rmx
 alg
 FNumber
 ali
-alac
 all
+alac
 GREECE
 odhe
 odhd
@@ -7975,8 +7982,8 @@ fl64
 C1505
 C1504
 .flac
-000
 Pop
+000
 WORK_PART_LEVEL1_TYPE
 OMX.bcm.vdec.hevc.tunnel
 FFFFFFFFFFFFFFFF
@@ -7987,8 +7994,8 @@ peekInt
 SSL_RSA_WITH_3DES_EDE_CBC_SHA
 vide
 TAJIKISTAN
-androidx.savedstate.Restarter
 Band
+androidx.savedstate.Restarter
 openReadWrite
 Mani
 .mk
@@ -8022,6 +8029,7 @@ call
 beige
 OMX.google.aac.decoder
 Baluchi
+Music
 kotlin.Char
 LOWER_CASE_WITH_UNDERSCORES
 asm
@@ -8415,6 +8423,7 @@ ICELAND
 begin
 Germany
 E5643
+Filled.Home
 SSL_DHE_DSS_WITH_DES_CBC_SHA
 pātē
 sma
@@ -8769,8 +8778,8 @@ FLOAT_LIST_PACKED
 SrcAtop
 Micronesia
 Hupa
-Marking string:template_percent:2131755343 used because it matches string pool constant tem
-Marking string:terms_of_service:2131755344 used because it matches string pool constant ter
+Marking string:template_percent:2131755353 used because it matches string pool constant tem
+Marking string:terms_of_service:2131755354 used because it matches string pool constant ter
 Marking attr:checkMarkCompat:2130968657 used because it matches string pool constant che
 Marking attr:checkMarkTint:2130968658 used because it matches string pool constant che
 Marking attr:checkMarkTintMode:2130968659 used because it matches string pool constant che
@@ -8852,18 +8861,18 @@ Marking attr:drawableTintMode:2130968708 used because it matches string pool con
 Marking attr:drawableTopCompat:2130968709 used because it matches string pool constant dra
 Marking attr:drawerArrowStyle:2130968710 used because it matches string pool constant dra
 Marking attr:nullable:2130968791 used because it matches string pool constant null
-Marking string:scan_button:2131755262 used because it matches string pool constant scan
-Marking string:scan_folder_hint:2131755263 used because it matches string pool constant scan
-Marking string:scan_min_duration:2131755264 used because it matches string pool constant scan
-Marking string:scan_min_size:2131755265 used because it matches string pool constant scan
-Marking string:scan_music:2131755266 used because it matches string pool constant scan
-Marking string:scan_no_limit:2131755267 used because it matches string pool constant scan
-Marking string:scan_scanning:2131755268 used because it matches string pool constant scan
-Marking string:scan_sec:2131755269 used because it matches string pool constant scan
-Marking string:scan_select_folder:2131755270 used because it matches string pool constant scan
-Marking string:scan_title:2131755271 used because it matches string pool constant scan
-Marking string:scan_tracks_found:2131755272 used because it matches string pool constant scan
-Marking string:scan_videos:2131755273 used because it matches string pool constant scan
+Marking string:scan_button:2131755271 used because it matches string pool constant scan
+Marking string:scan_folder_hint:2131755272 used because it matches string pool constant scan
+Marking string:scan_min_duration:2131755273 used because it matches string pool constant scan
+Marking string:scan_min_size:2131755274 used because it matches string pool constant scan
+Marking string:scan_music:2131755275 used because it matches string pool constant scan
+Marking string:scan_no_limit:2131755276 used because it matches string pool constant scan
+Marking string:scan_scanning:2131755277 used because it matches string pool constant scan
+Marking string:scan_sec:2131755278 used because it matches string pool constant scan
+Marking string:scan_select_folder:2131755279 used because it matches string pool constant scan
+Marking string:scan_title:2131755280 used because it matches string pool constant scan
+Marking string:scan_tracks_found:2131755281 used because it matches string pool constant scan
+Marking string:scan_videos:2131755282 used because it matches string pool constant scan
 Marking attr:controller_layout_id:2130968686 used because it matches string pool constant controller
 Marking attr:layout:2130968761 used because it matches string pool constant layout
 Marking attr:layout:2130968761 used because it matches string pool constant layout
@@ -8885,14 +8894,15 @@ Marking attr:subtitleTextStyle:2130968869 used because it matches string pool co
 Marking id:META:2131361795 used because it matches string pool constant ME
 Marking attr:defaultQueryHint:2130968690 used because it matches string pool constant default
 Marking attr:default_artwork:2130968691 used because it matches string pool constant default
+Marking drawable:default_cover:2131230807 used because it matches string pool constant default
 Marking id:default_activity_button:2131361876 used because it matches string pool constant default
 Marking string:default_error_message:2131755079 used because it matches string pool constant default
 Marking string:default_notification_channel_name:2131755080 used because it matches string pool constant default
 Marking string:default_popup_window_title:2131755081 used because it matches string pool constant default
 Marking id:SHIFT:2131361796 used because it matches string pool constant SH
 Marking id:SYM:2131361797 used because it matches string pool constant SY
-Marking string:next:2131755229 used because it matches string pool constant next
-Marking string:next:2131755229 used because it matches string pool constant next
+Marking string:next:2131755235 used because it matches string pool constant next
+Marking string:next:2131755235 used because it matches string pool constant next
 Marking attr:windowActionBar:2130968926 used because it matches string pool constant window
 Marking attr:windowActionBarOverlay:2130968927 used because it matches string pool constant window
 Marking attr:windowActionModeOverlay:2130968928 used because it matches string pool constant window
@@ -8912,6 +8922,7 @@ Marking dimen:fastscroll_default_thickness:2131165309 used because it matches st
 Marking dimen:fastscroll_margin:2131165310 used because it matches string pool constant fas
 Marking dimen:fastscroll_minimum_range:2131165311 used because it matches string pool constant fas
 Marking interpolator:fast_out_slow_in:2131492870 used because it matches string pool constant fas
+Marking string:find_music_desc:2131755151 used because it matches string pool constant fin
 Marking attr:argType:2130968623 used because it matches string pool constant ar
 Marking attr:arrowHeadLength:2130968624 used because it matches string pool constant ar
 Marking attr:arrowShaftLength:2130968625 used because it matches string pool constant ar
@@ -8978,6 +8989,7 @@ Marking attr:fontWeight:2130968738 used because it matches string pool constant 
 Marking attr:defaultQueryHint:2130968690 used because it matches string pool constant de
 Marking attr:default_artwork:2130968691 used because it matches string pool constant de
 Marking attr:destination:2130968692 used because it matches string pool constant de
+Marking drawable:default_cover:2131230807 used because it matches string pool constant de
 Marking id:decor_content_parent:2131361875 used because it matches string pool constant de
 Marking id:default_activity_button:2131361876 used because it matches string pool constant de
 Marking string:default_error_message:2131755079 used because it matches string pool constant de
@@ -9045,7 +9057,7 @@ Marking dimen:hint_pressed_alpha_material_dark:2131165317 used because it matche
 Marking dimen:hint_pressed_alpha_material_light:2131165318 used because it matches string pool constant hi
 Marking id:hide_ime_id:2131361941 used because it matches string pool constant hi
 Marking id:hide_in_inspector_tag:2131361942 used because it matches string pool constant hi
-Marking string:hidden_folders:2131755153 used because it matches string pool constant hi
+Marking string:hidden_folders:2131755159 used because it matches string pool constant hi
 Marking anim:fragment_fast_out_extra_slow_in:2130771992 used because it matches string pool constant fra
 Marking animator:fragment_close_enter:2130837504 used because it matches string pool constant fra
 Marking animator:fragment_close_exit:2130837505 used because it matches string pool constant fra
@@ -9058,8 +9070,8 @@ Marking attr:indeterminateProgressStyle:2130968753 used because it matches strin
 Marking attr:initialActivityCount:2130968754 used because it matches string pool constant in
 Marking id:info:2131361949 used because it matches string pool constant in
 Marking id:inspection_slot_table_set:2131361950 used because it matches string pool constant in
-Marking string:in_progress:2131755155 used because it matches string pool constant in
-Marking string:indeterminate:2131755156 used because it matches string pool constant in
+Marking string:in_progress:2131755161 used because it matches string pool constant in
+Marking string:indeterminate:2131755162 used because it matches string pool constant in
 Marking attr:isLightTheme:2130968755 used because it matches string pool constant is
 Marking id:is_pooling_container_tag:2131361951 used because it matches string pool constant is
 Marking attr:itemPadding:2130968756 used because it matches string pool constant it
@@ -9074,7 +9086,7 @@ Marking color:secondary_text_disabled_material_dark:2131099736 used because it m
 Marking color:secondary_text_disabled_material_light:2131099737 used because it matches string pool constant second
 Marking attr:mimeType:2130968784 used because it matches string pool constant mi
 Marking id:middle:2131361961 used because it matches string pool constant mi
-Marking string:my_playlists:2131755222 used because it matches string pool constant my
+Marking string:my_playlists:2131755228 used because it matches string pool constant my
 Marking color:notification_action_color_filter:2131099721 used because it matches string pool constant no
 Marking color:notification_icon_bg_color:2131099722 used because it matches string pool constant no
 Marking color:notification_material_background_media_default_color:2131099723 used because it matches string pool constant no
@@ -9093,19 +9105,19 @@ Marking dimen:notification_small_icon_size_as_large:2131165333 used because it m
 Marking dimen:notification_subtext_size:2131165334 used because it matches string pool constant no
 Marking dimen:notification_top_pad:2131165335 used because it matches string pool constant no
 Marking dimen:notification_top_pad_large_text:2131165336 used because it matches string pool constant no
-Marking drawable:notification_action_background:2131230902 used because it matches string pool constant no
-Marking drawable:notification_bg:2131230903 used because it matches string pool constant no
-Marking drawable:notification_bg_low:2131230904 used because it matches string pool constant no
-Marking drawable:notification_bg_low_normal:2131230905 used because it matches string pool constant no
-Marking drawable:notification_bg_low_pressed:2131230906 used because it matches string pool constant no
-Marking drawable:notification_bg_normal:2131230907 used because it matches string pool constant no
-Marking drawable:notification_bg_normal_pressed:2131230908 used because it matches string pool constant no
-Marking drawable:notification_icon_background:2131230909 used because it matches string pool constant no
-Marking drawable:notification_oversize_large_icon_bg:2131230910 used because it matches string pool constant no
-Marking drawable:notification_template_icon_bg:2131230911 used because it matches string pool constant no
-Marking drawable:notification_template_icon_low_bg:2131230912 used because it matches string pool constant no
-Marking drawable:notification_tile_bg:2131230913 used because it matches string pool constant no
-Marking drawable:notify_panel_notification_icon_bg:2131230914 used because it matches string pool constant no
+Marking drawable:notification_action_background:2131230903 used because it matches string pool constant no
+Marking drawable:notification_bg:2131230904 used because it matches string pool constant no
+Marking drawable:notification_bg_low:2131230905 used because it matches string pool constant no
+Marking drawable:notification_bg_low_normal:2131230906 used because it matches string pool constant no
+Marking drawable:notification_bg_low_pressed:2131230907 used because it matches string pool constant no
+Marking drawable:notification_bg_normal:2131230908 used because it matches string pool constant no
+Marking drawable:notification_bg_normal_pressed:2131230909 used because it matches string pool constant no
+Marking drawable:notification_icon_background:2131230910 used because it matches string pool constant no
+Marking drawable:notification_oversize_large_icon_bg:2131230911 used because it matches string pool constant no
+Marking drawable:notification_template_icon_bg:2131230912 used because it matches string pool constant no
+Marking drawable:notification_template_icon_low_bg:2131230913 used because it matches string pool constant no
+Marking drawable:notification_tile_bg:2131230914 used because it matches string pool constant no
+Marking drawable:notify_panel_notification_icon_bg:2131230915 used because it matches string pool constant no
 Marking id:none:2131361965 used because it matches string pool constant no
 Marking id:normal:2131361966 used because it matches string pool constant no
 Marking id:notification_background:2131361967 used because it matches string pool constant no
@@ -9126,18 +9138,18 @@ Marking layout:notification_template_media:2131558452 used because it matches st
 Marking layout:notification_template_media_custom:2131558453 used because it matches string pool constant no
 Marking layout:notification_template_part_chronometer:2131558454 used because it matches string pool constant no
 Marking layout:notification_template_part_time:2131558455 used because it matches string pool constant no
-Marking string:no_albums:2131755230 used because it matches string pool constant no
-Marking string:no_artists:2131755231 used because it matches string pool constant no
-Marking string:no_folders:2131755232 used because it matches string pool constant no
-Marking string:no_genres:2131755233 used because it matches string pool constant no
-Marking string:no_lyrics:2131755234 used because it matches string pool constant no
-Marking string:no_playlists_yet:2131755235 used because it matches string pool constant no
-Marking string:no_tracks:2131755236 used because it matches string pool constant no
-Marking string:no_videos:2131755237 used because it matches string pool constant no
-Marking string:not_playing:2131755238 used because it matches string pool constant no
-Marking string:not_selected:2131755239 used because it matches string pool constant no
-Marking string:now_playing:2131755240 used because it matches string pool constant no
-Marking string:pick_a_song:2131755249 used because it matches string pool constant pi
+Marking string:no_albums:2131755236 used because it matches string pool constant no
+Marking string:no_artists:2131755237 used because it matches string pool constant no
+Marking string:no_folders:2131755238 used because it matches string pool constant no
+Marking string:no_genres:2131755239 used because it matches string pool constant no
+Marking string:no_lyrics:2131755240 used because it matches string pool constant no
+Marking string:no_playlists_yet:2131755241 used because it matches string pool constant no
+Marking string:no_tracks:2131755242 used because it matches string pool constant no
+Marking string:no_videos:2131755243 used because it matches string pool constant no
+Marking string:not_playing:2131755244 used because it matches string pool constant no
+Marking string:not_selected:2131755245 used because it matches string pool constant no
+Marking string:now_playing:2131755246 used because it matches string pool constant no
+Marking string:pick_a_song:2131755255 used because it matches string pool constant pi
 Marking id:META:2131361795 used because it matches string pool constant META
 Marking id:META:2131361795 used because it matches string pool constant META
 Marking attr:drawableBottomCompat:2130968701 used because it matches string pool constant drawable
@@ -9154,8 +9166,8 @@ Marking attr:ratingBarStyle:2130968819 used because it matches string pool const
 Marking attr:ratingBarStyleIndicator:2130968820 used because it matches string pool constant ra
 Marking attr:ratingBarStyleSmall:2130968821 used because it matches string pool constant ra
 Marking id:radio:2131361977 used because it matches string pool constant ra
-Marking string:range_end:2131755256 used because it matches string pool constant ra
-Marking string:range_start:2131755257 used because it matches string pool constant ra
+Marking string:range_end:2131755265 used because it matches string pool constant ra
+Marking string:range_start:2131755266 used because it matches string pool constant ra
 Marking attr:route:2130968827 used because it matches string pool constant ro
 Marking font:roboto_medium_numbers:2131296256 used because it matches string pool constant ro
 Marking attr:srcCompat:2130968860 used because it matches string pool constant sr
@@ -9174,14 +9186,14 @@ Marking attr:textAppearanceSmallPopupMenu:2130968885 used because it matches str
 Marking attr:textColorAlertDialogListItem:2130968886 used because it matches string pool constant te
 Marking attr:textColorSearchUrl:2130968887 used because it matches string pool constant te
 Marking attr:textLocale:2130968888 used because it matches string pool constant te
-Marking drawable:test_level_drawable:2131230915 used because it matches string pool constant te
+Marking drawable:test_level_drawable:2131230916 used because it matches string pool constant te
 Marking id:text:2131362025 used because it matches string pool constant te
 Marking id:text2:2131362026 used because it matches string pool constant te
 Marking id:textSpacerNoButtons:2131362027 used because it matches string pool constant te
 Marking id:textSpacerNoTitle:2131362028 used because it matches string pool constant te
 Marking id:texture_view:2131362029 used because it matches string pool constant te
-Marking string:template_percent:2131755343 used because it matches string pool constant te
-Marking string:terms_of_service:2131755344 used because it matches string pool constant te
+Marking string:template_percent:2131755353 used because it matches string pool constant te
+Marking string:terms_of_service:2131755354 used because it matches string pool constant te
 Marking attr:toolbarNavigationButtonStyle:2130968910 used because it matches string pool constant to
 Marking attr:toolbarStyle:2130968911 used because it matches string pool constant to
 Marking attr:tooltipForegroundColor:2130968912 used because it matches string pool constant to
@@ -9198,25 +9210,25 @@ Marking dimen:tooltip_precise_anchor_threshold:2131165341 used because it matche
 Marking dimen:tooltip_vertical_padding:2131165342 used because it matches string pool constant to
 Marking dimen:tooltip_y_offset_non_touch:2131165343 used because it matches string pool constant to
 Marking dimen:tooltip_y_offset_touch:2131165344 used because it matches string pool constant to
-Marking drawable:tooltip_frame_dark:2131230916 used because it matches string pool constant to
-Marking drawable:tooltip_frame_light:2131230917 used because it matches string pool constant to
+Marking drawable:tooltip_frame_dark:2131230917 used because it matches string pool constant to
+Marking drawable:tooltip_frame_light:2131230918 used because it matches string pool constant to
 Marking id:top:2131362034 used because it matches string pool constant to
 Marking id:topPanel:2131362035 used because it matches string pool constant to
-Marking string:toast_added_to_playlist:2131755345 used because it matches string pool constant to
-Marking string:toast_playlist_created:2131755346 used because it matches string pool constant to
-Marking string:toast_playlist_deleted:2131755347 used because it matches string pool constant to
-Marking string:toast_removed_from_playlist:2131755348 used because it matches string pool constant to
-Marking string:toast_song_removed:2131755349 used because it matches string pool constant to
-Marking string:tooltip_description:2131755350 used because it matches string pool constant to
-Marking string:tooltip_label:2131755351 used because it matches string pool constant to
+Marking string:toast_added_to_playlist:2131755355 used because it matches string pool constant to
+Marking string:toast_playlist_created:2131755356 used because it matches string pool constant to
+Marking string:toast_playlist_deleted:2131755357 used because it matches string pool constant to
+Marking string:toast_removed_from_playlist:2131755358 used because it matches string pool constant to
+Marking string:toast_song_removed:2131755359 used because it matches string pool constant to
+Marking string:tooltip_description:2131755360 used because it matches string pool constant to
+Marking string:tooltip_label:2131755361 used because it matches string pool constant to
 Marking attr:ttcIndex:2130968919 used because it matches string pool constant tt
 Marking attr:buffered_color:2130968643 used because it matches string pool constant buff
 Marking attr:elevation:2130968716 used because it matches string pool constant elevation
 Marking attr:elevation:2130968716 used because it matches string pool constant elevation
 Marking attr:measureWithLargestChild:2130968782 used because it matches string pool constant measure
 Marking id:video_decoder_gl_surface_view:2131362040 used because it matches string pool constant video
-Marking string:video_player:2131755359 used because it matches string pool constant video
-Marking string:videos_count:2131755360 used because it matches string pool constant video
+Marking string:video_player:2131755369 used because it matches string pool constant video
+Marking string:videos_count:2131755370 used because it matches string pool constant video
 Marking id:time:2131362030 used because it matches string pool constant time
 Marking attr:time_bar_min_update_interval:2130968897 used because it matches string pool constant time
 Marking id:time:2131362030 used because it matches string pool constant time
@@ -9242,13 +9254,13 @@ Marking attr:menu:2130968783 used because it matches string pool constant menu
 Marking id:radio:2131361977 used because it matches string pool constant radio
 Marking attr:radioButtonStyle:2130968818 used because it matches string pool constant radio
 Marking id:radio:2131361977 used because it matches string pool constant radio
-Marking drawable:media_session_service_notification_ic_music_note:2131230901 used because it matches string pool constant media_session
+Marking drawable:media_session_service_notification_ic_music_note:2131230902 used because it matches string pool constant media_session
 Marking attr:fontWeight:2130968738 used because it matches string pool constant fontWeight
 Marking attr:fontWeight:2130968738 used because it matches string pool constant fontWeight
 Marking layout:ime_base_split_test_activity:2131558439 used because it matches string pool constant ime
 Marking layout:ime_secondary_split_test_activity:2131558440 used because it matches string pool constant ime
 Marking attr:indeterminateProgressStyle:2130968753 used because it matches string pool constant ind
-Marking string:indeterminate:2131755156 used because it matches string pool constant ind
+Marking string:indeterminate:2131755162 used because it matches string pool constant ind
 Marking string:close:2131755073 used because it matches string pool constant close
 Marking attr:closeIcon:2130968662 used because it matches string pool constant close
 Marking attr:closeItemLayout:2130968663 used because it matches string pool constant close
@@ -9256,8 +9268,8 @@ Marking string:close:2131755073 used because it matches string pool constant clo
 Marking string:close_drawer:2131755074 used because it matches string pool constant close
 Marking string:close_sheet:2131755075 used because it matches string pool constant close
 Marking id:italic:2131361952 used because it matches string pool constant ita
-Marking string:lyrics:2131755158 used because it matches string pool constant lyrics
-Marking string:lyrics:2131755158 used because it matches string pool constant lyrics
+Marking string:lyrics:2131755164 used because it matches string pool constant lyrics
+Marking string:lyrics:2131755164 used because it matches string pool constant lyrics
 Marking string:backup_all_button:2131755047 used because it matches string pool constant backup
 Marking string:backup_failed:2131755048 used because it matches string pool constant backup
 Marking string:backup_how_title:2131755049 used because it matches string pool constant backup
@@ -9277,6 +9289,7 @@ Marking string:backup_what_content:2131755062 used because it matches string poo
 Marking string:backup_what_title:2131755063 used because it matches string pool constant backup
 Marking attr:fontStyle:2130968736 used because it matches string pool constant fontStyle
 Marking attr:fontStyle:2130968736 used because it matches string pool constant fontStyle
+Marking xml:locales_config:2131951617 used because it matches string pool constant local
 Marking attr:borderlessButtonStyle:2130968642 used because it matches string pool constant border
 Marking attr:navigationIcon:2130968788 used because it matches string pool constant navigationIcon
 Marking attr:navigationIcon:2130968788 used because it matches string pool constant navigationIcon
@@ -9295,8 +9308,8 @@ Marking dimen:hint_alpha_material_dark:2131165315 used because it matches string
 Marking dimen:hint_alpha_material_light:2131165316 used because it matches string pool constant hint
 Marking dimen:hint_pressed_alpha_material_dark:2131165317 used because it matches string pool constant hint
 Marking dimen:hint_pressed_alpha_material_light:2131165318 used because it matches string pool constant hint
-Marking string:queue:2131755255 used because it matches string pool constant queue
-Marking string:queue:2131755255 used because it matches string pool constant queue
+Marking string:queue:2131755264 used because it matches string pool constant queue
+Marking string:queue:2131755264 used because it matches string pool constant queue
 Marking attr:player_layout_id:2130968803 used because it matches string pool constant player
 Marking attr:lineHeight:2130968763 used because it matches string pool constant lin
 Marking id:line1:2131361954 used because it matches string pool constant lin
@@ -9330,45 +9343,46 @@ Marking attr:height:2130968742 used because it matches string pool constant heig
 Marking id:middle:2131361961 used because it matches string pool constant middle
 Marking id:middle:2131361961 used because it matches string pool constant middle
 Marking attr:allowStacking:2130968619 used because it matches string pool constant allow
-Marking string:most_played:2131755221 used because it matches string pool constant mos
+Marking string:most_played:2131755227 used because it matches string pool constant mos
 Marking attr:multiChoiceItemLayout:2130968785 used because it matches string pool constant mul
 Marking id:multiply:2131361962 used because it matches string pool constant mul
-Marking xml:music_widget_4x1:2131951617 used because it matches string pool constant mus
-Marking xml:music_widget_4x2:2131951618 used because it matches string pool constant mus
+Marking xml:music_widget_4x1:2131951618 used because it matches string pool constant mus
+Marking xml:music_widget_4x2:2131951619 used because it matches string pool constant mus
 Marking attr:navGraph:2130968786 used because it matches string pool constant nav
 Marking attr:navigationContentDescription:2130968787 used because it matches string pool constant nav
 Marking attr:navigationIcon:2130968788 used because it matches string pool constant nav
 Marking attr:navigationMode:2130968789 used because it matches string pool constant nav
 Marking id:nav_controller_view_tag:2131361963 used because it matches string pool constant nav
-Marking string:nav_library:2131755223 used because it matches string pool constant nav
-Marking string:nav_search:2131755224 used because it matches string pool constant nav
-Marking string:nav_settings:2131755225 used because it matches string pool constant nav
-Marking string:nav_video:2131755226 used because it matches string pool constant nav
-Marking string:navigation_menu:2131755227 used because it matches string pool constant nav
-Marking string:settings_backup:2131755285 used because it matches string pool constant settings
-Marking string:settings_backup_desc:2131755286 used because it matches string pool constant settings
-Marking string:settings_crossfade:2131755287 used because it matches string pool constant settings
-Marking string:settings_crossfade_desc:2131755288 used because it matches string pool constant settings
-Marking string:settings_equalizer:2131755289 used because it matches string pool constant settings
-Marking string:settings_faq:2131755290 used because it matches string pool constant settings
-Marking string:settings_feedback:2131755291 used because it matches string pool constant settings
-Marking string:settings_gapless:2131755292 used because it matches string pool constant settings
-Marking string:settings_gapless_desc:2131755293 used because it matches string pool constant settings
-Marking string:settings_language:2131755294 used because it matches string pool constant settings
-Marking string:settings_language_system:2131755295 used because it matches string pool constant settings
-Marking string:settings_pause_disconnect:2131755296 used because it matches string pool constant settings
-Marking string:settings_pause_disconnect_desc:2131755297 used because it matches string pool constant settings
-Marking string:settings_rate:2131755298 used because it matches string pool constant settings
-Marking string:settings_scan_music:2131755299 used because it matches string pool constant settings
-Marking string:settings_sleep_timer:2131755300 used because it matches string pool constant settings
-Marking string:settings_subscription:2131755301 used because it matches string pool constant settings
-Marking string:settings_theme:2131755302 used because it matches string pool constant settings
-Marking string:settings_theme_desc:2131755303 used because it matches string pool constant settings
-Marking string:settings_transfer:2131755304 used because it matches string pool constant settings
-Marking string:settings_transfer_desc:2131755305 used because it matches string pool constant settings
-Marking string:settings_widget:2131755306 used because it matches string pool constant settings
-Marking string:settings_widget_desc:2131755307 used because it matches string pool constant settings
-Marking string:new_playlist:2131755228 used because it matches string pool constant new
+Marking string:nav_library:2131755229 used because it matches string pool constant nav
+Marking string:nav_search:2131755230 used because it matches string pool constant nav
+Marking string:nav_settings:2131755231 used because it matches string pool constant nav
+Marking string:nav_video:2131755232 used because it matches string pool constant nav
+Marking string:navigation_menu:2131755233 used because it matches string pool constant nav
+Marking xml:locales_config:2131951617 used because it matches string pool constant locales
+Marking string:settings_backup:2131755294 used because it matches string pool constant settings
+Marking string:settings_backup_desc:2131755295 used because it matches string pool constant settings
+Marking string:settings_crossfade:2131755296 used because it matches string pool constant settings
+Marking string:settings_crossfade_desc:2131755297 used because it matches string pool constant settings
+Marking string:settings_equalizer:2131755298 used because it matches string pool constant settings
+Marking string:settings_faq:2131755299 used because it matches string pool constant settings
+Marking string:settings_feedback:2131755300 used because it matches string pool constant settings
+Marking string:settings_gapless:2131755301 used because it matches string pool constant settings
+Marking string:settings_gapless_desc:2131755302 used because it matches string pool constant settings
+Marking string:settings_language:2131755303 used because it matches string pool constant settings
+Marking string:settings_language_system:2131755304 used because it matches string pool constant settings
+Marking string:settings_pause_disconnect:2131755305 used because it matches string pool constant settings
+Marking string:settings_pause_disconnect_desc:2131755306 used because it matches string pool constant settings
+Marking string:settings_rate:2131755307 used because it matches string pool constant settings
+Marking string:settings_scan_music:2131755308 used because it matches string pool constant settings
+Marking string:settings_sleep_timer:2131755309 used because it matches string pool constant settings
+Marking string:settings_subscription:2131755310 used because it matches string pool constant settings
+Marking string:settings_theme:2131755311 used because it matches string pool constant settings
+Marking string:settings_theme_desc:2131755312 used because it matches string pool constant settings
+Marking string:settings_transfer:2131755313 used because it matches string pool constant settings
+Marking string:settings_transfer_desc:2131755314 used because it matches string pool constant settings
+Marking string:settings_widget:2131755315 used because it matches string pool constant settings
+Marking string:settings_widget_desc:2131755316 used because it matches string pool constant settings
+Marking string:new_playlist:2131755234 used because it matches string pool constant new
 Marking attr:toolbarNavigationButtonStyle:2130968910 used because it matches string pool constant tool
 Marking attr:toolbarStyle:2130968911 used because it matches string pool constant tool
 Marking attr:tooltipForegroundColor:2130968912 used because it matches string pool constant tool
@@ -9384,27 +9398,27 @@ Marking dimen:tooltip_precise_anchor_threshold:2131165341 used because it matche
 Marking dimen:tooltip_vertical_padding:2131165342 used because it matches string pool constant tool
 Marking dimen:tooltip_y_offset_non_touch:2131165343 used because it matches string pool constant tool
 Marking dimen:tooltip_y_offset_touch:2131165344 used because it matches string pool constant tool
-Marking drawable:tooltip_frame_dark:2131230916 used because it matches string pool constant tool
-Marking drawable:tooltip_frame_light:2131230917 used because it matches string pool constant tool
-Marking string:tooltip_description:2131755350 used because it matches string pool constant tool
-Marking string:tooltip_label:2131755351 used because it matches string pool constant tool
-Marking drawable:media3_icon_circular_play:2131230893 used because it matches string pool constant media
-Marking drawable:media3_notification_pause:2131230894 used because it matches string pool constant media
-Marking drawable:media3_notification_play:2131230895 used because it matches string pool constant media
-Marking drawable:media3_notification_seek_back:2131230896 used because it matches string pool constant media
-Marking drawable:media3_notification_seek_forward:2131230897 used because it matches string pool constant media
-Marking drawable:media3_notification_seek_to_next:2131230898 used because it matches string pool constant media
-Marking drawable:media3_notification_seek_to_previous:2131230899 used because it matches string pool constant media
-Marking drawable:media3_notification_small_icon:2131230900 used because it matches string pool constant media
-Marking drawable:media_session_service_notification_ic_music_note:2131230901 used because it matches string pool constant media
+Marking drawable:tooltip_frame_dark:2131230917 used because it matches string pool constant tool
+Marking drawable:tooltip_frame_light:2131230918 used because it matches string pool constant tool
+Marking string:tooltip_description:2131755360 used because it matches string pool constant tool
+Marking string:tooltip_label:2131755361 used because it matches string pool constant tool
+Marking drawable:media3_icon_circular_play:2131230894 used because it matches string pool constant media
+Marking drawable:media3_notification_pause:2131230895 used because it matches string pool constant media
+Marking drawable:media3_notification_play:2131230896 used because it matches string pool constant media
+Marking drawable:media3_notification_seek_back:2131230897 used because it matches string pool constant media
+Marking drawable:media3_notification_seek_forward:2131230898 used because it matches string pool constant media
+Marking drawable:media3_notification_seek_to_next:2131230899 used because it matches string pool constant media
+Marking drawable:media3_notification_seek_to_previous:2131230900 used because it matches string pool constant media
+Marking drawable:media3_notification_small_icon:2131230901 used because it matches string pool constant media
+Marking drawable:media_session_service_notification_ic_music_note:2131230902 used because it matches string pool constant media
 Marking id:media_actions:2131361958 used because it matches string pool constant media
 Marking id:media_controller_compat_view_tag:2131361959 used because it matches string pool constant media
-Marking string:media3_controls_pause_description:2131755215 used because it matches string pool constant media
-Marking string:media3_controls_play_description:2131755216 used because it matches string pool constant media
-Marking string:media3_controls_seek_back_description:2131755217 used because it matches string pool constant media
-Marking string:media3_controls_seek_forward_description:2131755218 used because it matches string pool constant media
-Marking string:media3_controls_seek_to_next_description:2131755219 used because it matches string pool constant media
-Marking string:media3_controls_seek_to_previous_description:2131755220 used because it matches string pool constant media
+Marking string:media3_controls_pause_description:2131755221 used because it matches string pool constant media
+Marking string:media3_controls_play_description:2131755222 used because it matches string pool constant media
+Marking string:media3_controls_seek_back_description:2131755223 used because it matches string pool constant media
+Marking string:media3_controls_seek_forward_description:2131755224 used because it matches string pool constant media
+Marking string:media3_controls_seek_to_next_description:2131755225 used because it matches string pool constant media
+Marking string:media3_controls_seek_to_previous_description:2131755226 used because it matches string pool constant media
 Marking attr:emojiCompatEnabled:2130968717 used because it matches string pool constant emojiCompat
 Marking attr:color:2130968666 used because it matches string pool constant color
 Marking attr:color:2130968666 used because it matches string pool constant color
@@ -9420,7 +9434,7 @@ Marking attr:colorPrimaryDark:2130968675 used because it matches string pool con
 Marking attr:colorSwitchThumbNormal:2130968676 used because it matches string pool constant color
 Marking id:none:2131361965 used because it matches string pool constant non
 Marking id:normal:2131361966 used because it matches string pool constant nor
-Marking string:search_results_count:2131755278 used because it matches string pool constant search_results
+Marking string:search_results_count:2131755287 used because it matches string pool constant search_results
 Marking color:notification_action_color_filter:2131099721 used because it matches string pool constant notification
 Marking color:notification_icon_bg_color:2131099722 used because it matches string pool constant notification
 Marking color:notification_material_background_media_default_color:2131099723 used because it matches string pool constant notification
@@ -9439,18 +9453,18 @@ Marking dimen:notification_small_icon_size_as_large:2131165333 used because it m
 Marking dimen:notification_subtext_size:2131165334 used because it matches string pool constant notification
 Marking dimen:notification_top_pad:2131165335 used because it matches string pool constant notification
 Marking dimen:notification_top_pad_large_text:2131165336 used because it matches string pool constant notification
-Marking drawable:notification_action_background:2131230902 used because it matches string pool constant notification
-Marking drawable:notification_bg:2131230903 used because it matches string pool constant notification
-Marking drawable:notification_bg_low:2131230904 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_normal:2131230905 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_pressed:2131230906 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal:2131230907 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal_pressed:2131230908 used because it matches string pool constant notification
-Marking drawable:notification_icon_background:2131230909 used because it matches string pool constant notification
-Marking drawable:notification_oversize_large_icon_bg:2131230910 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_bg:2131230911 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_low_bg:2131230912 used because it matches string pool constant notification
-Marking drawable:notification_tile_bg:2131230913 used because it matches string pool constant notification
+Marking drawable:notification_action_background:2131230903 used because it matches string pool constant notification
+Marking drawable:notification_bg:2131230904 used because it matches string pool constant notification
+Marking drawable:notification_bg_low:2131230905 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2131230906 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2131230907 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal:2131230908 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2131230909 used because it matches string pool constant notification
+Marking drawable:notification_icon_background:2131230910 used because it matches string pool constant notification
+Marking drawable:notification_oversize_large_icon_bg:2131230911 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2131230912 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2131230913 used because it matches string pool constant notification
+Marking drawable:notification_tile_bg:2131230914 used because it matches string pool constant notification
 Marking id:notification_background:2131361967 used because it matches string pool constant notification
 Marking id:notification_main_column:2131361968 used because it matches string pool constant notification
 Marking id:notification_main_column_container:2131361969 used because it matches string pool constant notification
@@ -9484,20 +9498,20 @@ Marking id:search_mag_icon:2131361991 used because it matches string pool consta
 Marking id:search_plate:2131361992 used because it matches string pool constant search
 Marking id:search_src_text:2131361993 used because it matches string pool constant search
 Marking id:search_voice_btn:2131361994 used because it matches string pool constant search
-Marking string:search_from_library:2131755274 used because it matches string pool constant search
-Marking string:search_menu_title:2131755275 used because it matches string pool constant search
-Marking string:search_no_results:2131755276 used because it matches string pool constant search
-Marking string:search_placeholder:2131755277 used because it matches string pool constant search
-Marking string:search_results_count:2131755278 used because it matches string pool constant search
-Marking string:search_tips:2131755279 used because it matches string pool constant search
-Marking string:search_youtube_placeholder:2131755280 used because it matches string pool constant search
+Marking string:search_from_library:2131755283 used because it matches string pool constant search
+Marking string:search_menu_title:2131755284 used because it matches string pool constant search
+Marking string:search_no_results:2131755285 used because it matches string pool constant search
+Marking string:search_placeholder:2131755286 used because it matches string pool constant search
+Marking string:search_results_count:2131755287 used because it matches string pool constant search
+Marking string:search_tips:2131755288 used because it matches string pool constant search
+Marking string:search_youtube_placeholder:2131755289 used because it matches string pool constant search
 Marking id:image:2131361948 used because it matches string pool constant image
 Marking attr:imageButtonStyle:2130968752 used because it matches string pool constant image
 Marking id:image:2131361948 used because it matches string pool constant image
 Marking id:off:2131361970 used because it matches string pool constant off
-Marking string:off:2131755241 used because it matches string pool constant off
+Marking string:off:2131755247 used because it matches string pool constant off
 Marking id:off:2131361970 used because it matches string pool constant off
-Marking string:off:2131755241 used because it matches string pool constant off
+Marking string:off:2131755247 used because it matches string pool constant off
 Marking attr:editTextBackground:2130968713 used because it matches string pool constant edit
 Marking attr:editTextColor:2130968714 used because it matches string pool constant edit
 Marking attr:editTextStyle:2130968715 used because it matches string pool constant edit
@@ -9530,7 +9544,7 @@ Marking id:line3:2131361955 used because it matches string pool constant line
 Marking attr:panelBackground:2130968798 used because it matches string pool constant pan
 Marking attr:panelMenuListTheme:2130968799 used because it matches string pool constant pan
 Marking attr:panelMenuListWidth:2130968800 used because it matches string pool constant pan
-Marking string:pause:2131755244 used because it matches string pool constant pau
+Marking string:pause:2131755250 used because it matches string pool constant pau
 Marking attr:listChoiceBackgroundIndicator:2130968764 used because it matches string pool constant list
 Marking attr:listChoiceIndicatorMultipleAnimated:2130968765 used because it matches string pool constant list
 Marking attr:listChoiceIndicatorSingleAnimated:2130968766 used because it matches string pool constant list
@@ -9548,11 +9562,12 @@ Marking attr:listPreferredItemPaddingRight:2130968777 used because it matches st
 Marking attr:listPreferredItemPaddingStart:2130968778 used because it matches string pool constant list
 Marking id:listMode:2131361956 used because it matches string pool constant list
 Marking id:list_item:2131361957 used because it matches string pool constant list
+Marking xml:locales_config:2131951617 used because it matches string pool constant locale
 Marking id:withText:2131362053 used because it matches string pool constant with
-Marking string:permission_desc:2131755245 used because it matches string pool constant per
-Marking string:permission_grant:2131755246 used because it matches string pool constant per
-Marking string:permission_settings:2131755247 used because it matches string pool constant per
-Marking string:permission_title:2131755248 used because it matches string pool constant per
+Marking string:permission_desc:2131755251 used because it matches string pool constant per
+Marking string:permission_grant:2131755252 used because it matches string pool constant per
+Marking string:permission_settings:2131755253 used because it matches string pool constant per
+Marking string:permission_title:2131755254 used because it matches string pool constant per
 Marking id:accessibility_action_clickable_span:2131361798 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131361799 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131361800 used because it matches string pool constant accessibility
@@ -9596,6 +9611,7 @@ Marking attr:progressBarPadding:2130968813 used because it matches string pool c
 Marking attr:progressBarStyle:2130968814 used because it matches string pool constant pro
 Marking id:progress_circular:2131361975 used because it matches string pool constant pro
 Marking id:progress_horizontal:2131361976 used because it matches string pool constant pro
+Marking string:project_id:2131755263 used because it matches string pool constant pro
 Marking string:artists_count:2131755045 used because it matches string pool constant artist
 Marking id:group_divider:2131361940 used because it matches string pool constant group
 Marking attr:paddingBottomNoButtons:2130968794 used because it matches string pool constant padding
@@ -9607,21 +9623,21 @@ Marking attr:route:2130968827 used because it matches string pool constant route
 Marking attr:alpha:2130968620 used because it matches string pool constant alpha
 Marking attr:alpha:2130968620 used because it matches string pool constant alpha
 Marking attr:alphabeticModifiers:2130968621 used because it matches string pool constant alpha
-Marking string:tracks_count:2131755353 used because it matches string pool constant tracks
+Marking string:tracks_count:2131755363 used because it matches string pool constant tracks
 Marking xml:file_paths:2131951616 used because it matches string pool constant file
-Marking string:selected:2131755284 used because it matches string pool constant selected
-Marking string:selected:2131755284 used because it matches string pool constant selected
-Marking string:sort_album:2131755311 used because it matches string pool constant sort
-Marking string:sort_artist:2131755312 used because it matches string pool constant sort
-Marking string:sort_asc:2131755313 used because it matches string pool constant sort
-Marking string:sort_date_added:2131755314 used because it matches string pool constant sort
-Marking string:sort_desc:2131755315 used because it matches string pool constant sort
-Marking string:sort_duration:2131755316 used because it matches string pool constant sort
-Marking string:sort_folder:2131755317 used because it matches string pool constant sort
-Marking string:sort_play_count:2131755318 used because it matches string pool constant sort
-Marking string:sort_song_title:2131755319 used because it matches string pool constant sort
-Marking string:sort_title:2131755320 used because it matches string pool constant sort
-Marking string:sort_year:2131755321 used because it matches string pool constant sort
+Marking string:selected:2131755293 used because it matches string pool constant selected
+Marking string:selected:2131755293 used because it matches string pool constant selected
+Marking string:sort_album:2131755321 used because it matches string pool constant sort
+Marking string:sort_artist:2131755322 used because it matches string pool constant sort
+Marking string:sort_asc:2131755323 used because it matches string pool constant sort
+Marking string:sort_date_added:2131755324 used because it matches string pool constant sort
+Marking string:sort_desc:2131755325 used because it matches string pool constant sort
+Marking string:sort_duration:2131755326 used because it matches string pool constant sort
+Marking string:sort_folder:2131755327 used because it matches string pool constant sort
+Marking string:sort_play_count:2131755328 used because it matches string pool constant sort
+Marking string:sort_song_title:2131755329 used because it matches string pool constant sort
+Marking string:sort_title:2131755330 used because it matches string pool constant sort
+Marking string:sort_year:2131755331 used because it matches string pool constant sort
 Marking id:fill:2131361934 used because it matches string pool constant fill
 Marking id:fill:2131361934 used because it matches string pool constant fill
 Marking string:delete:2131755082 used because it matches string pool constant delete
@@ -9629,7 +9645,7 @@ Marking string:delete:2131755082 used because it matches string pool constant de
 Marking attr:queryBackground:2130968815 used because it matches string pool constant que
 Marking attr:queryHint:2130968816 used because it matches string pool constant que
 Marking attr:queryPatterns:2130968817 used because it matches string pool constant que
-Marking string:queue:2131755255 used because it matches string pool constant que
+Marking string:queue:2131755264 used because it matches string pool constant que
 Marking attr:spanCount:2130968855 used because it matches string pool constant span
 Marking id:bottom:2131361859 used because it matches string pool constant bottom
 Marking id:bottom:2131361859 used because it matches string pool constant bottom
@@ -9637,8 +9653,8 @@ Marking attr:track:2130968916 used because it matches string pool constant track
 Marking attr:track:2130968916 used because it matches string pool constant track
 Marking attr:trackTint:2130968917 used because it matches string pool constant track
 Marking attr:trackTintMode:2130968918 used because it matches string pool constant track
-Marking string:track_info:2131755352 used because it matches string pool constant track
-Marking string:tracks_count:2131755353 used because it matches string pool constant track
+Marking string:track_info:2131755362 used because it matches string pool constant track
+Marking string:tracks_count:2131755363 used because it matches string pool constant track
 Marking color:accent_material_dark:2131099673 used because it matches string pool constant acc
 Marking color:accent_material_light:2131099674 used because it matches string pool constant acc
 Marking id:accessibility_action_clickable_span:2131361798 used because it matches string pool constant acc
@@ -9758,8 +9774,8 @@ Marking id:all:2131361853 used because it matches string pool constant all
 Marking attr:allowStacking:2130968619 used because it matches string pool constant all
 Marking id:all:2131361853 used because it matches string pool constant all
 Marking id:video_decoder_gl_surface_view:2131362040 used because it matches string pool constant vide
-Marking string:video_player:2131755359 used because it matches string pool constant vide
-Marking string:videos_count:2131755360 used because it matches string pool constant vide
+Marking string:video_player:2131755369 used because it matches string pool constant vide
+Marking string:videos_count:2131755370 used because it matches string pool constant vide
 Marking attr:artwork_display_mode:2130968626 used because it matches string pool constant art
 Marking string:artists_count:2131755045 used because it matches string pool constant art
 Marking color:call_notification_answer_color:2131099689 used because it matches string pool constant call
@@ -9787,11 +9803,11 @@ Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165320 used becaus
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131165321 used because it matches string pool constant item
 Marking id:item_touch_helper_previous_elevation:2131361953 used because it matches string pool constant item
 Marking attr:displayOptions:2130968696 used because it matches string pool constant display
-Marking string:transfer_no_music:2131755354 used because it matches string pool constant transfer
-Marking string:transfer_scan_first:2131755355 used because it matches string pool constant transfer
-Marking string:transfer_selected:2131755356 used because it matches string pool constant transfer
-Marking string:transfer_share:2131755357 used because it matches string pool constant transfer
-Marking string:transfer_title:2131755358 used because it matches string pool constant transfer
+Marking string:transfer_no_music:2131755364 used because it matches string pool constant transfer
+Marking string:transfer_scan_first:2131755365 used because it matches string pool constant transfer
+Marking string:transfer_selected:2131755366 used because it matches string pool constant transfer
+Marking string:transfer_share:2131755367 used because it matches string pool constant transfer
+Marking string:transfer_title:2131755368 used because it matches string pool constant transfer
 Marking string:albums_count:2131755042 used because it matches string pool constant album
 Marking attr:scrubber_color:2130968828 used because it matches string pool constant scr
 Marking attr:scrubber_disabled_size:2130968829 used because it matches string pool constant scr
@@ -9816,30 +9832,30 @@ Marking id:select_dialog_listview:2131361995 used because it matches string pool
 Marking layout:select_dialog_item_material:2131558456 used because it matches string pool constant sel
 Marking layout:select_dialog_multichoice_material:2131558457 used because it matches string pool constant sel
 Marking layout:select_dialog_singlechoice_material:2131558458 used because it matches string pool constant sel
-Marking string:selected:2131755284 used because it matches string pool constant sel
-Marking string:settings_backup:2131755285 used because it matches string pool constant set
-Marking string:settings_backup_desc:2131755286 used because it matches string pool constant set
-Marking string:settings_crossfade:2131755287 used because it matches string pool constant set
-Marking string:settings_crossfade_desc:2131755288 used because it matches string pool constant set
-Marking string:settings_equalizer:2131755289 used because it matches string pool constant set
-Marking string:settings_faq:2131755290 used because it matches string pool constant set
-Marking string:settings_feedback:2131755291 used because it matches string pool constant set
-Marking string:settings_gapless:2131755292 used because it matches string pool constant set
-Marking string:settings_gapless_desc:2131755293 used because it matches string pool constant set
-Marking string:settings_language:2131755294 used because it matches string pool constant set
-Marking string:settings_language_system:2131755295 used because it matches string pool constant set
-Marking string:settings_pause_disconnect:2131755296 used because it matches string pool constant set
-Marking string:settings_pause_disconnect_desc:2131755297 used because it matches string pool constant set
-Marking string:settings_rate:2131755298 used because it matches string pool constant set
-Marking string:settings_scan_music:2131755299 used because it matches string pool constant set
-Marking string:settings_sleep_timer:2131755300 used because it matches string pool constant set
-Marking string:settings_subscription:2131755301 used because it matches string pool constant set
-Marking string:settings_theme:2131755302 used because it matches string pool constant set
-Marking string:settings_theme_desc:2131755303 used because it matches string pool constant set
-Marking string:settings_transfer:2131755304 used because it matches string pool constant set
-Marking string:settings_transfer_desc:2131755305 used because it matches string pool constant set
-Marking string:settings_widget:2131755306 used because it matches string pool constant set
-Marking string:settings_widget_desc:2131755307 used because it matches string pool constant set
+Marking string:selected:2131755293 used because it matches string pool constant sel
+Marking string:settings_backup:2131755294 used because it matches string pool constant set
+Marking string:settings_backup_desc:2131755295 used because it matches string pool constant set
+Marking string:settings_crossfade:2131755296 used because it matches string pool constant set
+Marking string:settings_crossfade_desc:2131755297 used because it matches string pool constant set
+Marking string:settings_equalizer:2131755298 used because it matches string pool constant set
+Marking string:settings_faq:2131755299 used because it matches string pool constant set
+Marking string:settings_feedback:2131755300 used because it matches string pool constant set
+Marking string:settings_gapless:2131755301 used because it matches string pool constant set
+Marking string:settings_gapless_desc:2131755302 used because it matches string pool constant set
+Marking string:settings_language:2131755303 used because it matches string pool constant set
+Marking string:settings_language_system:2131755304 used because it matches string pool constant set
+Marking string:settings_pause_disconnect:2131755305 used because it matches string pool constant set
+Marking string:settings_pause_disconnect_desc:2131755306 used because it matches string pool constant set
+Marking string:settings_rate:2131755307 used because it matches string pool constant set
+Marking string:settings_scan_music:2131755308 used because it matches string pool constant set
+Marking string:settings_sleep_timer:2131755309 used because it matches string pool constant set
+Marking string:settings_subscription:2131755310 used because it matches string pool constant set
+Marking string:settings_theme:2131755311 used because it matches string pool constant set
+Marking string:settings_theme_desc:2131755312 used because it matches string pool constant set
+Marking string:settings_transfer:2131755313 used because it matches string pool constant set
+Marking string:settings_transfer_desc:2131755314 used because it matches string pool constant set
+Marking string:settings_widget:2131755315 used because it matches string pool constant set
+Marking string:settings_widget_desc:2131755316 used because it matches string pool constant set
 Marking attr:shortcutMatchRequired:2130968839 used because it matches string pool constant sho
 Marking attr:showAsAction:2130968840 used because it matches string pool constant sho
 Marking attr:showDividers:2130968841 used because it matches string pool constant sho
@@ -9866,7 +9882,7 @@ Marking id:select_dialog_listview:2131361995 used because it matches string pool
 Marking layout:select_dialog_item_material:2131558456 used because it matches string pool constant select
 Marking layout:select_dialog_multichoice_material:2131558457 used because it matches string pool constant select
 Marking layout:select_dialog_singlechoice_material:2131558458 used because it matches string pool constant select
-Marking string:selected:2131755284 used because it matches string pool constant select
+Marking string:selected:2131755293 used because it matches string pool constant select
 Marking id:beginning:2131361857 used because it matches string pool constant begin
 Marking attr:spanCount:2130968855 used because it matches string pool constant spa
 Marking id:spacer:2131362000 used because it matches string pool constant spa
@@ -9879,8 +9895,8 @@ Marking animator:fragment_fade_exit:2130837507 used because it matches string po
 Marking animator:fragment_open_enter:2130837508 used because it matches string pool constant fragment_
 Marking animator:fragment_open_exit:2130837509 used because it matches string pool constant fragment_
 Marking id:fragment_container_view_tag:2131361939 used because it matches string pool constant fragment_
-Marking string:range_end:2131755256 used because it matches string pool constant range
-Marking string:range_start:2131755257 used because it matches string pool constant range
+Marking string:range_end:2131755265 used because it matches string pool constant range
+Marking string:range_start:2131755266 used because it matches string pool constant range
 Marking id:tag_accessibility_actions:2131362012 used because it matches string pool constant tag
 Marking id:tag_accessibility_clickable_spans:2131362013 used because it matches string pool constant tag
 Marking id:tag_accessibility_heading:2131362014 used because it matches string pool constant tag
@@ -10821,6 +10837,7 @@ Marking id:fragment_container_view_tag:2131361939 used because it matches string
     @anim/btn_radio_to_off_mtrl_ring_outer_animation
     @anim/btn_radio_to_off_mtrl_ring_outer_path_animation
     @anim/btn_radio_to_off_mtrl_dot_group_animation
+@drawable/default_cover : reachable=true
 @drawable/exo_edit_mode_logo : reachable=false
 @drawable/exo_ic_audiotrack : reachable=false
 @drawable/exo_ic_check : reachable=false
@@ -11722,8 +11739,14 @@ Marking id:fragment_container_view_tag:2131361939 used because it matches string
 @string/favorite : reachable=true
 @string/favorites : reachable=true
 @string/feedback : reachable=false
+@string/find_music_desc : reachable=true
 @string/folders_count : reachable=true
 @string/for_you : reachable=true
+@string/gcm_defaultSenderId : reachable=false
+@string/google_api_key : reachable=false
+@string/google_app_id : reachable=false
+@string/google_crash_reporting_api_key : reachable=false
+@string/google_storage_bucket : reachable=false
 @string/hidden_folders : reachable=true
 @string/import_playlist : reachable=true
 @string/in_progress : reachable=true
@@ -11823,9 +11846,12 @@ Marking id:fragment_container_view_tag:2131361939 used because it matches string
 @string/pick_a_song : reachable=true
 @string/play : reachable=true
 @string/play_all : reachable=true
+@string/play_all_songs_desc : reachable=true
+@string/play_favorites_desc : reachable=true
 @string/playlist_name : reachable=true
 @string/previous : reachable=false
 @string/privacy_policy : reachable=false
+@string/project_id : reachable=true
 @string/queue : reachable=true
 @string/range_end : reachable=true
 @string/range_start : reachable=true
@@ -11881,6 +11907,7 @@ Marking id:fragment_container_view_tag:2131361939 used because it matches string
 @string/settings_widget_desc : reachable=true
 @string/shuffle : reachable=true
 @string/shuffle_all : reachable=false
+@string/shuffle_all_songs_desc : reachable=true
 @string/sleep_timer : reachable=true
 @string/sort_album : reachable=true
 @string/sort_artist : reachable=true
@@ -13494,6 +13521,7 @@ Marking id:fragment_container_view_tag:2131361939 used because it matches string
     @dimen/notification_action_text_size
     @color/androidx_core_secondary_text_default_material_light
 @xml/file_paths : reachable=true
+@xml/locales_config : reachable=true
 @xml/music_widget_4x1 : reachable=true
     @layout/widget_music_compact
 @xml/music_widget_4x2 : reachable=true
@@ -13883,32 +13911,33 @@ The root reachable resources are:
  drawable:abc_textfield_search_default_mtrl_alpha:2131230796
  drawable:abc_textfield_search_material:2131230797
  drawable:abc_vector_test:2131230798
- drawable:ic_launcher_foreground:2131230892
- drawable:media3_icon_circular_play:2131230893
- drawable:media3_notification_pause:2131230894
- drawable:media3_notification_play:2131230895
- drawable:media3_notification_seek_back:2131230896
- drawable:media3_notification_seek_forward:2131230897
- drawable:media3_notification_seek_to_next:2131230898
- drawable:media3_notification_seek_to_previous:2131230899
- drawable:media3_notification_small_icon:2131230900
- drawable:media_session_service_notification_ic_music_note:2131230901
- drawable:notification_action_background:2131230902
- drawable:notification_bg:2131230903
- drawable:notification_bg_low:2131230904
- drawable:notification_bg_low_normal:2131230905
- drawable:notification_bg_low_pressed:2131230906
- drawable:notification_bg_normal:2131230907
- drawable:notification_bg_normal_pressed:2131230908
- drawable:notification_icon_background:2131230909
- drawable:notification_oversize_large_icon_bg:2131230910
- drawable:notification_template_icon_bg:2131230911
- drawable:notification_template_icon_low_bg:2131230912
- drawable:notification_tile_bg:2131230913
- drawable:notify_panel_notification_icon_bg:2131230914
- drawable:test_level_drawable:2131230915
- drawable:tooltip_frame_dark:2131230916
- drawable:tooltip_frame_light:2131230917
+ drawable:default_cover:2131230807
+ drawable:ic_launcher_foreground:2131230893
+ drawable:media3_icon_circular_play:2131230894
+ drawable:media3_notification_pause:2131230895
+ drawable:media3_notification_play:2131230896
+ drawable:media3_notification_seek_back:2131230897
+ drawable:media3_notification_seek_forward:2131230898
+ drawable:media3_notification_seek_to_next:2131230899
+ drawable:media3_notification_seek_to_previous:2131230900
+ drawable:media3_notification_small_icon:2131230901
+ drawable:media_session_service_notification_ic_music_note:2131230902
+ drawable:notification_action_background:2131230903
+ drawable:notification_bg:2131230904
+ drawable:notification_bg_low:2131230905
+ drawable:notification_bg_low_normal:2131230906
+ drawable:notification_bg_low_pressed:2131230907
+ drawable:notification_bg_normal:2131230908
+ drawable:notification_bg_normal_pressed:2131230909
+ drawable:notification_icon_background:2131230910
+ drawable:notification_oversize_large_icon_bg:2131230911
+ drawable:notification_template_icon_bg:2131230912
+ drawable:notification_template_icon_low_bg:2131230913
+ drawable:notification_tile_bg:2131230914
+ drawable:notify_panel_notification_icon_bg:2131230915
+ drawable:test_level_drawable:2131230916
+ drawable:tooltip_frame_dark:2131230917
+ drawable:tooltip_frame_light:2131230918
  font:roboto_medium_numbers:2131296256
  id:ALT:2131361792
  id:META:2131361795
@@ -14203,153 +14232,158 @@ The root reachable resources are:
  string:exo_track_unknown_name:2131755147
  string:favorite:2131755148
  string:favorites:2131755149
- string:folders_count:2131755151
- string:for_you:2131755152
- string:hidden_folders:2131755153
- string:import_playlist:2131755154
- string:in_progress:2131755155
- string:indeterminate:2131755156
- string:loading_lyrics:2131755157
- string:lyrics:2131755158
- string:m3c_bottom_sheet_collapse_description:2131755159
- string:m3c_bottom_sheet_dismiss_description:2131755160
- string:m3c_bottom_sheet_drag_handle_description:2131755161
- string:m3c_bottom_sheet_expand_description:2131755162
- string:m3c_bottom_sheet_pane_title:2131755163
- string:m3c_dialog:2131755195
- string:m3c_dropdown_menu_collapsed:2131755196
- string:m3c_dropdown_menu_expanded:2131755197
- string:m3c_search_bar_search:2131755198
- string:m3c_suggestions_available:2131755200
- string:media3_controls_pause_description:2131755215
- string:media3_controls_play_description:2131755216
- string:media3_controls_seek_back_description:2131755217
- string:media3_controls_seek_forward_description:2131755218
- string:media3_controls_seek_to_next_description:2131755219
- string:media3_controls_seek_to_previous_description:2131755220
- string:most_played:2131755221
- string:my_playlists:2131755222
- string:nav_library:2131755223
- string:nav_search:2131755224
- string:nav_settings:2131755225
- string:nav_video:2131755226
- string:navigation_menu:2131755227
- string:new_playlist:2131755228
- string:next:2131755229
- string:no_albums:2131755230
- string:no_artists:2131755231
- string:no_folders:2131755232
- string:no_genres:2131755233
- string:no_lyrics:2131755234
- string:no_playlists_yet:2131755235
- string:no_tracks:2131755236
- string:no_videos:2131755237
- string:not_playing:2131755238
- string:not_selected:2131755239
- string:now_playing:2131755240
- string:off:2131755241
- string:on:2131755243
- string:pause:2131755244
- string:permission_desc:2131755245
- string:permission_grant:2131755246
- string:permission_settings:2131755247
- string:permission_title:2131755248
- string:pick_a_song:2131755249
- string:play:2131755250
- string:play_all:2131755251
- string:playlist_name:2131755252
- string:queue:2131755255
- string:range_end:2131755256
- string:range_start:2131755257
- string:recently_added:2131755258
- string:recently_played:2131755259
- string:restore_playlist:2131755261
- string:scan_button:2131755262
- string:scan_folder_hint:2131755263
- string:scan_min_duration:2131755264
- string:scan_min_size:2131755265
- string:scan_music:2131755266
- string:scan_no_limit:2131755267
- string:scan_scanning:2131755268
- string:scan_sec:2131755269
- string:scan_select_folder:2131755270
- string:scan_title:2131755271
- string:scan_tracks_found:2131755272
- string:scan_videos:2131755273
- string:search_from_library:2131755274
- string:search_menu_title:2131755275
- string:search_no_results:2131755276
- string:search_placeholder:2131755277
- string:search_results_count:2131755278
- string:search_tips:2131755279
- string:search_youtube_placeholder:2131755280
- string:section_general:2131755281
- string:section_help:2131755282
- string:section_music:2131755283
- string:selected:2131755284
- string:settings_backup:2131755285
- string:settings_backup_desc:2131755286
- string:settings_crossfade:2131755287
- string:settings_crossfade_desc:2131755288
- string:settings_equalizer:2131755289
- string:settings_faq:2131755290
- string:settings_feedback:2131755291
- string:settings_gapless:2131755292
- string:settings_gapless_desc:2131755293
- string:settings_language:2131755294
- string:settings_language_system:2131755295
- string:settings_pause_disconnect:2131755296
- string:settings_pause_disconnect_desc:2131755297
- string:settings_rate:2131755298
- string:settings_scan_music:2131755299
- string:settings_sleep_timer:2131755300
- string:settings_subscription:2131755301
- string:settings_theme:2131755302
- string:settings_theme_desc:2131755303
- string:settings_transfer:2131755304
- string:settings_transfer_desc:2131755305
- string:settings_widget:2131755306
- string:settings_widget_desc:2131755307
- string:shuffle:2131755308
- string:sleep_timer:2131755310
- string:sort_album:2131755311
- string:sort_artist:2131755312
- string:sort_asc:2131755313
- string:sort_date_added:2131755314
- string:sort_desc:2131755315
- string:sort_duration:2131755316
- string:sort_folder:2131755317
- string:sort_play_count:2131755318
- string:sort_song_title:2131755319
- string:sort_title:2131755320
- string:sort_year:2131755321
- string:switch_role:2131755334
- string:tab:2131755335
- string:tab_albums:2131755336
- string:tab_artists:2131755337
- string:tab_folders:2131755338
- string:tab_genres:2131755339
- string:tab_home:2131755340
- string:tab_playlists:2131755341
- string:tab_tracks:2131755342
- string:template_percent:2131755343
- string:terms_of_service:2131755344
- string:toast_added_to_playlist:2131755345
- string:toast_playlist_created:2131755346
- string:toast_playlist_deleted:2131755347
- string:toast_removed_from_playlist:2131755348
- string:toast_song_removed:2131755349
- string:tooltip_description:2131755350
- string:tooltip_label:2131755351
- string:track_info:2131755352
- string:tracks_count:2131755353
- string:transfer_no_music:2131755354
- string:transfer_scan_first:2131755355
- string:transfer_selected:2131755356
- string:transfer_share:2131755357
- string:transfer_title:2131755358
- string:video_player:2131755359
- string:videos_count:2131755360
+ string:find_music_desc:2131755151
+ string:folders_count:2131755152
+ string:for_you:2131755153
+ string:hidden_folders:2131755159
+ string:import_playlist:2131755160
+ string:in_progress:2131755161
+ string:indeterminate:2131755162
+ string:loading_lyrics:2131755163
+ string:lyrics:2131755164
+ string:m3c_bottom_sheet_collapse_description:2131755165
+ string:m3c_bottom_sheet_dismiss_description:2131755166
+ string:m3c_bottom_sheet_drag_handle_description:2131755167
+ string:m3c_bottom_sheet_expand_description:2131755168
+ string:m3c_bottom_sheet_pane_title:2131755169
+ string:m3c_dialog:2131755201
+ string:m3c_dropdown_menu_collapsed:2131755202
+ string:m3c_dropdown_menu_expanded:2131755203
+ string:m3c_search_bar_search:2131755204
+ string:m3c_suggestions_available:2131755206
+ string:media3_controls_pause_description:2131755221
+ string:media3_controls_play_description:2131755222
+ string:media3_controls_seek_back_description:2131755223
+ string:media3_controls_seek_forward_description:2131755224
+ string:media3_controls_seek_to_next_description:2131755225
+ string:media3_controls_seek_to_previous_description:2131755226
+ string:most_played:2131755227
+ string:my_playlists:2131755228
+ string:nav_library:2131755229
+ string:nav_search:2131755230
+ string:nav_settings:2131755231
+ string:nav_video:2131755232
+ string:navigation_menu:2131755233
+ string:new_playlist:2131755234
+ string:next:2131755235
+ string:no_albums:2131755236
+ string:no_artists:2131755237
+ string:no_folders:2131755238
+ string:no_genres:2131755239
+ string:no_lyrics:2131755240
+ string:no_playlists_yet:2131755241
+ string:no_tracks:2131755242
+ string:no_videos:2131755243
+ string:not_playing:2131755244
+ string:not_selected:2131755245
+ string:now_playing:2131755246
+ string:off:2131755247
+ string:on:2131755249
+ string:pause:2131755250
+ string:permission_desc:2131755251
+ string:permission_grant:2131755252
+ string:permission_settings:2131755253
+ string:permission_title:2131755254
+ string:pick_a_song:2131755255
+ string:play:2131755256
+ string:play_all:2131755257
+ string:play_all_songs_desc:2131755258
+ string:play_favorites_desc:2131755259
+ string:playlist_name:2131755260
+ string:project_id:2131755263
+ string:queue:2131755264
+ string:range_end:2131755265
+ string:range_start:2131755266
+ string:recently_added:2131755267
+ string:recently_played:2131755268
+ string:restore_playlist:2131755270
+ string:scan_button:2131755271
+ string:scan_folder_hint:2131755272
+ string:scan_min_duration:2131755273
+ string:scan_min_size:2131755274
+ string:scan_music:2131755275
+ string:scan_no_limit:2131755276
+ string:scan_scanning:2131755277
+ string:scan_sec:2131755278
+ string:scan_select_folder:2131755279
+ string:scan_title:2131755280
+ string:scan_tracks_found:2131755281
+ string:scan_videos:2131755282
+ string:search_from_library:2131755283
+ string:search_menu_title:2131755284
+ string:search_no_results:2131755285
+ string:search_placeholder:2131755286
+ string:search_results_count:2131755287
+ string:search_tips:2131755288
+ string:search_youtube_placeholder:2131755289
+ string:section_general:2131755290
+ string:section_help:2131755291
+ string:section_music:2131755292
+ string:selected:2131755293
+ string:settings_backup:2131755294
+ string:settings_backup_desc:2131755295
+ string:settings_crossfade:2131755296
+ string:settings_crossfade_desc:2131755297
+ string:settings_equalizer:2131755298
+ string:settings_faq:2131755299
+ string:settings_feedback:2131755300
+ string:settings_gapless:2131755301
+ string:settings_gapless_desc:2131755302
+ string:settings_language:2131755303
+ string:settings_language_system:2131755304
+ string:settings_pause_disconnect:2131755305
+ string:settings_pause_disconnect_desc:2131755306
+ string:settings_rate:2131755307
+ string:settings_scan_music:2131755308
+ string:settings_sleep_timer:2131755309
+ string:settings_subscription:2131755310
+ string:settings_theme:2131755311
+ string:settings_theme_desc:2131755312
+ string:settings_transfer:2131755313
+ string:settings_transfer_desc:2131755314
+ string:settings_widget:2131755315
+ string:settings_widget_desc:2131755316
+ string:shuffle:2131755317
+ string:shuffle_all_songs_desc:2131755319
+ string:sleep_timer:2131755320
+ string:sort_album:2131755321
+ string:sort_artist:2131755322
+ string:sort_asc:2131755323
+ string:sort_date_added:2131755324
+ string:sort_desc:2131755325
+ string:sort_duration:2131755326
+ string:sort_folder:2131755327
+ string:sort_play_count:2131755328
+ string:sort_song_title:2131755329
+ string:sort_title:2131755330
+ string:sort_year:2131755331
+ string:switch_role:2131755344
+ string:tab:2131755345
+ string:tab_albums:2131755346
+ string:tab_artists:2131755347
+ string:tab_folders:2131755348
+ string:tab_genres:2131755349
+ string:tab_home:2131755350
+ string:tab_playlists:2131755351
+ string:tab_tracks:2131755352
+ string:template_percent:2131755353
+ string:terms_of_service:2131755354
+ string:toast_added_to_playlist:2131755355
+ string:toast_playlist_created:2131755356
+ string:toast_playlist_deleted:2131755357
+ string:toast_removed_from_playlist:2131755358
+ string:toast_song_removed:2131755359
+ string:tooltip_description:2131755360
+ string:tooltip_label:2131755361
+ string:track_info:2131755362
+ string:tracks_count:2131755363
+ string:transfer_no_music:2131755364
+ string:transfer_scan_first:2131755365
+ string:transfer_selected:2131755366
+ string:transfer_share:2131755367
+ string:transfer_title:2131755368
+ string:video_player:2131755369
+ string:videos_count:2131755370
  style:DialogWindowTheme:2131820705
  style:RtlOverlay_DialogWindowTitle_AppCompat:2131820750
  style:RtlOverlay_Widget_AppCompat_ActionBar_TitleItem:2131820751
@@ -14434,8 +14468,9 @@ The root reachable resources are:
  style:Theme_AppCompat_Light:2131820842
  style:Theme_MusicPlayer:2131820850
  xml:file_paths:2131951616
- xml:music_widget_4x1:2131951617
- xml:music_widget_4x2:2131951618
+ xml:locales_config:2131951617
+ xml:music_widget_4x1:2131951618
+ xml:music_widget_4x2:2131951619
 Unused resources are: 
  anim:abc_fade_in:2130771968
  anim:abc_fade_out:2130771969
@@ -14556,92 +14591,92 @@ Unused resources are:
  dimen:exo_styled_progress_margin_bottom:2131165307
  dimen:exo_styled_progress_touch_target_height:2131165308
  drawable:abc_ic_menu_overflow_material:2131230748
- drawable:exo_edit_mode_logo:2131230807
- drawable:exo_ic_audiotrack:2131230808
- drawable:exo_ic_check:2131230809
- drawable:exo_ic_chevron_left:2131230810
- drawable:exo_ic_chevron_right:2131230811
- drawable:exo_ic_default_album_image:2131230812
- drawable:exo_ic_forward:2131230813
- drawable:exo_ic_fullscreen_enter:2131230814
- drawable:exo_ic_fullscreen_exit:2131230815
- drawable:exo_ic_pause_circle_filled:2131230816
- drawable:exo_ic_play_circle_filled:2131230817
- drawable:exo_ic_rewind:2131230818
- drawable:exo_ic_settings:2131230819
- drawable:exo_ic_skip_next:2131230820
- drawable:exo_ic_skip_previous:2131230821
- drawable:exo_ic_speed:2131230822
- drawable:exo_ic_subtitle_off:2131230823
- drawable:exo_ic_subtitle_on:2131230824
- drawable:exo_icon_circular_play:2131230825
- drawable:exo_icon_fastforward:2131230826
- drawable:exo_icon_fullscreen_enter:2131230827
- drawable:exo_icon_fullscreen_exit:2131230828
- drawable:exo_icon_next:2131230829
- drawable:exo_icon_pause:2131230830
- drawable:exo_icon_play:2131230831
- drawable:exo_icon_previous:2131230832
- drawable:exo_icon_repeat_all:2131230833
- drawable:exo_icon_repeat_off:2131230834
- drawable:exo_icon_repeat_one:2131230835
- drawable:exo_icon_rewind:2131230836
- drawable:exo_icon_shuffle_off:2131230837
- drawable:exo_icon_shuffle_on:2131230838
- drawable:exo_icon_stop:2131230839
- drawable:exo_icon_vr:2131230840
- drawable:exo_legacy_controls_fastforward:2131230841
- drawable:exo_legacy_controls_fullscreen_enter:2131230842
- drawable:exo_legacy_controls_fullscreen_exit:2131230843
- drawable:exo_legacy_controls_next:2131230844
- drawable:exo_legacy_controls_pause:2131230845
- drawable:exo_legacy_controls_play:2131230846
- drawable:exo_legacy_controls_previous:2131230847
- drawable:exo_legacy_controls_repeat_all:2131230848
- drawable:exo_legacy_controls_repeat_off:2131230849
- drawable:exo_legacy_controls_repeat_one:2131230850
- drawable:exo_legacy_controls_rewind:2131230851
- drawable:exo_legacy_controls_shuffle_off:2131230852
- drawable:exo_legacy_controls_shuffle_on:2131230853
- drawable:exo_legacy_controls_vr:2131230854
- drawable:exo_notification_fastforward:2131230855
- drawable:exo_notification_next:2131230856
- drawable:exo_notification_pause:2131230857
- drawable:exo_notification_play:2131230858
- drawable:exo_notification_previous:2131230859
- drawable:exo_notification_rewind:2131230860
- drawable:exo_notification_small_icon:2131230861
- drawable:exo_notification_stop:2131230862
- drawable:exo_rounded_rectangle:2131230863
- drawable:exo_styled_controls_audiotrack:2131230864
- drawable:exo_styled_controls_check:2131230865
- drawable:exo_styled_controls_fastforward:2131230866
- drawable:exo_styled_controls_fullscreen_enter:2131230867
- drawable:exo_styled_controls_fullscreen_exit:2131230868
- drawable:exo_styled_controls_next:2131230869
- drawable:exo_styled_controls_overflow_hide:2131230870
- drawable:exo_styled_controls_overflow_show:2131230871
- drawable:exo_styled_controls_pause:2131230872
- drawable:exo_styled_controls_play:2131230873
- drawable:exo_styled_controls_previous:2131230874
- drawable:exo_styled_controls_repeat_all:2131230875
- drawable:exo_styled_controls_repeat_off:2131230876
- drawable:exo_styled_controls_repeat_one:2131230877
- drawable:exo_styled_controls_rewind:2131230878
- drawable:exo_styled_controls_settings:2131230879
- drawable:exo_styled_controls_shuffle_off:2131230880
- drawable:exo_styled_controls_shuffle_on:2131230881
- drawable:exo_styled_controls_speed:2131230882
- drawable:exo_styled_controls_subtitle_off:2131230883
- drawable:exo_styled_controls_subtitle_on:2131230884
- drawable:exo_styled_controls_vr:2131230885
- drawable:ic_call_answer:2131230886
- drawable:ic_call_answer_low:2131230887
- drawable:ic_call_answer_video:2131230888
- drawable:ic_call_answer_video_low:2131230889
- drawable:ic_call_decline:2131230890
- drawable:ic_call_decline_low:2131230891
- drawable:widget_cover_bg:2131230920
+ drawable:exo_edit_mode_logo:2131230808
+ drawable:exo_ic_audiotrack:2131230809
+ drawable:exo_ic_check:2131230810
+ drawable:exo_ic_chevron_left:2131230811
+ drawable:exo_ic_chevron_right:2131230812
+ drawable:exo_ic_default_album_image:2131230813
+ drawable:exo_ic_forward:2131230814
+ drawable:exo_ic_fullscreen_enter:2131230815
+ drawable:exo_ic_fullscreen_exit:2131230816
+ drawable:exo_ic_pause_circle_filled:2131230817
+ drawable:exo_ic_play_circle_filled:2131230818
+ drawable:exo_ic_rewind:2131230819
+ drawable:exo_ic_settings:2131230820
+ drawable:exo_ic_skip_next:2131230821
+ drawable:exo_ic_skip_previous:2131230822
+ drawable:exo_ic_speed:2131230823
+ drawable:exo_ic_subtitle_off:2131230824
+ drawable:exo_ic_subtitle_on:2131230825
+ drawable:exo_icon_circular_play:2131230826
+ drawable:exo_icon_fastforward:2131230827
+ drawable:exo_icon_fullscreen_enter:2131230828
+ drawable:exo_icon_fullscreen_exit:2131230829
+ drawable:exo_icon_next:2131230830
+ drawable:exo_icon_pause:2131230831
+ drawable:exo_icon_play:2131230832
+ drawable:exo_icon_previous:2131230833
+ drawable:exo_icon_repeat_all:2131230834
+ drawable:exo_icon_repeat_off:2131230835
+ drawable:exo_icon_repeat_one:2131230836
+ drawable:exo_icon_rewind:2131230837
+ drawable:exo_icon_shuffle_off:2131230838
+ drawable:exo_icon_shuffle_on:2131230839
+ drawable:exo_icon_stop:2131230840
+ drawable:exo_icon_vr:2131230841
+ drawable:exo_legacy_controls_fastforward:2131230842
+ drawable:exo_legacy_controls_fullscreen_enter:2131230843
+ drawable:exo_legacy_controls_fullscreen_exit:2131230844
+ drawable:exo_legacy_controls_next:2131230845
+ drawable:exo_legacy_controls_pause:2131230846
+ drawable:exo_legacy_controls_play:2131230847
+ drawable:exo_legacy_controls_previous:2131230848
+ drawable:exo_legacy_controls_repeat_all:2131230849
+ drawable:exo_legacy_controls_repeat_off:2131230850
+ drawable:exo_legacy_controls_repeat_one:2131230851
+ drawable:exo_legacy_controls_rewind:2131230852
+ drawable:exo_legacy_controls_shuffle_off:2131230853
+ drawable:exo_legacy_controls_shuffle_on:2131230854
+ drawable:exo_legacy_controls_vr:2131230855
+ drawable:exo_notification_fastforward:2131230856
+ drawable:exo_notification_next:2131230857
+ drawable:exo_notification_pause:2131230858
+ drawable:exo_notification_play:2131230859
+ drawable:exo_notification_previous:2131230860
+ drawable:exo_notification_rewind:2131230861
+ drawable:exo_notification_small_icon:2131230862
+ drawable:exo_notification_stop:2131230863
+ drawable:exo_rounded_rectangle:2131230864
+ drawable:exo_styled_controls_audiotrack:2131230865
+ drawable:exo_styled_controls_check:2131230866
+ drawable:exo_styled_controls_fastforward:2131230867
+ drawable:exo_styled_controls_fullscreen_enter:2131230868
+ drawable:exo_styled_controls_fullscreen_exit:2131230869
+ drawable:exo_styled_controls_next:2131230870
+ drawable:exo_styled_controls_overflow_hide:2131230871
+ drawable:exo_styled_controls_overflow_show:2131230872
+ drawable:exo_styled_controls_pause:2131230873
+ drawable:exo_styled_controls_play:2131230874
+ drawable:exo_styled_controls_previous:2131230875
+ drawable:exo_styled_controls_repeat_all:2131230876
+ drawable:exo_styled_controls_repeat_off:2131230877
+ drawable:exo_styled_controls_repeat_one:2131230878
+ drawable:exo_styled_controls_rewind:2131230879
+ drawable:exo_styled_controls_settings:2131230880
+ drawable:exo_styled_controls_shuffle_off:2131230881
+ drawable:exo_styled_controls_shuffle_on:2131230882
+ drawable:exo_styled_controls_speed:2131230883
+ drawable:exo_styled_controls_subtitle_off:2131230884
+ drawable:exo_styled_controls_subtitle_on:2131230885
+ drawable:exo_styled_controls_vr:2131230886
+ drawable:ic_call_answer:2131230887
+ drawable:ic_call_answer_low:2131230888
+ drawable:ic_call_answer_video:2131230889
+ drawable:ic_call_answer_video_low:2131230890
+ drawable:ic_call_decline:2131230891
+ drawable:ic_call_decline_low:2131230892
+ drawable:widget_cover_bg:2131230921
  id:CTRL:2131361793
  id:FUNCTION:2131361794
  id:action_bar_root:2131361835
@@ -14813,69 +14848,69 @@ Unused resources are:
  string:exo_track_selection_title_text:2131755140
  string:exo_track_selection_title_video:2131755141
  string:feedback:2131755150
- string:m3c_date_input_headline:2131755164
- string:m3c_date_input_headline_description:2131755165
- string:m3c_date_input_invalid_for_pattern:2131755166
- string:m3c_date_input_invalid_not_allowed:2131755167
- string:m3c_date_input_invalid_year_range:2131755168
- string:m3c_date_input_label:2131755169
- string:m3c_date_input_no_input_description:2131755170
- string:m3c_date_input_title:2131755171
- string:m3c_date_picker_headline:2131755172
- string:m3c_date_picker_headline_description:2131755173
- string:m3c_date_picker_navigate_to_year_description:2131755174
- string:m3c_date_picker_no_selection_description:2131755175
- string:m3c_date_picker_scroll_to_earlier_years:2131755176
- string:m3c_date_picker_scroll_to_later_years:2131755177
- string:m3c_date_picker_switch_to_calendar_mode:2131755178
- string:m3c_date_picker_switch_to_day_selection:2131755179
- string:m3c_date_picker_switch_to_input_mode:2131755180
- string:m3c_date_picker_switch_to_next_month:2131755181
- string:m3c_date_picker_switch_to_previous_month:2131755182
- string:m3c_date_picker_switch_to_year_selection:2131755183
- string:m3c_date_picker_title:2131755184
- string:m3c_date_picker_today_description:2131755185
- string:m3c_date_picker_year_picker_pane_title:2131755186
- string:m3c_date_range_input_invalid_range_input:2131755187
- string:m3c_date_range_input_title:2131755188
- string:m3c_date_range_picker_day_in_range:2131755189
- string:m3c_date_range_picker_end_headline:2131755190
- string:m3c_date_range_picker_scroll_to_next_month:2131755191
- string:m3c_date_range_picker_scroll_to_previous_month:2131755192
- string:m3c_date_range_picker_start_headline:2131755193
- string:m3c_date_range_picker_title:2131755194
- string:m3c_snackbar_dismiss:2131755199
- string:m3c_time_picker_am:2131755201
- string:m3c_time_picker_hour:2131755202
- string:m3c_time_picker_hour_24h_suffix:2131755203
- string:m3c_time_picker_hour_selection:2131755204
- string:m3c_time_picker_hour_suffix:2131755205
- string:m3c_time_picker_hour_text_field:2131755206
- string:m3c_time_picker_minute:2131755207
- string:m3c_time_picker_minute_selection:2131755208
- string:m3c_time_picker_minute_suffix:2131755209
- string:m3c_time_picker_minute_text_field:2131755210
- string:m3c_time_picker_period_toggle_description:2131755211
- string:m3c_time_picker_pm:2131755212
- string:m3c_tooltip_long_press_label:2131755213
- string:m3c_tooltip_pane_description:2131755214
- string:ok:2131755242
- string:previous:2131755253
- string:privacy_policy:2131755254
- string:repeat:2131755260
- string:shuffle_all:2131755309
- string:splash_feature1_desc:2131755322
- string:splash_feature1_title:2131755323
- string:splash_feature2_desc:2131755324
- string:splash_feature2_title:2131755325
- string:splash_feature3_desc:2131755326
- string:splash_feature3_title:2131755327
- string:splash_feature4_desc:2131755328
- string:splash_feature4_title:2131755329
- string:splash_get_started:2131755330
- string:splash_offline:2131755331
- string:splash_subtitle:2131755332
- string:status_bar_notification_info_overflow:2131755333
+ string:m3c_date_input_headline:2131755170
+ string:m3c_date_input_headline_description:2131755171
+ string:m3c_date_input_invalid_for_pattern:2131755172
+ string:m3c_date_input_invalid_not_allowed:2131755173
+ string:m3c_date_input_invalid_year_range:2131755174
+ string:m3c_date_input_label:2131755175
+ string:m3c_date_input_no_input_description:2131755176
+ string:m3c_date_input_title:2131755177
+ string:m3c_date_picker_headline:2131755178
+ string:m3c_date_picker_headline_description:2131755179
+ string:m3c_date_picker_navigate_to_year_description:2131755180
+ string:m3c_date_picker_no_selection_description:2131755181
+ string:m3c_date_picker_scroll_to_earlier_years:2131755182
+ string:m3c_date_picker_scroll_to_later_years:2131755183
+ string:m3c_date_picker_switch_to_calendar_mode:2131755184
+ string:m3c_date_picker_switch_to_day_selection:2131755185
+ string:m3c_date_picker_switch_to_input_mode:2131755186
+ string:m3c_date_picker_switch_to_next_month:2131755187
+ string:m3c_date_picker_switch_to_previous_month:2131755188
+ string:m3c_date_picker_switch_to_year_selection:2131755189
+ string:m3c_date_picker_title:2131755190
+ string:m3c_date_picker_today_description:2131755191
+ string:m3c_date_picker_year_picker_pane_title:2131755192
+ string:m3c_date_range_input_invalid_range_input:2131755193
+ string:m3c_date_range_input_title:2131755194
+ string:m3c_date_range_picker_day_in_range:2131755195
+ string:m3c_date_range_picker_end_headline:2131755196
+ string:m3c_date_range_picker_scroll_to_next_month:2131755197
+ string:m3c_date_range_picker_scroll_to_previous_month:2131755198
+ string:m3c_date_range_picker_start_headline:2131755199
+ string:m3c_date_range_picker_title:2131755200
+ string:m3c_snackbar_dismiss:2131755205
+ string:m3c_time_picker_am:2131755207
+ string:m3c_time_picker_hour:2131755208
+ string:m3c_time_picker_hour_24h_suffix:2131755209
+ string:m3c_time_picker_hour_selection:2131755210
+ string:m3c_time_picker_hour_suffix:2131755211
+ string:m3c_time_picker_hour_text_field:2131755212
+ string:m3c_time_picker_minute:2131755213
+ string:m3c_time_picker_minute_selection:2131755214
+ string:m3c_time_picker_minute_suffix:2131755215
+ string:m3c_time_picker_minute_text_field:2131755216
+ string:m3c_time_picker_period_toggle_description:2131755217
+ string:m3c_time_picker_pm:2131755218
+ string:m3c_tooltip_long_press_label:2131755219
+ string:m3c_tooltip_pane_description:2131755220
+ string:ok:2131755248
+ string:previous:2131755261
+ string:privacy_policy:2131755262
+ string:repeat:2131755269
+ string:shuffle_all:2131755318
+ string:splash_feature1_desc:2131755332
+ string:splash_feature1_title:2131755333
+ string:splash_feature2_desc:2131755334
+ string:splash_feature2_title:2131755335
+ string:splash_feature3_desc:2131755336
+ string:splash_feature3_title:2131755337
+ string:splash_feature4_desc:2131755338
+ string:splash_feature4_title:2131755339
+ string:splash_get_started:2131755340
+ string:splash_offline:2131755341
+ string:splash_subtitle:2131755342
+ string:status_bar_notification_info_overflow:2131755343
  style:Animation_AppCompat_Tooltip:2131820548
  style:Base_Animation_AppCompat_Tooltip:2131820553
  style:Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131820569

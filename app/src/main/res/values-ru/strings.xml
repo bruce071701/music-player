@@ -29,6 +29,10 @@
     <string name="shuffle_all">Перемешать все</string>
     <string name="for_you">Для вас</string>
     <string name="scan_music">Сканировать музыку</string>
+    <string name="shuffle_all_songs_desc">Перемешать все песни</string>
+    <string name="play_favorites_desc">Воспроизвести избранное</string>
+    <string name="find_music_desc">Найти музыку на устройстве</string>
+    <string name="play_all_songs_desc">Воспроизвести все песни</string>
     <string name="scan_videos">Сканировать видео</string>
     <string name="feedback">Обратная связь</string>
     <string name="no_tracks">Пока нет треков</string>

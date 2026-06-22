@@ -2,7 +2,6 @@ package com.app.musicplayer.feature.player
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
@@ -16,8 +15,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.FastForward
 import androidx.compose.material.icons.filled.FastRewind
@@ -47,31 +46,26 @@ import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import coil.compose.AsyncImage
 import com.app.musicplayer.core.model.PlayMode
 import com.app.musicplayer.core.ui.theme.AccentPrimary
 import com.app.musicplayer.core.ui.theme.TextSecondary
 import com.penji.musicplayer.offline.R
-import androidx.compose.ui.res.stringResource
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -142,50 +136,54 @@ fun PlayerScreen(
         TrackInfoDialog(track!!, { showTrackInfoDialog = false })
     }
 
-    // Extract dominant color from cover art for background
-    val context = androidx.compose.ui.platform.LocalContext.current
-    var dominantColor by remember { mutableStateOf(Color(0xFF2D1B1B)) }
 
-    androidx.compose.runtime.LaunchedEffect(track?.coverUri) {
-        track?.coverUri?.let { uri ->
-            try {
-                val loader = coil.ImageLoader(context)
-                val request = coil.request.ImageRequest.Builder(context)
-                    .data(uri)
-                    .allowHardware(false)
-                    .build()
-                val result = loader.execute(request)
-                val bitmap = (result.drawable as? android.graphics.drawable.BitmapDrawable)?.bitmap
-                if (bitmap != null) {
-                    val palette = androidx.palette.graphics.Palette.from(bitmap).generate()
-                    val extractedColor = palette.getDarkMutedColor(
-                        palette.getMutedColor(0xFF2D1B1B.toInt())
-                    )
-                    dominantColor = Color(extractedColor)
-                }
-            } catch (_: Exception) { }
-        }
-    }
 
     // === Main Player UI ===
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        dominantColor.copy(alpha = 0.8f),
-                        dominantColor.copy(alpha = 0.4f),
-                        Color(0xFF0A0505)
-                    )
-                )
-            )
+            .background(Color(0xFF0A0A0A))
     ) {
+        // Red ambient glow behind the disc area
+        Canvas(modifier = Modifier.fillMaxSize()) {
+            val cx = size.width / 2
+            val cy = size.height * 0.38f
+            // Main red glow
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color(0xFFE53935).copy(alpha = 0.15f),
+                        Color(0xFFE53935).copy(alpha = 0.08f),
+                        Color(0xFFE53935).copy(alpha = 0.03f),
+                        Color.Transparent
+                    ),
+                    center = Offset(cx, cy),
+                    radius = size.width * 0.55f
+                ),
+                radius = size.width * 0.55f,
+                center = Offset(cx, cy)
+            )
+            // Bottom-left red ambient
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color(0xFFE53935).copy(alpha = 0.08f),
+                        Color(0xFFE53935).copy(alpha = 0.03f),
+                        Color.Transparent
+                    ),
+                    center = Offset(size.width * 0.15f, size.height * 0.55f),
+                    radius = size.width * 0.35f
+                ),
+                radius = size.width * 0.35f,
+                center = Offset(size.width * 0.15f, size.height * 0.55f)
+            )
+        }
+
         Column(
             modifier = Modifier.fillMaxSize().padding(horizontal = 24.dp, vertical = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Top row: shuffle + title + link
+            // Top row: shuffle + title + repeat
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -214,60 +212,107 @@ fun PlayerScreen(
                 }
             }
 
-            // Time
-            Spacer(Modifier.height(8.dp))
+            // Time display
+            Spacer(Modifier.height(4.dp))
             Text(
                 "${formatTime(currentPositionMs)} / ${formatTime(duration)}",
                 style = MaterialTheme.typography.bodySmall.copy(fontSize = 13.sp),
                 color = AccentPrimary
             )
 
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(8.dp))
 
-            // === Circular cover with arc progress ===
+            // === Vinyl disc with glowing progress ring ===
             Box(
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp).aspectRatio(1f),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 8.dp)
+                    .aspectRatio(1f),
                 contentAlignment = Alignment.Center
             ) {
-                // Arc progress ring
+                // Outer glow behind the progress ring
                 Canvas(modifier = Modifier.fillMaxSize()) {
-                    val strokeWidth = 6.dp.toPx()
-                    val radius = (size.minDimension - strokeWidth) / 2
+                    val ringPadding = 8.dp.toPx()
+                    val ringRadius = (size.minDimension - ringPadding * 2) / 2
                     val center = Offset(size.width / 2, size.height / 2)
 
-                    // Background ring
+                    // Red glow for the progress portion
+                    if (progress > 0f) {
+                        val glowStroke = 16.dp.toPx()
+                        drawArc(
+                            color = Color(0xFFE53935).copy(alpha = 0.3f),
+                            startAngle = -90f,
+                            sweepAngle = progress * 360f,
+                            useCenter = false,
+                            style = Stroke(width = glowStroke, cap = StrokeCap.Round),
+                            topLeft = Offset(center.x - ringRadius, center.y - ringRadius),
+                            size = androidx.compose.ui.geometry.Size(ringRadius * 2, ringRadius * 2)
+                        )
+                    }
+                }
+
+                // Progress ring
+                Canvas(modifier = Modifier.fillMaxSize()) {
+                    val ringPadding = 8.dp.toPx()
+                    val strokeWidth = 4.dp.toPx()
+                    val ringRadius = (size.minDimension - ringPadding * 2) / 2
+                    val center = Offset(size.width / 2, size.height / 2)
+
+                    // Background ring (dim)
                     drawCircle(
-                        color = Color.White.copy(alpha = 0.1f),
-                        radius = radius,
+                        color = Color.White.copy(alpha = 0.06f),
+                        radius = ringRadius,
                         center = center,
                         style = Stroke(width = strokeWidth)
                     )
 
-                    // Progress arc (red)
-                    drawArc(
-                        color = AccentPrimary,
-                        startAngle = -90f,
-                        sweepAngle = progress * 360f,
-                        useCenter = false,
-                        style = Stroke(width = strokeWidth, cap = StrokeCap.Round),
-                        topLeft = Offset(center.x - radius, center.y - radius),
-                        size = androidx.compose.ui.geometry.Size(radius * 2, radius * 2)
-                    )
+                    // Progress arc (bright red)
+                    if (progress > 0f) {
+                        drawArc(
+                            brush = Brush.sweepGradient(
+                                colors = listOf(
+                                    Color(0xFFFF5252),
+                                    Color(0xFFE53935),
+                                    Color(0xFFD32F2F),
+                                    Color(0xFFE53935),
+                                    Color(0xFFFF5252)
+                                ),
+                                center = center
+                            ),
+                            startAngle = -90f,
+                            sweepAngle = progress * 360f,
+                            useCenter = false,
+                            style = Stroke(width = strokeWidth, cap = StrokeCap.Round),
+                            topLeft = Offset(center.x - ringRadius, center.y - ringRadius),
+                            size = androidx.compose.ui.geometry.Size(ringRadius * 2, ringRadius * 2)
+                        )
+                    }
 
-                    // Progress dot indicator
+                    // Progress dot indicator (small circle at current position)
                     val angle = Math.toRadians((-90.0 + progress * 360.0))
-                    val dotX = center.x + radius * cos(angle).toFloat()
-                    val dotY = center.y + radius * sin(angle).toFloat()
-                    drawCircle(color = Color.White, radius = 8.dp.toPx(), center = Offset(dotX, dotY))
-                    drawCircle(color = AccentPrimary, radius = 5.dp.toPx(), center = Offset(dotX, dotY))
+                    val dotX = center.x + ringRadius * cos(angle).toFloat()
+                    val dotY = center.y + ringRadius * sin(angle).toFloat()
+
+                    // Outer ring of the dot
+                    drawCircle(
+                        color = Color(0xFFE53935),
+                        radius = 7.dp.toPx(),
+                        center = Offset(dotX, dotY),
+                        style = Stroke(width = 2.dp.toPx())
+                    )
+                    // Inner dot (hollow look)
+                    drawCircle(
+                        color = Color(0xFF0A0A0A),
+                        radius = 4.dp.toPx(),
+                        center = Offset(dotX, dotY)
+                    )
                 }
 
-                // Circular album cover
-                Surface(
+                // Vinyl disc (takes most of the space inside the ring)
+                Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(20.dp)
-                        .clip(CircleShape)
+                        .padding(24.dp)
                         .pointerInput(Unit) {
                             detectHorizontalDragGestures { _, dragAmount ->
                                 when {
@@ -279,19 +324,30 @@ fun PlayerScreen(
                         .pointerInput(Unit) {
                             detectTapGestures(onDoubleTap = { viewModel.toggleFavorite() })
                         },
-                    color = Color(0xFF2A2020),
-                    shape = CircleShape
+                    contentAlignment = Alignment.Center
                 ) {
-                    if (track?.coverUri != null) {
-                        AsyncImage(
-                            model = track?.coverUri,
-                            contentDescription = "Album cover",
-                            contentScale = ContentScale.Crop,
+                    VinylDiscView(isPlaying = isPlaying, modifier = Modifier.fillMaxSize())
+
+                    // Center cover art overlay (circular, inside the vinyl label area)
+                    Box(
+                        modifier = Modifier
+                            .size(80.dp)
+                            .clip(androidx.compose.foundation.shape.CircleShape),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        com.app.musicplayer.core.ui.components.GenerativeCoverArt(
+                            seed = (track?.title ?: "Music") + (track?.artist ?: ""),
                             modifier = Modifier.fillMaxSize()
                         )
+                        if (track?.coverUri != null) {
+                            coil.compose.AsyncImage(
+                                model = track?.coverUri,
+                                contentDescription = "Album cover",
+                                contentScale = androidx.compose.ui.layout.ContentScale.Crop,
+                                modifier = Modifier.fillMaxSize()
+                            )
+                        }
                     }
-                    // Always show vinyl underneath
-                    VinylDiscView(isPlaying = isPlaying, modifier = Modifier.fillMaxSize())
                 }
             }
 
@@ -341,18 +397,36 @@ fun PlayerScreen(
                     Icon(Icons.Default.SkipPrevious, "Previous", tint = Color.White, modifier = Modifier.size(32.dp))
                 }
 
-                // Play/Pause - RED circle
-                Surface(
-                    onClick = { viewModel.playPause() },
-                    shape = CircleShape,
-                    color = AccentPrimary,
-                    modifier = Modifier.size(64.dp)
-                ) {
-                    Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize()) {
-                        Icon(
-                            if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
-                            if (isPlaying) "Pause" else "Play",
-                            tint = Color.White, modifier = Modifier.size(36.dp))
+                // Play/Pause - RED circle with glow
+                Box(contentAlignment = Alignment.Center) {
+                    // Glow behind button
+                    Canvas(modifier = Modifier.size(72.dp)) {
+                        drawCircle(
+                            brush = Brush.radialGradient(
+                                colors = listOf(
+                                    Color(0xFFE53935).copy(alpha = 0.3f),
+                                    Color(0xFFE53935).copy(alpha = 0.1f),
+                                    Color.Transparent
+                                ),
+                                center = Offset(size.width / 2, size.height / 2),
+                                radius = size.width / 2
+                            ),
+                            radius = size.width / 2,
+                            center = Offset(size.width / 2, size.height / 2)
+                        )
+                    }
+                    Surface(
+                        onClick = { viewModel.playPause() },
+                        shape = CircleShape,
+                        color = AccentPrimary,
+                        modifier = Modifier.size(64.dp)
+                    ) {
+                        Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxSize()) {
+                            Icon(
+                                if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
+                                if (isPlaying) "Pause" else "Play",
+                                tint = Color.White, modifier = Modifier.size(36.dp))
+                        }
                     }
                 }
 
@@ -375,19 +449,23 @@ fun PlayerScreen(
                 horizontalArrangement = Arrangement.SpaceEvenly,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                IconButton(onClick = { /* EQ */ }) {
-                    Icon(Icons.Default.Tune, "Equalizer", tint = Color.White.copy(0.5f))
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    IconButton(onClick = { /* EQ */ }) {
+                        Icon(Icons.Default.Tune, "Equalizer", tint = Color.White.copy(0.5f))
+                    }
+                    Text(stringResource(R.string.settings_equalizer), style = MaterialTheme.typography.labelSmall, color = Color.White.copy(0.5f))
                 }
-                Row(
-                    modifier = Modifier.clickable { showLyrics = true },
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
-                ) {
-                    Icon(Icons.Default.Lyrics, "Lyrics", tint = Color.White.copy(0.5f), modifier = Modifier.size(20.dp))
-                    Text(stringResource(R.string.lyrics), style = MaterialTheme.typography.bodySmall, color = Color.White.copy(0.5f))
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    IconButton(onClick = { showLyrics = true }) {
+                        Icon(Icons.Default.Lyrics, "Lyrics", tint = Color.White.copy(0.5f))
+                    }
+                    Text(stringResource(R.string.lyrics), style = MaterialTheme.typography.labelSmall, color = Color.White.copy(0.5f))
                 }
-                IconButton(onClick = { /* Queue */ }) {
-                    Icon(Icons.Default.QueueMusic, "Queue", tint = Color.White.copy(0.5f))
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    IconButton(onClick = { /* Queue */ }) {
+                        Icon(Icons.Default.QueueMusic, "Queue", tint = Color.White.copy(0.5f))
+                    }
+                    Text(stringResource(R.string.tab_playlists), style = MaterialTheme.typography.labelSmall, color = Color.White.copy(0.5f))
                 }
             }
         }

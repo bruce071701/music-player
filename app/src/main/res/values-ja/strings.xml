@@ -29,6 +29,10 @@
     <string name="shuffle_all">すべてシャッフル</string>
     <string name="for_you">あなたへのおすすめ</string>
     <string name="scan_music">音楽をスキャン</string>
+    <string name="shuffle_all_songs_desc">すべての曲をシャッフル</string>
+    <string name="play_favorites_desc">お気に入りを再生</string>
+    <string name="find_music_desc">デバイスで音楽を検索</string>
+    <string name="play_all_songs_desc">すべての曲を再生</string>
     <string name="scan_videos">動画をスキャン</string>
     <string name="feedback">フィードバック</string>
     <string name="no_tracks">曲がありません</string>

@@ -157,6 +157,7 @@
     <string name="favorite">Favorit</string>
     <string name="favorites">Favorit</string>
     <string name="feedback">Masukan</string>
+    <string name="find_music_desc">Cari musik di perangkat</string>
     <string name="folders_count">%d folder</string>
     <string name="for_you">Untuk Anda</string>
     <string name="hidden_folders">Folder Tersembunyi</string>
@@ -258,6 +259,8 @@
     <string name="pick_a_song">Pilih lagu untuk mulai memutar</string>
     <string name="play">Putar</string>
     <string name="play_all">Putar Semua</string>
+    <string name="play_all_songs_desc">Putar semua lagu</string>
+    <string name="play_favorites_desc">Putar favorit Anda</string>
     <string name="playlist_name">Nama playlist</string>
     <string name="previous">Sebelumnya</string>
     <string name="privacy_policy">Kebijakan Privasi</string>
@@ -316,6 +319,7 @@
     <string name="settings_widget_desc">Tambahkan widget ke layar utama</string>
     <string name="shuffle">Acak</string>
     <string name="shuffle_all">Acak Semua</string>
+    <string name="shuffle_all_songs_desc">Acak semua lagu</string>
     <string name="sleep_timer">Timer Tidur</string>
     <string name="sort_album">Album</string>
     <string name="sort_artist">Artis</string>

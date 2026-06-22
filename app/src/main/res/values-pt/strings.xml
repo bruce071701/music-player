@@ -29,6 +29,10 @@
     <string name="shuffle_all">Reproduzir aleatoriamente</string>
     <string name="for_you">Para você</string>
     <string name="scan_music">Escanear músicas</string>
+    <string name="shuffle_all_songs_desc">Reproduzir todas aleatoriamente</string>
+    <string name="play_favorites_desc">Reproduzir seus favoritos</string>
+    <string name="find_music_desc">Encontrar música no dispositivo</string>
+    <string name="play_all_songs_desc">Reproduzir todas as músicas</string>
     <string name="scan_videos">Escanear vídeos</string>
     <string name="feedback">Feedback</string>
     <string name="no_tracks">Nenhuma faixa encontrada</string>

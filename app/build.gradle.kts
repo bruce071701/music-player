@@ -6,6 +6,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("org.jetbrains.kotlin.plugin.serialization")
+    id("com.google.gms.google-services")
 }
 
 val localProperties = Properties().apply {
@@ -35,8 +36,8 @@ android {
         applicationId = "com.penji.musicplayer.offline"
         minSdk = 26
         targetSdk = 35
-        versionCode = 100003
-        versionName = "1.0.3"
+        versionCode = 100005
+        versionName = "1.0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true

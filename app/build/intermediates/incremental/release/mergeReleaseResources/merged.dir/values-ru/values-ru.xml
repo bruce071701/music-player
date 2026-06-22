@@ -161,6 +161,7 @@
     <string name="favorite">Избранное</string>
     <string name="favorites">Избранное</string>
     <string name="feedback">Обратная связь</string>
+    <string name="find_music_desc">Найти музыку на устройстве</string>
     <string name="folders_count">%d папок</string>
     <string name="for_you">Для вас</string>
     <string name="hidden_folders">Скрытые папки</string>
@@ -262,6 +263,8 @@
     <string name="pick_a_song">Выберите песню для начала воспроизведения</string>
     <string name="play">Воспроизвести</string>
     <string name="play_all">Воспроизвести все</string>
+    <string name="play_all_songs_desc">Воспроизвести все песни</string>
+    <string name="play_favorites_desc">Воспроизвести избранное</string>
     <string name="playlist_name">Название плейлиста</string>
     <string name="previous">Предыдущий</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
@@ -320,6 +323,7 @@
     <string name="settings_widget_desc">Добавить виджет на главный экран</string>
     <string name="shuffle">Перемешать</string>
     <string name="shuffle_all">Перемешать все</string>
+    <string name="shuffle_all_songs_desc">Перемешать все песни</string>
     <string name="sleep_timer">Таймер сна</string>
     <string name="sort_album">Альбом</string>
     <string name="sort_artist">Исполнитель</string>

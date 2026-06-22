@@ -2197,9 +2197,6 @@ androidx.appcompat.app.AppCompatViewInflater:
     private static final java.lang.String LOG_TAG
 androidx.appcompat.app.AppLocalesMetadataHolderService$Api24Impl:
     private void <init>()
-androidx.appcompat.app.AppLocalesMetadataHolderService:
-    public void <init>()
-    public android.os.IBinder onBind(android.content.Intent)
 androidx.appcompat.app.LocaleOverlayHelper:
     private void <init>()
     static androidx.core.os.LocaleListCompat combineLocalesIfOverlayExists(android.os.LocaleList,android.os.LocaleList)
@@ -5594,7 +5591,6 @@ androidx.compose.foundation.layout.WindowInsetsHolder:
     public final androidx.compose.foundation.layout.ValueInsets getImeAnimationSource()
     public final androidx.compose.foundation.layout.ValueInsets getImeAnimationTarget()
     public final androidx.compose.foundation.layout.AndroidWindowInsets getMandatorySystemGestures()
-    public final androidx.compose.foundation.layout.AndroidWindowInsets getNavigationBars()
     public final androidx.compose.foundation.layout.ValueInsets getNavigationBarsIgnoringVisibility()
     public final androidx.compose.foundation.layout.WindowInsets getSafeContent()
     public final androidx.compose.foundation.layout.WindowInsets getSafeDrawing()
@@ -5633,16 +5629,12 @@ androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$displayCutoutPa
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$displayCutoutPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$mandatorySystemGesturesPadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$mandatorySystemGesturesPadding$$inlined$windowInsetsPadding$1
-androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$navigationBarsPadding$$inlined$debugInspectorInfo$1
-androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$navigationBarsPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeContentPadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeContentPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeDrawingPadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeDrawingPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeGesturesPadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$safeGesturesPadding$$inlined$windowInsetsPadding$1
-androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$statusBarsPadding$$inlined$debugInspectorInfo$1
-androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$statusBarsPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$systemBarsPadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$systemBarsPadding$$inlined$windowInsetsPadding$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$systemGesturesPadding$$inlined$debugInspectorInfo$1
@@ -5654,11 +5646,9 @@ androidx.compose.foundation.layout.WindowInsetsPadding_androidKt:
     public static final androidx.compose.ui.Modifier captionBarPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier displayCutoutPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier mandatorySystemGesturesPadding(androidx.compose.ui.Modifier)
-    public static final androidx.compose.ui.Modifier navigationBarsPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier safeContentPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier safeDrawingPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier safeGesturesPadding(androidx.compose.ui.Modifier)
-    public static final androidx.compose.ui.Modifier statusBarsPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier systemBarsPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier systemGesturesPadding(androidx.compose.ui.Modifier)
     public static final androidx.compose.ui.Modifier waterfallPadding(androidx.compose.ui.Modifier)
@@ -5741,7 +5731,6 @@ androidx.compose.foundation.layout.WrapContentNode:
 androidx.compose.foundation.layout.internal.JvmDefaultWithCompatibility_jvmKt
 androidx.compose.foundation.lazy.AnimateItemElement
 androidx.compose.foundation.lazy.LazyDslKt$LazyColumn$2
-androidx.compose.foundation.lazy.LazyDslKt$LazyRow$1
 androidx.compose.foundation.lazy.LazyDslKt$LazyRow$2
 androidx.compose.foundation.lazy.LazyDslKt$items$1
 androidx.compose.foundation.lazy.LazyDslKt$items$2
@@ -5764,7 +5753,6 @@ androidx.compose.foundation.lazy.LazyDslKt$itemsIndexed$8
 androidx.compose.foundation.lazy.LazyDslKt:
     public static final synthetic void LazyColumn(androidx.compose.ui.Modifier,androidx.compose.foundation.lazy.LazyListState,androidx.compose.foundation.layout.PaddingValues,boolean,androidx.compose.foundation.layout.Arrangement$Vertical,androidx.compose.ui.Alignment$Horizontal,androidx.compose.foundation.gestures.FlingBehavior,kotlin.jvm.functions.Function1,androidx.compose.runtime.Composer,int,int)
     public static final synthetic void LazyRow(androidx.compose.ui.Modifier,androidx.compose.foundation.lazy.LazyListState,androidx.compose.foundation.layout.PaddingValues,boolean,androidx.compose.foundation.layout.Arrangement$Horizontal,androidx.compose.ui.Alignment$Vertical,androidx.compose.foundation.gestures.FlingBehavior,kotlin.jvm.functions.Function1,androidx.compose.runtime.Composer,int,int)
-    public static final void LazyRow(androidx.compose.ui.Modifier,androidx.compose.foundation.lazy.LazyListState,androidx.compose.foundation.layout.PaddingValues,boolean,androidx.compose.foundation.layout.Arrangement$Horizontal,androidx.compose.ui.Alignment$Vertical,androidx.compose.foundation.gestures.FlingBehavior,boolean,kotlin.jvm.functions.Function1,androidx.compose.runtime.Composer,int,int)
     public static final void items(androidx.compose.foundation.lazy.LazyListScope,java.util.List,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function4)
     public static final synthetic void items(androidx.compose.foundation.lazy.LazyListScope,java.util.List,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function4)
     public static final void items(androidx.compose.foundation.lazy.LazyListScope,java.lang.Object[],kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function4)
@@ -8705,7 +8693,6 @@ androidx.compose.material.icons.filled.HiveKt
 androidx.compose.material.icons.filled.HlsKt
 androidx.compose.material.icons.filled.HlsOffKt
 androidx.compose.material.icons.filled.HolidayVillageKt
-androidx.compose.material.icons.filled.HomeKt
 androidx.compose.material.icons.filled.HomeMaxKt
 androidx.compose.material.icons.filled.HomeMiniKt
 androidx.compose.material.icons.filled.HomeRepairServiceKt
@@ -8973,7 +8960,6 @@ androidx.compose.material.icons.filled.MoodKt
 androidx.compose.material.icons.filled.MopedKt
 androidx.compose.material.icons.filled.MoreKt
 androidx.compose.material.icons.filled.MoreTimeKt
-androidx.compose.material.icons.filled.MoreVertKt
 androidx.compose.material.icons.filled.MosqueKt
 androidx.compose.material.icons.filled.MotionPhotosAutoKt
 androidx.compose.material.icons.filled.MotionPhotosOffKt
@@ -22458,7 +22444,6 @@ androidx.compose.ui.Alignment$Companion:
     public static synthetic void getBottom$annotations()
     public static synthetic void getBottomCenter$annotations()
     public static synthetic void getBottomEnd$annotations()
-    public final androidx.compose.ui.Alignment getBottomStart()
     public static synthetic void getBottomStart$annotations()
     public static synthetic void getCenter$annotations()
     public final androidx.compose.ui.Alignment getCenterEnd()
@@ -23182,9 +23167,6 @@ androidx.compose.ui.graphics.Color$Companion:
     public final long hsl-JlNiLsg(float,float,float,float,androidx.compose.ui.graphics.colorspace.Rgb)
     public static synthetic long hsl-JlNiLsg$default(androidx.compose.ui.graphics.Color$Companion,float,float,float,float,androidx.compose.ui.graphics.colorspace.Rgb,int,java.lang.Object)
     private final float hslToRgbComponent(int,float,float,float)
-    public final long hsv-JlNiLsg(float,float,float,float,androidx.compose.ui.graphics.colorspace.Rgb)
-    public static synthetic long hsv-JlNiLsg$default(androidx.compose.ui.graphics.Color$Companion,float,float,float,float,androidx.compose.ui.graphics.colorspace.Rgb,int,java.lang.Object)
-    private final float hsvToRgbComponent(int,float,float,float)
 androidx.compose.ui.graphics.Color:
     public static final synthetic long access$getCyan$cp()
     public static final synthetic long access$getDarkGray$cp()
@@ -29192,16 +29174,25 @@ androidx.core.graphics.ColorUtils:
     public static int LABToColor(double,double,double)
     public static void LABToXYZ(double,double,double,double[])
     public static int M3HCTToColor(float,float,float)
+    public static void RGBToHSL(int,int,int,float[])
     public static void RGBToLAB(int,int,int,double[])
+    public static void RGBToXYZ(int,int,int,double[])
     public static void XYZToLAB(double,double,double,double[])
     public static int blendARGB(int,int,float)
     public static void blendHSL(float[],float[],float,float[])
     public static void blendLAB(double[],double[],double,double[])
+    public static double calculateContrast(int,int)
+    public static double calculateLuminance(int)
+    public static int calculateMinimumAlpha(int,int,float)
     static float circularInterpolate(float,float,float)
+    public static void colorToHSL(int,float[])
     public static void colorToLAB(int,double[])
     public static void colorToM3HCT(int,float[])
+    public static void colorToXYZ(int,double[])
     public static android.graphics.Color compositeColors(android.graphics.Color,android.graphics.Color)
+    private static float constrain(float,float,float)
     public static double distanceEuclidean(double[],double[])
+    private static double[] getTempDouble3Array()
     private static double pivotXyzComponent(double)
 androidx.core.graphics.ImageDecoderKt$decodeBitmap$1
 androidx.core.graphics.ImageDecoderKt$decodeDrawable$1
@@ -41285,84 +41276,19 @@ androidx.palette.R$string
 androidx.palette.R$style
 androidx.palette.R$styleable
 androidx.palette.R
-androidx.palette.graphics.ColorCutQuantizer:
-    static final int COMPONENT_BLUE
-    static final int COMPONENT_GREEN
-    static final int COMPONENT_RED
-    private static final java.lang.String LOG_TAG
-    private static final boolean LOG_TIMINGS
-    private static final int QUANTIZE_WORD_MASK
-    private static final int QUANTIZE_WORD_WIDTH
-androidx.palette.graphics.Palette$1:
-    private static final float BLACK_MAX_LIGHTNESS
-    private static final float WHITE_MIN_LIGHTNESS
+androidx.palette.graphics.ColorCutQuantizer$1
+androidx.palette.graphics.ColorCutQuantizer$Vbox
+androidx.palette.graphics.ColorCutQuantizer
+androidx.palette.graphics.Palette$1
 androidx.palette.graphics.Palette$Builder$1
-androidx.palette.graphics.Palette$Builder:
-    public void <init>(java.util.List)
-    public androidx.palette.graphics.Palette$Builder addFilter(androidx.palette.graphics.Palette$Filter)
-    public androidx.palette.graphics.Palette$Builder addTarget(androidx.palette.graphics.Target)
-    public androidx.palette.graphics.Palette$Builder clearFilters()
-    public androidx.palette.graphics.Palette$Builder clearRegion()
-    public androidx.palette.graphics.Palette$Builder clearTargets()
-    public android.os.AsyncTask generate(androidx.palette.graphics.Palette$PaletteAsyncListener)
-    public androidx.palette.graphics.Palette$Builder maximumColorCount(int)
-    public androidx.palette.graphics.Palette$Builder resizeBitmapArea(int)
-    public androidx.palette.graphics.Palette$Builder resizeBitmapSize(int)
-    public androidx.palette.graphics.Palette$Builder setRegion(int,int,int,int)
+androidx.palette.graphics.Palette$Builder
+androidx.palette.graphics.Palette$Filter
 androidx.palette.graphics.Palette$PaletteAsyncListener
-androidx.palette.graphics.Palette$Swatch:
-    void <init>(int,int,int,int)
-    void <init>(float[],int)
-androidx.palette.graphics.Palette:
-    static final int DEFAULT_CALCULATE_NUMBER_COLORS
-    static final int DEFAULT_RESIZE_BITMAP_AREA
-    static final java.lang.String LOG_TAG
-    static final boolean LOG_TIMINGS
-    static final float MIN_CONTRAST_BODY_TEXT
-    static final float MIN_CONTRAST_TITLE_TEXT
-    public static androidx.palette.graphics.Palette from(java.util.List)
-    public static androidx.palette.graphics.Palette generate(android.graphics.Bitmap)
-    public static androidx.palette.graphics.Palette generate(android.graphics.Bitmap,int)
-    public static android.os.AsyncTask generateAsync(android.graphics.Bitmap,int,androidx.palette.graphics.Palette$PaletteAsyncListener)
-    public static android.os.AsyncTask generateAsync(android.graphics.Bitmap,androidx.palette.graphics.Palette$PaletteAsyncListener)
-    public androidx.palette.graphics.Palette$Swatch getDarkMutedSwatch()
-    public int getDarkVibrantColor(int)
-    public androidx.palette.graphics.Palette$Swatch getDarkVibrantSwatch()
-    public int getDominantColor(int)
-    public androidx.palette.graphics.Palette$Swatch getDominantSwatch()
-    public int getLightMutedColor(int)
-    public androidx.palette.graphics.Palette$Swatch getLightMutedSwatch()
-    public int getLightVibrantColor(int)
-    public androidx.palette.graphics.Palette$Swatch getLightVibrantSwatch()
-    public androidx.palette.graphics.Palette$Swatch getMutedSwatch()
-    public java.util.List getSwatches()
-    public java.util.List getTargets()
-    public int getVibrantColor(int)
-    public androidx.palette.graphics.Palette$Swatch getVibrantSwatch()
+androidx.palette.graphics.Palette$Swatch
+androidx.palette.graphics.Palette
 androidx.palette.graphics.PaletteKt
 androidx.palette.graphics.Target$Builder
-androidx.palette.graphics.Target:
-    static final int INDEX_MAX
-    static final int INDEX_MIN
-    static final int INDEX_TARGET
-    static final int INDEX_WEIGHT_LUMA
-    static final int INDEX_WEIGHT_POP
-    static final int INDEX_WEIGHT_SAT
-    private static final float MAX_DARK_LUMA
-    private static final float MAX_MUTED_SATURATION
-    private static final float MAX_NORMAL_LUMA
-    private static final float MIN_LIGHT_LUMA
-    private static final float MIN_NORMAL_LUMA
-    private static final float MIN_VIBRANT_SATURATION
-    private static final float TARGET_DARK_LUMA
-    private static final float TARGET_LIGHT_LUMA
-    private static final float TARGET_MUTED_SATURATION
-    private static final float TARGET_NORMAL_LUMA
-    private static final float TARGET_VIBRANT_SATURATION
-    private static final float WEIGHT_LUMA
-    private static final float WEIGHT_POPULATION
-    private static final float WEIGHT_SATURATION
-    void <init>(androidx.palette.graphics.Target)
+androidx.palette.graphics.Target
 androidx.palette.ktx.R$attr
 androidx.palette.ktx.R$color
 androidx.palette.ktx.R$dimen
@@ -42931,7 +42857,7 @@ com.app.musicplayer.MainActivity_MembersInjector:
     public void injectMembers(com.app.musicplayer.MainActivity)
     public synthetic bridge void injectMembers(java.lang.Object)
 com.app.musicplayer.MusicPlayerApplication:
-    public static final int $stable
+    public final void setLanguageManager(com.app.musicplayer.core.datastore.LanguageManager)
 com.app.musicplayer.MusicPlayerApplication_ComponentTreeDeps
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ActivityC$Builder
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ActivityCBuilderModule
@@ -42951,6 +42877,12 @@ com.app.musicplayer.MusicPlayerApplication_HiltComponents$ViewWithFragmentC$Buil
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ViewWithFragmentC
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ViewWithFragmentCBuilderModule
 com.app.musicplayer.MusicPlayerApplication_HiltComponents
+com.app.musicplayer.MusicPlayerApplication_MembersInjector:
+    private final javax.inject.Provider languageManagerProvider
+    public void <init>(javax.inject.Provider)
+    public static dagger.MembersInjector create(javax.inject.Provider)
+    public void injectMembers(com.app.musicplayer.MusicPlayerApplication)
+    public synthetic bridge void injectMembers(java.lang.Object)
 com.app.musicplayer.core.common.AppError$ApiQuotaExhausted
 com.app.musicplayer.core.common.AppError$DecodeFailed
 com.app.musicplayer.core.common.AppError$FileNotFound
@@ -43648,6 +43580,11 @@ com.app.musicplayer.feature.library.tabs.FoldersTabKt$FoldersTab$2$invoke$$inlin
 com.app.musicplayer.feature.library.tabs.GenresTabKt$GenresTab$4$invoke$$inlined$items$default$2
 com.app.musicplayer.feature.library.tabs.SortOption:
     public static kotlin.enums.EnumEntries getEntries()
+com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$NavItem:
+    public final androidx.compose.ui.graphics.vector.ImageVector component1()
+    public final int component2()
+    public final com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$NavItem copy(androidx.compose.ui.graphics.vector.ImageVector,int)
+    public static synthetic com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$NavItem copy$default(com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$NavItem,androidx.compose.ui.graphics.vector.ImageVector,int,int,java.lang.Object)
 com.app.musicplayer.feature.player.ComposableSingletons$QueueSheetKt$lambda-1$1
 com.app.musicplayer.feature.player.ComposableSingletons$QueueSheetKt
 com.app.musicplayer.feature.player.LyricLine:
@@ -47229,6 +47166,7 @@ com.google.thirdparty.publicsuffix.TrieParser
 com.penji.musicplayer.offline.BuildConfig
 com.penji.musicplayer.offline.R$color
 com.penji.musicplayer.offline.R$drawable:
+    public static int default_cover
     public static int widget_background
     public static int widget_button_circle
     public static int widget_cover_bg
@@ -47283,6 +47221,11 @@ com.penji.musicplayer.offline.R$string:
     public static int existing_playlists
     public static int favorite
     public static int feedback
+    public static int gcm_defaultSenderId
+    public static int google_api_key
+    public static int google_app_id
+    public static int google_crash_reporting_api_key
+    public static int google_storage_bucket
     public static int nav_library
     public static int nav_search
     public static int nav_video
@@ -47295,6 +47238,7 @@ com.penji.musicplayer.offline.R$string:
     public static int pause
     public static int previous
     public static int privacy_policy
+    public static int project_id
     public static int queue
     public static int repeat
     public static int scan_button
@@ -59803,8 +59747,6 @@ androidx.compose.foundation.BackgroundElement:
     public static void update$1()
 androidx.compose.foundation.BackgroundKt$background$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.BackgroundKt$background-bw27NRU$$inlined$debugInspectorInfo$1
-androidx.compose.foundation.BackgroundKt:
-    public static synthetic androidx.compose.ui.Modifier background-bw27NRU$default(androidx.compose.ui.Modifier,long)
 androidx.compose.foundation.BackgroundNode:
     public static void drawOutline()
     public static void drawRect()
@@ -59820,7 +59762,6 @@ androidx.compose.foundation.BorderKt$drawRectBorder$1:
     public final void invoke$6()
 androidx.compose.foundation.BorderKt:
     public static final androidx.compose.ui.Modifier border(androidx.compose.foundation.BorderStroke,androidx.compose.ui.graphics.Shape)
-    public static final androidx.compose.ui.Modifier border-xT4_qwU(androidx.compose.ui.Modifier,float,long,androidx.compose.ui.graphics.Shape)
     public static final androidx.compose.ui.Modifier border-ziNgDLE(androidx.compose.ui.Modifier,float,androidx.compose.ui.graphics.Brush,androidx.compose.ui.graphics.Shape)
 androidx.compose.foundation.BorderModifierNode$drawGenericBorder$1:
     public final void invoke$6()
@@ -60943,6 +60884,7 @@ androidx.compose.foundation.layout.WindowInsetsHolder:
     public static void decrementAccessors()
     public static boolean getConsumes()
     public static androidx.compose.foundation.layout.AndroidWindowInsets getIme()
+    public static androidx.compose.foundation.layout.AndroidWindowInsets getNavigationBars()
     public static androidx.compose.foundation.layout.AndroidWindowInsets getStatusBars()
     public static androidx.compose.foundation.layout.AndroidWindowInsets getSystemBars()
     public static void incrementAccessors()
@@ -60966,7 +60908,14 @@ androidx.compose.foundation.layout.WindowInsetsPaddingKt:
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$imePadding$$inlined$debugInspectorInfo$1
 androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$imePadding$$inlined$windowInsetsPadding$1:
     public final androidx.compose.ui.Modifier invoke()
-androidx.compose.foundation.layout.WindowInsetsPadding_androidKt
+androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$navigationBarsPadding$$inlined$debugInspectorInfo$1
+androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$navigationBarsPadding$$inlined$windowInsetsPadding$1:
+    public final androidx.compose.ui.Modifier invoke()
+androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$statusBarsPadding$$inlined$debugInspectorInfo$1
+androidx.compose.foundation.layout.WindowInsetsPadding_androidKt$statusBarsPadding$$inlined$windowInsetsPadding$1:
+    public final androidx.compose.ui.Modifier invoke()
+androidx.compose.foundation.layout.WindowInsetsPadding_androidKt:
+    public static final androidx.compose.ui.Modifier navigationBarsPadding(androidx.compose.ui.Modifier)
 androidx.compose.foundation.layout.WindowInsetsSides$Companion
 androidx.compose.foundation.layout.WindowInsetsSides:
     public static final int AllowLeftInLtr
@@ -61005,6 +60954,8 @@ androidx.compose.foundation.layout.WrapContentNode:
     public final void setDirection()
     public static void setUnbounded()
 androidx.compose.foundation.lazy.LazyDslKt$LazyColumn$1:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+androidx.compose.foundation.lazy.LazyDslKt$LazyRow$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
 androidx.compose.foundation.lazy.LazyItemScopeImpl:
     static void <clinit>()
@@ -62917,6 +62868,8 @@ androidx.compose.material.icons.filled.HelpOutlineKt:
     static void <clinit>()
 androidx.compose.material.icons.filled.HistoryKt:
     static void <clinit>()
+androidx.compose.material.icons.filled.HomeKt:
+    static void <clinit>()
 androidx.compose.material.icons.filled.ImageKt:
     static void <clinit>()
 androidx.compose.material.icons.filled.InfoKt:
@@ -62932,6 +62885,8 @@ androidx.compose.material.icons.filled.LyricsKt:
 androidx.compose.material.icons.filled.MicKt:
     static void <clinit>()
 androidx.compose.material.icons.filled.MoreHorizKt:
+    static void <clinit>()
+androidx.compose.material.icons.filled.MoreVertKt:
     static void <clinit>()
 androidx.compose.material.icons.filled.MusicNoteKt:
     static void <clinit>()
@@ -63451,7 +63406,7 @@ androidx.compose.material3.ColorScheme:
     public static long getScrim-0d7_KjU()
     public static long getSecondary-0d7_KjU()
     public static long getSecondaryContainer-0d7_KjU()
-    public final long getSurface-0d7_KjU()
+    public static long getSurface-0d7_KjU()
     public static long getSurfaceBright-0d7_KjU()
     public static long getSurfaceContainer-0d7_KjU()
     public static long getSurfaceContainerHigh-0d7_KjU()
@@ -64219,7 +64174,7 @@ androidx.compose.material3.Typography:
     public static androidx.compose.ui.text.TextStyle getHeadlineSmall()
     public static androidx.compose.ui.text.TextStyle getLabelLarge()
     public static androidx.compose.ui.text.TextStyle getLabelMedium()
-    public static androidx.compose.ui.text.TextStyle getLabelSmall()
+    public final androidx.compose.ui.text.TextStyle getLabelSmall()
     public static androidx.compose.ui.text.TextStyle getTitleLarge()
     public final androidx.compose.ui.text.TextStyle getTitleMedium()
     public final androidx.compose.ui.text.TextStyle getTitleSmall()
@@ -65818,7 +65773,6 @@ androidx.compose.runtime.SnapshotMutableStateImpl:
 androidx.compose.runtime.SnapshotMutationPolicy:
     public abstract java.lang.Object merge()
 androidx.compose.runtime.SnapshotStateKt:
-    public static synthetic androidx.compose.runtime.ParcelableSnapshotMutableState mutableStateOf$default(java.lang.Object)
     public static final androidx.compose.runtime.SnapshotMutationPolicy neverEqualPolicy()
     public static final androidx.compose.runtime.SnapshotMutationPolicy referentialEqualityPolicy()
     public static final androidx.compose.runtime.SnapshotMutationPolicy structuralEqualityPolicy()
@@ -66642,12 +66596,12 @@ androidx.compose.ui.AbsoluteAlignment:
     public static androidx.compose.ui.Alignment$Horizontal getRight()
 androidx.compose.ui.Alignment$Companion:
     public static final synthetic androidx.compose.ui.Alignment$Companion $$INSTANCE
-    public static final androidx.compose.ui.Alignment BottomStart
     public static final androidx.compose.ui.Alignment CenterEnd
     public static final androidx.compose.ui.Alignment TopEnd
     public static androidx.compose.ui.Alignment$Vertical getBottom()
     public static androidx.compose.ui.Alignment getBottomCenter()
     public static androidx.compose.ui.Alignment getBottomEnd()
+    public static androidx.compose.ui.Alignment getBottomStart()
     public static androidx.compose.ui.Alignment getCenter()
     public static androidx.compose.ui.Alignment$Horizontal getCenterHorizontally()
     public static androidx.compose.ui.Alignment getCenterStart()
@@ -67107,8 +67061,6 @@ androidx.compose.ui.graphics.AndroidPath:
     public static android.graphics.Path getInternalPath()
     public final boolean isConvex()
     public final boolean isEmpty()
-    public final void lineTo(float,float)
-    public final void moveTo(float,float)
     public final void quadraticBezierTo()
     public final void relativeCubicTo(float,float,float,float,float,float)
     public final void relativeLineTo(float,float)
@@ -67203,8 +67155,9 @@ androidx.compose.ui.graphics.BlockGraphicsLayerModifier:
 androidx.compose.ui.graphics.Brush$Companion:
     public static androidx.compose.ui.graphics.Brush horizontalGradient-8A-3gB4()
     public static androidx.compose.ui.graphics.LinearGradient linearGradient-mHitzGk(java.util.List,long,long,int)
+    public static androidx.compose.ui.graphics.LinearGradient linearGradient-mHitzGk$default(java.util.List,long,long)
     public static androidx.compose.ui.graphics.Brush radialGradient-P_Vx-Ks()
-    public static androidx.compose.ui.graphics.Brush sweepGradient-Uv8p0NA()
+    public static androidx.compose.ui.graphics.SweepGradient sweepGradient-Uv8p0NA(java.util.List,long)
     public static androidx.compose.ui.graphics.Brush verticalGradient-8A-3gB4()
 androidx.compose.ui.graphics.Brush:
     public static final androidx.compose.ui.graphics.Brush$Companion Companion
@@ -67218,7 +67171,14 @@ androidx.compose.ui.graphics.CanvasUtils:
     static void <clinit>()
 androidx.compose.ui.graphics.ClipOp$Companion
 androidx.compose.ui.graphics.ClipOp
-androidx.compose.ui.graphics.Color$Companion
+androidx.compose.ui.graphics.Color$Companion:
+    public static long getBlack-0d7_KjU()
+    public static long getBlue-0d7_KjU()
+    public static long getRed-0d7_KjU()
+    public static long getTransparent-0d7_KjU()
+    public static long getUnspecified-0d7_KjU()
+    public static long getWhite-0d7_KjU()
+    public static long hsv-JlNiLsg()
 androidx.compose.ui.graphics.Color:
     public static final androidx.compose.ui.graphics.Color$Companion Companion
     public static final long Cyan
@@ -67228,7 +67188,6 @@ androidx.compose.ui.graphics.Color:
     public static final long LightGray
     public static final long Magenta
     public static final long Yellow
-    public static final synthetic androidx.compose.ui.graphics.Color box-impl(long)
     public static synthetic long unbox-impl()
 androidx.compose.ui.graphics.ColorFilter$Companion
 androidx.compose.ui.graphics.ColorFilter:
@@ -67689,7 +67648,7 @@ androidx.compose.ui.graphics.drawscope.DrawScope:
     public static final androidx.compose.ui.graphics.drawscope.DrawScope$Companion Companion
     static void <clinit>()
     public static void drawArc-yD3GUKo$default(androidx.compose.ui.graphics.drawscope.DrawScope,long,float,float,long,long,androidx.compose.ui.graphics.drawscope.DrawStyle)
-    public static synthetic void drawPath-LG529CI$default(androidx.compose.ui.graphics.drawscope.DrawScope,androidx.compose.ui.graphics.Path,long,androidx.compose.ui.graphics.drawscope.Stroke)
+    public static synthetic void drawPath-LG529CI$default(androidx.compose.ui.graphics.drawscope.DrawScope,androidx.compose.ui.graphics.Path,long,androidx.compose.ui.graphics.drawscope.DrawStyle)
 androidx.compose.ui.graphics.drawscope.DrawTransform
 androidx.compose.ui.graphics.drawscope.Stroke$Companion
 androidx.compose.ui.graphics.drawscope.Stroke:
@@ -72275,7 +72234,7 @@ androidx.core.content.res.ViewingConditions:
     public static float[] getRgbD()
     public static float getZ()
 androidx.core.graphics.ColorUtils:
-    public static float constrain(float,float)
+    public static final java.lang.ThreadLocal TEMP_ARRAY
     public static int constrain(int)
 androidx.core.graphics.Insets:
     public static androidx.core.graphics.Insets of(android.graphics.Rect)
@@ -79918,75 +79877,6 @@ androidx.media3.ui.WebViewSubtitleOutput:
     public static int anchorTypeToTranslatePercent(int)
     public static java.lang.String convertAlignmentToCss(android.text.Layout$Alignment)
     public static void destroy()
-androidx.palette.graphics.ColorCutQuantizer$1:
-    public static int compare()
-androidx.palette.graphics.ColorCutQuantizer$Vbox:
-    public final boolean canSplit()
-    public static int findSplitPoint()
-    public static androidx.palette.graphics.Palette$Swatch getAverageColor()
-    public static int getColorCount()
-    public static int getLongestColorDimension()
-    public static androidx.palette.graphics.ColorCutQuantizer$Vbox splitBox()
-androidx.palette.graphics.ColorCutQuantizer:
-    public final android.util.TimingLogger mTimingLogger
-    public static int approximateToRgb888(int)
-    public static int approximateToRgb888(int,int,int)
-    public static java.util.List generateAverageColors()
-    public static java.util.List getQuantizedColors()
-    public static java.util.List quantizePixels()
-    public static int quantizedGreen(int)
-    public static int quantizedRed(int)
-    public static boolean shouldIgnoreColor()
-    public static boolean shouldIgnoreColor$1()
-    public static void splitBoxes()
-androidx.palette.graphics.Palette$1:
-    public static boolean isAllowed()
-    public static boolean isBlack()
-    public static boolean isNearRedILine()
-    public static boolean isWhite()
-androidx.palette.graphics.Palette$Builder:
-    public android.graphics.Rect mRegion
-    public final java.util.List mSwatches
-    public static int[] getPixelsFromBitmap()
-    public static android.graphics.Bitmap scaleBitmapDown()
-androidx.palette.graphics.Palette$Filter
-androidx.palette.graphics.Palette$Swatch:
-    public static int getBodyTextColor()
-    public static int getPopulation()
-    public static int getRgb()
-    public static int getTitleTextColor()
-androidx.palette.graphics.Palette:
-    public final java.util.List mTargets
-    public static androidx.palette.graphics.Palette$Swatch findDominantSwatch()
-    public static void generate()
-    public static float generateScore()
-    public static androidx.palette.graphics.Palette$Swatch generateScoredTarget()
-    public final int getColorForTarget(androidx.palette.graphics.Target,int)
-    public static int getDarkMutedColor()
-    public static androidx.palette.graphics.Palette$Swatch getMaxScoredSwatchForTarget()
-    public static int getMutedColor()
-    public static androidx.palette.graphics.Palette$Swatch getSwatchForTarget()
-    public static boolean shouldBeScoredForTarget()
-androidx.palette.graphics.Target:
-    public boolean mIsExclusive
-    public static float getLightnessWeight()
-    public static float getMaximumLightness()
-    public static float getMaximumSaturation()
-    public static float getMinimumLightness()
-    public static float getMinimumSaturation()
-    public static float getPopulationWeight()
-    public static float getSaturationWeight()
-    public static float getTargetLightness()
-    public static float getTargetSaturation()
-    public static boolean isExclusive()
-    public static void normalizeWeights()
-    public static void setDefaultDarkLightnessValues(androidx.palette.graphics.Target)
-    public static void setDefaultLightLightnessValues(androidx.palette.graphics.Target)
-    public static void setDefaultMutedSaturationValues(androidx.palette.graphics.Target)
-    public static void setDefaultNormalLightnessValues(androidx.palette.graphics.Target)
-    public static void setDefaultVibrantSaturationValues(androidx.palette.graphics.Target)
-    public static void setDefaultWeights()
-    public static void setTargetDefaultValues(float[])
 androidx.profileinstaller.BenchmarkOperation$Api21ContextHelper
 androidx.profileinstaller.BenchmarkOperation$Api24ContextHelper
 androidx.profileinstaller.DeviceProfileWriter:
@@ -81629,6 +81519,7 @@ com.app.musicplayer.DaggerMusicPlayerApplication_HiltComponents_SingletonC$Singl
     public static com.app.musicplayer.core.database.dao.EqPresetDao_Impl eqPresetDao()
     public static void initialize$1()
     public final void injectMusicPlayerApplication()
+    public static com.app.musicplayer.MusicPlayerApplication injectMusicPlayerApplication2()
     public static com.app.musicplayer.core.database.dao.PlayHistoryDao_Impl playHistoryDao()
     public static com.app.musicplayer.core.database.dao.PlaylistDao_Impl playlistDao()
     public final com.app.musicplayer.DaggerMusicPlayerApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder retainedComponentBuilder()
@@ -81688,7 +81579,9 @@ com.app.musicplayer.MainActivity_GeneratedInjector:
     public abstract void injectMainActivity()
 com.app.musicplayer.MainActivity_MembersInjector
 com.app.musicplayer.MusicPlayerApplication:
+    public static final int $stable
     static void <clinit>()
+    public static com.app.musicplayer.core.datastore.LanguageManager getLanguageManager()
 com.app.musicplayer.MusicPlayerApplication_GeneratedInjector:
     public abstract void injectMusicPlayerApplication()
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ActivityC
@@ -81696,6 +81589,7 @@ com.app.musicplayer.MusicPlayerApplication_HiltComponents$ActivityRetainedC
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ServiceC
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$SingletonC
 com.app.musicplayer.MusicPlayerApplication_HiltComponents$ViewModelC
+com.app.musicplayer.MusicPlayerApplication_MembersInjector
 com.app.musicplayer.core.common.PermissionHelper
 com.app.musicplayer.core.database.MusicDatabase:
     static void <clinit>()
@@ -81965,14 +81859,16 @@ com.app.musicplayer.core.datastore.AppPreferences:
     public static java.lang.Object setPauseOnHeadphoneDisconnect()
     public static java.lang.Object setThemeMode()
 com.app.musicplayer.core.datastore.LanguageManager$Companion
+com.app.musicplayer.core.datastore.LanguageManager$restoreSavedLanguage$savedCode$1:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 com.app.musicplayer.core.datastore.LanguageManager$setLanguage$2:
     public int label
     public final java.lang.Object invoke$47()
 com.app.musicplayer.core.datastore.LanguageManager:
     public static final int $stable
     public static final com.app.musicplayer.core.datastore.LanguageManager$Companion Companion
-    public static void applyLanguage()
     public static kotlinx.coroutines.flow.Flow getCurrentLanguage()
+    public static void restoreSavedLanguage()
 com.app.musicplayer.core.datastore.LanguageOption:
     static void <clinit>()
     public static java.lang.String getCode()
@@ -82118,7 +82014,7 @@ com.app.musicplayer.core.model.Track:
     static void <clinit>()
     public static long getAddedAt()
     public static java.lang.String getAlbum()
-    public static java.lang.String getArtist()
+    public final java.lang.String getArtist()
     public static java.lang.Integer getBitrate()
     public final java.lang.String getCoverUri()
     public static java.lang.Integer getDiscNumber()
@@ -82138,6 +82034,10 @@ com.app.musicplayer.core.model.Track:
     public static boolean isFavorite()
 com.app.musicplayer.core.model.TrackSource:
     public static final synthetic kotlin.enums.EnumEntries $ENTRIES
+com.app.musicplayer.core.ui.components.GenerativeCoverArtKt$GenerativeCoverArt$1$1:
+    public final void invoke$20()
+com.app.musicplayer.core.ui.components.GenerativeCoverArtKt$GenerativeCoverArt$2:
+    public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.core.ui.theme.ColorKt:
     public static final long AccentPrimaryBright
     public static final long AccentPrimaryDim
@@ -82158,7 +82058,6 @@ com.app.musicplayer.core.ui.theme.ColorKt:
     public static final long TertiaryContainerColor
     public static final long getAccentPrimary()
     public static final long getTextSecondary()
-    public static final long getTextTertiary()
 com.app.musicplayer.core.ui.theme.ThemeKt$MusicPlayerTheme$1:
     public final void invoke()
 com.app.musicplayer.core.ui.theme.ThemeKt$MusicPlayerTheme$2:
@@ -82573,16 +82472,13 @@ com.app.musicplayer.feature.library.tabs.ComposableSingletons$GenresTabKt:
     public static kotlin.jvm.functions.Function2 getLambda-2$app_release()
     public static kotlin.jvm.functions.Function3 getLambda-3$app_release()
 com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt$lambda-1$1:
-    public final void invoke$77()
-com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt$lambda-2$1:
     public final void invoke$28()
-com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt$lambda-3$1:
+com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt$lambda-2$1:
     public final void invoke$77()
 com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt:
     public static final com.app.musicplayer.feature.library.tabs.ComposableSingletons$HomeTabKt INSTANCE
     public static kotlin.jvm.functions.Function3 getLambda-1$app_release()
     public static kotlin.jvm.functions.Function3 getLambda-2$app_release()
-    public static kotlin.jvm.functions.Function3 getLambda-3$app_release()
 com.app.musicplayer.feature.library.tabs.ComposableSingletons$PlaylistsTabKt$lambda-1$1:
     public final void invoke$77()
 com.app.musicplayer.feature.library.tabs.ComposableSingletons$PlaylistsTabKt$lambda-2$1:
@@ -82660,9 +82556,11 @@ com.app.musicplayer.feature.library.tabs.GenresTabKt$GenresTab$4:
     public final void invoke$78()
 com.app.musicplayer.feature.library.tabs.GenresTabKt$GenresTab$5:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.library.tabs.HomeTabKt$ActionButton$1:
-    public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.library.tabs.HomeTabKt$ActionButton$2:
+com.app.musicplayer.feature.library.tabs.HomeTabKt$ActionCard$1$1:
+    public final void invoke$20()
+com.app.musicplayer.feature.library.tabs.HomeTabKt$ActionCard$1$2$1$1$1:
+    public final void invoke$20()
+com.app.musicplayer.feature.library.tabs.HomeTabKt$ActionCard$2:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$1:
     public final void invoke()
@@ -82686,21 +82584,29 @@ com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$4$1$1:
     public final void invoke()
 com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$4:
     public final void invoke$77()
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$6$1:
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$1
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$2$1:
     public final void invoke()
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$invoke$$inlined$items$default$1
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$invoke$$inlined$items$default$2:
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$2$2:
+    public final void invoke()
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$invoke$$inlined$items$default$1
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$invoke$$inlined$items$default$2:
     public final synthetic kotlin.jvm.functions.Function1 $key
     public final java.lang.Object invoke$11()
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$invoke$$inlined$items$default$3:
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$invoke$$inlined$items$default$3:
     public final synthetic kotlin.jvm.functions.Function1 $contentType
     public final java.lang.Object invoke$11()
-com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$invoke$$inlined$items$default$4:
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1$invoke$$inlined$items$default$4:
     public final void invoke$13()
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5$1:
+    public final void invoke$78()
+com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2$5:
+    public final void invoke$77()
 com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$2:
     public final void invoke$78()
 com.app.musicplayer.feature.library.tabs.HomeTabKt$HomeTab$3:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.library.tabs.HomeTabKt$TrackCard$2:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.library.tabs.PlaylistsTabKt$AddTracksToPlaylistDialog$1$1$1$1$1:
     public final void invoke()
@@ -82858,29 +82764,45 @@ com.app.musicplayer.feature.main.ComposableSingletons$MainScreenKt:
     public static kotlin.jvm.functions.Function2 getLambda-1$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-2$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-3$app_release()
+com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$1$1$1$1$1:
+    public final void invoke()
+com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$1:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$2:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.main.MainScreenKt$BottomNavigationBar$NavItem:
+    public static androidx.compose.ui.graphics.vector.ImageVector getIcon()
+    public static int getLabelRes()
 com.app.musicplayer.feature.main.MainScreenKt$MainContent$1:
     public final void invoke()
 com.app.musicplayer.feature.main.MainScreenKt$MainContent$2:
     public final void invoke()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$2$1$1$1:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$3:
+    public final void invoke$79()
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$4$1:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$2$1$1:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$5$1:
+    public int label
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$2$1$1$1:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$2$1$1:
     public final void invoke()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$2$1$2:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$2$1$2:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3$1:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3$1:
     public final void invoke$75()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3$2:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3$2:
     public final void invoke$71()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3$3:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3$3:
     public final void invoke$71()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3$4:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3$4:
     public final void invoke$71()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3$5:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3$5:
     public final void invoke()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$3$3:
-    public static void invoke$79()
-com.app.musicplayer.feature.main.MainScreenKt$MainContent$4:
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$6$3:
+    public static void invoke$80()
+com.app.musicplayer.feature.main.MainScreenKt$MainContent$7:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.main.MainScreenKt$MainContent$pagerState$1:
     public final java.lang.Integer invoke()
@@ -82895,8 +82817,12 @@ com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$10$1:
     public final void invoke()
 com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$11$1:
     public final void invoke()
-com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$12:
+com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$12$1:
+    public final void invoke$79()
+com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$13:
     public final void invoke()
+com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$14$1:
+    public final void invoke$79()
 com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$2$1$1:
     public final void invoke()
 com.app.musicplayer.feature.main.MainScreenKt$MainScreen$4$3$1$1:
@@ -82935,14 +82861,18 @@ com.app.musicplayer.feature.main.MainScreenKt$MainScreen$permissionLauncher$1$1:
     public final void invoke$22()
 com.app.musicplayer.feature.main.MainScreenKt$MainScreen$previousScreen$2:
     public final androidx.compose.runtime.MutableState invoke()
+com.app.musicplayer.feature.main.MainScreenKt$MainScreen$selectedTabIndex$2:
+    public static androidx.compose.runtime.MutableIntState invoke()
 com.app.musicplayer.feature.main.MainScreenKt:
     public static final java.util.List MainScreen$lambda$1(androidx.compose.runtime.MutableState)
     public static final java.lang.String MainScreen$lambda$12(androidx.compose.runtime.MutableState)
+    public static final int MainScreen$lambda$18(androidx.compose.runtime.MutableIntState)
     public static final java.util.List MainScreen$lambda$2(androidx.compose.runtime.MutableState)
     public static final java.util.List MainScreen$lambda$3(androidx.compose.runtime.MutableState)
     public static final java.util.List MainScreen$lambda$4(androidx.compose.runtime.MutableState)
     public static final java.util.List MainScreen$lambda$5(androidx.compose.runtime.MutableState)
     public static final boolean MainScreen$lambda$7(androidx.compose.runtime.MutableState)
+    public static final void access$MainScreen$lambda$19(androidx.compose.runtime.MutableIntState,int)
     public static final void access$MainScreen$lambda$8(androidx.compose.runtime.MutableState,boolean)
 com.app.musicplayer.feature.player.ComposableSingletons$LyricsScreenKt$lambda-1$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
@@ -82957,8 +82887,10 @@ com.app.musicplayer.feature.player.ComposableSingletons$MiniPlayerKt:
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-1$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-10$1:
-    public final void invoke(androidx.compose.runtime.Composer,int)
+    public final void invoke$28()
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-11$1:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-12$1:
     public final void invoke$28()
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-2$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
@@ -82975,12 +82907,13 @@ com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-7$
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-8$1:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt$lambda-9$1:
-    public final void invoke$28()
+    public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt:
     public static final com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt INSTANCE
     public static kotlin.jvm.functions.Function2 getLambda-1$app_release()
-    public static kotlin.jvm.functions.Function2 getLambda-10$app_release()
-    public static kotlin.jvm.functions.Function3 getLambda-11$app_release()
+    public static kotlin.jvm.functions.Function3 getLambda-10$app_release()
+    public static kotlin.jvm.functions.Function2 getLambda-11$app_release()
+    public static kotlin.jvm.functions.Function3 getLambda-12$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-2$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-3$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-4$app_release()
@@ -82988,7 +82921,7 @@ com.app.musicplayer.feature.player.ComposableSingletons$PlayerScreenKt:
     public static kotlin.jvm.functions.Function2 getLambda-6$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-7$app_release()
     public static kotlin.jvm.functions.Function2 getLambda-8$app_release()
-    public static kotlin.jvm.functions.Function3 getLambda-9$app_release()
+    public static kotlin.jvm.functions.Function2 getLambda-9$app_release()
 com.app.musicplayer.feature.player.ComposableSingletons$TrackDialogsKt$lambda-1$1:
     public final void invoke$28()
 com.app.musicplayer.feature.player.ComposableSingletons$TrackDialogsKt$lambda-2$1:
@@ -83075,63 +83008,65 @@ com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$11$1:
     public final void invoke()
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$12$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13:
-    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$1$1:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$1$2:
-    public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$1$4:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$1$5:
-    public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$1$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$1:
     public final void invoke$20()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$2$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$1$1:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$1$2:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$1$4:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$1$5:
+    public final void invoke(androidx.compose.runtime.Composer,int)
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$1$1:
+    public final void invoke$20()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$2$1:
+    public final void invoke$20()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$3$1:
     public final void invoke$10()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$2:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$3:
     public final java.lang.Object invoke$5()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$3$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$4$1:
     public final void invoke-k-4lQ0M()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$3:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$2$4:
     public final java.lang.Object invoke$5()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$2$4:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$1:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$2:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$3$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$2:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$4$1:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$5:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$3$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$6:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$4$1:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$5:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$7:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$6:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$3$8$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$7:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$1:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$2:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$3$1:
+    public final void invoke$20()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$3$2:
+    public final void invoke()
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$3$3:
     public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$3$8$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$4:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$1:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$4$5:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$2:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$5$1$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$3:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$5$2$1$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$4:
-    public final void invoke(androidx.compose.runtime.Composer,int)
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$5:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$13$2$5$3$1:
     public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$4$6:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$5$1:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$5$2$1:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14$1$5$4:
-    public final void invoke()
-com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$15:
+com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$14:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$2$1:
     public int label
@@ -83141,7 +83076,7 @@ com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$2$3$1:
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$2:
     public final void invoke$68()
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$3:
-    public final void invoke$80()
+    public final void invoke$79()
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$4:
     public final void invoke()
 com.app.musicplayer.feature.player.PlayerScreenKt$PlayerScreen$5$1:
@@ -83165,10 +83100,8 @@ com.app.musicplayer.feature.player.PlayerScreenKt$SleepTimerDialog$2:
 com.app.musicplayer.feature.player.PlayerScreenKt$SleepTimerDialog$3:
     public final void invoke(androidx.compose.runtime.Composer,int)
 com.app.musicplayer.feature.player.PlayerScreenKt:
-    public static final com.app.musicplayer.core.media.PlaybackState PlayerScreen$lambda$3(androidx.compose.runtime.MutableState)
-    public static final long PlayerScreen$lambda$31(androidx.compose.runtime.MutableState)
+    public static final boolean PlayerScreen$lambda$1(androidx.compose.runtime.State)
     public static final boolean PlayerScreen$lambda$6(androidx.compose.runtime.State)
-    public static final boolean access$PlayerScreen$lambda$1(androidx.compose.runtime.State)
     public static final void access$PlayerScreen$lambda$15(androidx.compose.runtime.MutableState,boolean)
     public static final void access$PlayerScreen$lambda$18(androidx.compose.runtime.MutableState,boolean)
     public static final void access$PlayerScreen$lambda$21(androidx.compose.runtime.MutableState,boolean)
@@ -83204,10 +83137,7 @@ com.app.musicplayer.feature.player.PlayerViewModel:
     public final kotlinx.coroutines.flow.ReadonlyStateFlow getCurrentPositionMs()
     public final kotlinx.coroutines.flow.ReadonlyStateFlow getCurrentTrack()
     public static kotlinx.coroutines.flow.StateFlow getLyrics()
-    public final kotlinx.coroutines.flow.ReadonlyStateFlow getPlayMode()
     public final kotlinx.coroutines.flow.ReadonlyStateFlow getPlaybackState()
-    public final com.app.musicplayer.core.media.SleepTimer getSleepTimer()
-    public final kotlinx.coroutines.flow.ReadonlyStateFlow isFavorite()
     public static kotlinx.coroutines.flow.StateFlow isLoadingLyrics()
     public final kotlinx.coroutines.flow.ReadonlyStateFlow isPlayerExpanded()
     public final kotlinx.coroutines.flow.ReadonlyStateFlow isPlaying()
@@ -83320,9 +83250,9 @@ com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$2$1$1:
 com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$2$2:
     public final void invoke()
 com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$2$3$1:
-    public final void invoke$80()
+    public final void invoke$79()
 com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$2$4$1:
-    public final void invoke$80()
+    public final void invoke$79()
 com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$4:
     public final void invoke()
 com.app.musicplayer.feature.scan.ScanMusicScreenKt$ScanMusicScreen$2$5:
@@ -83519,7 +83449,7 @@ com.app.musicplayer.feature.settings.SettingsScreenKt$SettingsScreen$6:
 com.app.musicplayer.feature.settings.SettingsScreenKt$SettingsScreen$7$1:
     public final void invoke()
 com.app.musicplayer.feature.settings.SettingsScreenKt$SettingsScreen$8:
-    public final void invoke$80()
+    public final void invoke$79()
 com.app.musicplayer.feature.settings.SettingsScreenKt$SettingsScreen$9:
     public final void invoke()
 com.app.musicplayer.feature.settings.SettingsScreenKt$SettingsToggleItem$1$1:
@@ -85197,6 +85127,7 @@ kotlinx.coroutines.BlockingCoroutine:
     public static java.lang.Object joinBlocking()
 kotlinx.coroutines.BuildersKt:
     public static final kotlinx.coroutines.StandaloneCoroutine launch(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.CoroutineContext,int,kotlin.jvm.functions.Function2)
+    public static synthetic java.lang.Object runBlocking$default(kotlin.jvm.functions.Function2)
 kotlinx.coroutines.BuildersKt__BuildersKt
 kotlinx.coroutines.BuildersKt__Builders_commonKt
 kotlinx.coroutines.CancelHandlerBase

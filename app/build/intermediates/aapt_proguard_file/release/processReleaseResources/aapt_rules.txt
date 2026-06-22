@@ -1,3 +1,4 @@
+-keep class androidx.appcompat.app.AppLocalesMetadataHolderService { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }

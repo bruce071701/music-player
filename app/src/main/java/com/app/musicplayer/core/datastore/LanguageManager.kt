@@ -9,7 +9,9 @@ import androidx.core.os.LocaleListCompat
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.runBlocking
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -64,6 +66,30 @@ class LanguageManager @Inject constructor(
         } catch (e: Exception) {
             // Fallback to system default if language application fails
             AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList())
+        }
+    }
+
+    /**
+     * Restore the saved language preference on app cold start.
+     * On Android 13+ (API 33), AppCompatDelegate auto-persists via system LocaleManager,
+     * but on older versions we need to read from DataStore and re-apply.
+     */
+    fun restoreSavedLanguage() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            // Android 13+ handles persistence natively via per-app language settings
+            return
+        }
+        // For older versions, read from DataStore and apply the locale
+        // before any Activity renders
+        try {
+            val savedCode = runBlocking {
+                context.dataStore.data.first()[LANGUAGE_KEY] ?: ""
+            }
+            if (savedCode.isNotBlank()) {
+                applyLanguage(savedCode)
+            }
+        } catch (_: Exception) {
+            // If DataStore can't be read yet, ignore - language will be system default
         }
     }
 

@@ -29,6 +29,10 @@
     <string name="shuffle_all">Acak Semua</string>
     <string name="for_you">Untuk Anda</string>
     <string name="scan_music">Pindai Musik</string>
+    <string name="shuffle_all_songs_desc">Acak semua lagu</string>
+    <string name="play_favorites_desc">Putar favorit Anda</string>
+    <string name="find_music_desc">Cari musik di perangkat</string>
+    <string name="play_all_songs_desc">Putar semua lagu</string>
     <string name="scan_videos">Pindai Video</string>
     <string name="feedback">Masukan</string>
     <string name="no_tracks">Belum ada lagu</string>

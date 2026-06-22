@@ -16,22 +16,9 @@
         }
       ],
       "attributes": [],
-      "versionCode": 100003,
-      "versionName": "1.0.3",
+      "versionCode": 100005,
+      "versionName": "1.0.5",
       "outputFile": "resources-armeabi-v7a-release-optimize.ap_"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "arm64-v8a"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 100003,
-      "versionName": "1.0.3",
-      "outputFile": "resources-arm64-v8a-release-optimize.ap_"
     },
     {
       "type": "ONE_OF_MANY",
@@ -42,9 +29,22 @@
         }
       ],
       "attributes": [],
-      "versionCode": 100003,
-      "versionName": "1.0.3",
+      "versionCode": 100005,
+      "versionName": "1.0.5",
       "outputFile": "resources-x86_64-release-optimize.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 100005,
+      "versionName": "1.0.5",
+      "outputFile": "resources-arm64-v8a-release-optimize.ap_"
     }
   ],
   "elementType": "File"

@@ -21,10 +21,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.unit.dp
+import kotlin.math.PI
+import kotlin.math.cos
+import kotlin.math.sin
 
 /**
- * Elegant vinyl disc that rotates slowly when playing.
- * Clean, minimal, no tonearm — just the record spinning.
+ * Premium vinyl disc with realistic metallic rim, grooves, and red center label.
+ * Matches the high-end music player UI with glowing effects.
  */
 @Composable
 fun VinylDiscView(
@@ -37,45 +40,76 @@ fun VinylDiscView(
         initialValue = 0f,
         targetValue = 360f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 18000, easing = LinearEasing),
+            animation = tween(durationMillis = 20000, easing = LinearEasing),
             repeatMode = RepeatMode.Restart
         ),
         label = "discRotation"
     )
 
     Box(modifier = modifier, contentAlignment = Alignment.Center) {
-        Canvas(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+        Canvas(modifier = Modifier.fillMaxSize().padding(4.dp)) {
             val w = size.width
             val h = size.height
             val cx = w / 2
             val cy = h / 2
             val center = Offset(cx, cy)
-            val discRadius = minOf(w, h) * 0.44f
+            val outerRadius = minOf(w, h) * 0.48f
 
-            // Outer glow
+            // === Metallic outer rim ===
+            val rimWidth = outerRadius * 0.06f
+            // Dark metallic rim gradient
             drawCircle(
                 brush = Brush.radialGradient(
                     colors = listOf(
-                        Color(0xFF8B5CF6).copy(alpha = 0.05f),
-                        Color.Transparent
+                        Color(0xFF4A4A4A),
+                        Color(0xFF2A2A2A),
+                        Color(0xFF1A1A1A),
+                        Color(0xFF0D0D0D)
                     ),
                     center = center,
-                    radius = discRadius * 1.15f
+                    radius = outerRadius
                 ),
-                radius = discRadius * 1.15f,
+                radius = outerRadius,
                 center = center
             )
 
-            // Rotating disc
+            // Rim highlight (top-left light source)
+            drawCircle(
+                brush = Brush.linearGradient(
+                    colors = listOf(
+                        Color(0xFF5A5A5A).copy(alpha = 0.4f),
+                        Color.Transparent,
+                        Color(0xFF1A1A1A).copy(alpha = 0.3f)
+                    ),
+                    start = Offset(cx - outerRadius, cy - outerRadius),
+                    end = Offset(cx + outerRadius, cy + outerRadius)
+                ),
+                radius = outerRadius,
+                center = center
+            )
+
+            // Rim edge ring
+            drawCircle(
+                color = Color(0xFF3D3D3D),
+                radius = outerRadius,
+                center = center,
+                style = Stroke(width = 1.5f)
+            )
+
+            val discRadius = outerRadius - rimWidth
+
+            // === Main vinyl disc body (rotating) ===
             rotate(degrees = if (isPlaying) rotation else 0f, pivot = center) {
-                // Main disc body
+                // Base disc - very dark with subtle gradient
                 drawCircle(
                     brush = Brush.radialGradient(
                         colors = listOf(
-                            Color(0xFF1C1C28),
-                            Color(0xFF101018),
-                            Color(0xFF0A0A10),
-                            Color(0xFF101018)
+                            Color(0xFF1E1E1E),
+                            Color(0xFF141414),
+                            Color(0xFF0C0C0C),
+                            Color(0xFF080808),
+                            Color(0xFF0C0C0C),
+                            Color(0xFF141414)
                         ),
                         center = center,
                         radius = discRadius
@@ -84,31 +118,40 @@ fun VinylDiscView(
                     center = center
                 )
 
-                // Grooves
-                for (i in 6..30) {
-                    val r = discRadius * i / 32f
+                // === Vinyl grooves - concentric rings ===
+                val grooveStart = 0.32f  // Start after label
+                val grooveEnd = 0.95f    // End before rim
+                val numGrooves = 45
+
+                for (i in 0..numGrooves) {
+                    val fraction = grooveStart + (grooveEnd - grooveStart) * i / numGrooves.toFloat()
+                    val r = discRadius * fraction
                     val alpha = when {
-                        i % 6 == 0 -> 0.08f
-                        i % 3 == 0 -> 0.04f
-                        else -> 0.02f
+                        i % 8 == 0 -> 0.12f
+                        i % 4 == 0 -> 0.07f
+                        i % 2 == 0 -> 0.04f
+                        else -> 0.025f
                     }
                     drawCircle(
                         color = Color.White.copy(alpha = alpha),
                         radius = r,
                         center = center,
-                        style = Stroke(width = 0.4f)
+                        style = Stroke(width = 0.6f)
                     )
                 }
 
-                // Light reflection
+                // === Light reflection on vinyl (subtle sweep) ===
                 drawArc(
                     brush = Brush.sweepGradient(
                         colors = listOf(
                             Color.Transparent,
                             Color.Transparent,
-                            Color.White.copy(alpha = 0.03f),
-                            Color.White.copy(alpha = 0.07f),
-                            Color.White.copy(alpha = 0.03f),
+                            Color.White.copy(alpha = 0.015f),
+                            Color.White.copy(alpha = 0.04f),
+                            Color.White.copy(alpha = 0.06f),
+                            Color.White.copy(alpha = 0.04f),
+                            Color.White.copy(alpha = 0.015f),
+                            Color.Transparent,
                             Color.Transparent,
                             Color.Transparent
                         ),
@@ -121,14 +164,41 @@ fun VinylDiscView(
                     size = Size(discRadius * 2, discRadius * 2)
                 )
 
-                // Center label
+                // Secondary reflection (opposite side, dimmer)
+                drawArc(
+                    brush = Brush.sweepGradient(
+                        colors = listOf(
+                            Color.Transparent,
+                            Color.Transparent,
+                            Color.Transparent,
+                            Color.Transparent,
+                            Color.Transparent,
+                            Color.White.copy(alpha = 0.02f),
+                            Color.White.copy(alpha = 0.035f),
+                            Color.White.copy(alpha = 0.02f),
+                            Color.Transparent,
+                            Color.Transparent
+                        ),
+                        center = center
+                    ),
+                    startAngle = 0f,
+                    sweepAngle = 360f,
+                    useCenter = true,
+                    topLeft = Offset(cx - discRadius, cy - discRadius),
+                    size = Size(discRadius * 2, discRadius * 2)
+                )
+
+                // === Center label (red gradient) ===
                 val labelRadius = discRadius * 0.28f
+
+                // Label base - deep red gradient
                 drawCircle(
                     brush = Brush.radialGradient(
                         colors = listOf(
-                            Color(0xFFD4783C),
-                            Color(0xFFC4502A),
-                            Color(0xFF8B2010)
+                            Color(0xFFCC3333),
+                            Color(0xFFB82020),
+                            Color(0xFF8B1515),
+                            Color(0xFF5A0E0E)
                         ),
                         center = center,
                         radius = labelRadius
@@ -136,34 +206,43 @@ fun VinylDiscView(
                     radius = labelRadius,
                     center = center
                 )
+
+                // Label edge ring
                 drawCircle(
-                    color = Color.White.copy(alpha = 0.15f),
+                    color = Color(0xFF3A1010),
                     radius = labelRadius,
                     center = center,
-                    style = Stroke(width = 0.8f)
+                    style = Stroke(width = 1.2f)
                 )
+
+                // Inner ring on label
                 drawCircle(
                     color = Color.White.copy(alpha = 0.08f),
-                    radius = labelRadius * 0.55f,
+                    radius = labelRadius * 0.7f,
                     center = center,
                     style = Stroke(width = 0.5f)
                 )
 
-                // Spindle
+                // === Spindle (center dot) ===
+                val spindleRadius = discRadius * 0.022f
                 drawCircle(
                     brush = Brush.radialGradient(
-                        colors = listOf(Color(0xFFCCCCCC), Color(0xFF666666)),
+                        colors = listOf(
+                            Color(0xFFEEEEEE),
+                            Color(0xFFAAAAAA),
+                            Color(0xFF666666)
+                        ),
                         center = center,
-                        radius = discRadius * 0.025f
+                        radius = spindleRadius
                     ),
-                    radius = discRadius * 0.025f,
+                    radius = spindleRadius,
                     center = center
                 )
             }
 
-            // Disc edge ring
+            // === Inner rim edge (between rim and disc) ===
             drawCircle(
-                color = Color(0xFF3A3A4C).copy(alpha = 0.4f),
+                color = Color(0xFF2A2A2A),
                 radius = discRadius,
                 center = center,
                 style = Stroke(width = 1f)

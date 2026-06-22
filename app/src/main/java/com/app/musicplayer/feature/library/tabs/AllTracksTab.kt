@@ -40,6 +40,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -336,21 +338,21 @@ fun TrackListItem(
     ) {
         // Cover art
         Surface(
-            modifier = Modifier.size(48.dp).clip(RoundedCornerShape(6.dp)),
-            color = MaterialTheme.colorScheme.surfaceVariant
+            modifier = Modifier.size(48.dp).clip(RoundedCornerShape(8.dp)),
+            color = Color.Transparent
         ) {
+            // Always draw generative art as background fallback
+            com.app.musicplayer.core.ui.components.GenerativeCoverArt(
+                seed = track.title + (track.artist ?: ""),
+                modifier = Modifier.fillMaxSize()
+            )
+            // Overlay actual cover if available
             if (track.coverUri != null) {
                 AsyncImage(
                     model = track.coverUri,
                     contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.size(48.dp)
-                )
-            } else {
-                Icon(
-                    Icons.Default.MusicNote, null,
-                    modifier = Modifier.padding(12.dp),
-                    tint = TextSecondary
                 )
             }
         }

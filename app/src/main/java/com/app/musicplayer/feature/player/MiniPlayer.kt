@@ -1,6 +1,7 @@
 package com.app.musicplayer.feature.player
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.Arrangement
@@ -100,22 +101,21 @@ fun MiniPlayer(
                     modifier = Modifier
                         .size(44.dp)
                         .clip(RoundedCornerShape(8.dp)),
-                    color = Color(0xFF2A2A2A),
+                    color = Color.Transparent,
                     shape = RoundedCornerShape(8.dp)
                 ) {
+                    // Generative art as fallback background
+                    com.app.musicplayer.core.ui.components.GenerativeCoverArt(
+                        seed = (currentTrack?.title ?: "Music") + (currentTrack?.artist ?: ""),
+                        modifier = Modifier.size(44.dp)
+                    )
+                    // Overlay actual cover if available
                     if (currentTrack?.coverUri != null) {
                         AsyncImage(
                             model = currentTrack?.coverUri,
                             contentDescription = "Album cover",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier.size(44.dp)
-                        )
-                    } else {
-                        Icon(
-                            imageVector = Icons.Default.MusicNote,
-                            contentDescription = null,
-                            modifier = Modifier.padding(10.dp),
-                            tint = Color.White.copy(alpha = 0.4f)
                         )
                     }
                 }

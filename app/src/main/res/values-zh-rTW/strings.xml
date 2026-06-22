@@ -29,6 +29,10 @@
     <string name="shuffle_all">隨機播放全部</string>
     <string name="for_you">為你推薦</string>
     <string name="scan_music">掃描音樂</string>
+    <string name="shuffle_all_songs_desc">隨機播放所有歌曲</string>
+    <string name="play_favorites_desc">播放你的收藏</string>
+    <string name="find_music_desc">在裝置上尋找音樂</string>
+    <string name="play_all_songs_desc">播放所有歌曲</string>
     <string name="scan_videos">掃描影片</string>
     <string name="feedback">意見回饋</string>
     <string name="no_tracks">暫無歌曲</string>

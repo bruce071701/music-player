@@ -746,6 +746,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable default_cover
 drawable exo_edit_mode_logo
 drawable exo_ic_audiotrack
 drawable exo_ic_check
@@ -1351,8 +1352,14 @@ string exo_track_unknown_name
 string favorite
 string favorites
 string feedback
+string find_music_desc
 string folders_count
 string for_you
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hidden_folders
 string import_playlist
 string in_progress
@@ -1452,9 +1459,12 @@ string permission_title
 string pick_a_song
 string play
 string play_all
+string play_all_songs_desc
+string play_favorites_desc
 string playlist_name
 string previous
 string privacy_policy
+string project_id
 string queue
 string range_end
 string range_start
@@ -1510,6 +1520,7 @@ string settings_widget
 string settings_widget_desc
 string shuffle
 string shuffle_all
+string shuffle_all_songs_desc
 string sleep_timer
 string sort_album
 string sort_artist
@@ -2014,5 +2025,6 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml file_paths
+xml locales_config
 xml music_widget_4x1
 xml music_widget_4x2

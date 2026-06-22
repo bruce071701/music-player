@@ -659,8 +659,14 @@
     <string name="favorite">Favorite</string>
     <string name="favorites">Favorites</string>
     <string name="feedback">Feedback</string>
+    <string name="find_music_desc">Find music on device</string>
     <string name="folders_count">%d folders</string>
     <string name="for_you">For You</string>
+    <string name="gcm_defaultSenderId" translatable="false">890672567292</string>
+    <string name="google_api_key" translatable="false">AIzaSyA8x0SPB3TpUizTE5psKCmOQ0pVvFOMFbU</string>
+    <string name="google_app_id" translatable="false">1:890672567292:android:32f9457cec97c52c7b1879</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA8x0SPB3TpUizTE5psKCmOQ0pVvFOMFbU</string>
+    <string name="google_storage_bucket" translatable="false">muserplayer.firebasestorage.app</string>
     <string name="hidden_folders">Hidden Folders</string>
     <string name="import_playlist">Import Playlist</string>
     <string name="in_progress">In progress</string>
@@ -764,9 +770,12 @@
     <string name="pick_a_song">Select a song to start playing</string>
     <string name="play">Play</string>
     <string name="play_all">Play All</string>
+    <string name="play_all_songs_desc">Play all songs</string>
+    <string name="play_favorites_desc">Play your favorites</string>
     <string name="playlist_name">Playlist name</string>
     <string name="previous">Previous</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="project_id" translatable="false">muserplayer</string>
     <string name="queue">Queue</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
@@ -822,6 +831,7 @@
     <string name="settings_widget_desc">Add widget to home screen</string>
     <string name="shuffle">Shuffle</string>
     <string name="shuffle_all">Shuffle All</string>
+    <string name="shuffle_all_songs_desc">Shuffle all songs</string>
     <string name="sleep_timer">Sleep Timer</string>
     <string name="sort_album">Album</string>
     <string name="sort_artist">Artist</string>

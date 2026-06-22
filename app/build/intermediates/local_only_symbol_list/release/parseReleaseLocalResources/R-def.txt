@@ -5,6 +5,7 @@ color widget_bg
 color widget_button_bg
 color widget_text_primary
 color widget_text_secondary
+drawable default_cover
 drawable ic_launcher_foreground
 drawable widget_background
 drawable widget_button_circle
@@ -68,8 +69,14 @@ string existing_playlists
 string favorite
 string favorites
 string feedback
+string find_music_desc
 string folders_count
 string for_you
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hidden_folders
 string import_playlist
 string loading_lyrics
@@ -101,9 +108,12 @@ string permission_title
 string pick_a_song
 string play
 string play_all
+string play_all_songs_desc
+string play_favorites_desc
 string playlist_name
 string previous
 string privacy_policy
+string project_id
 string queue
 string recently_added
 string recently_played
@@ -155,6 +165,7 @@ string settings_widget
 string settings_widget_desc
 string shuffle
 string shuffle_all
+string shuffle_all_songs_desc
 string sleep_timer
 string sort_album
 string sort_artist
@@ -202,5 +213,6 @@ string video_player
 string videos_count
 style Theme.MusicPlayer
 xml file_paths
+xml locales_config
 xml music_widget_4x1
 xml music_widget_4x2

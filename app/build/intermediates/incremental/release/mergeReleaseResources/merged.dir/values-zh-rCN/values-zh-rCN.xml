@@ -157,6 +157,7 @@
     <string name="favorite">收藏</string>
     <string name="favorites">收藏</string>
     <string name="feedback">反馈</string>
+    <string name="find_music_desc">在设备上查找音乐</string>
     <string name="folders_count">%d 个文件夹</string>
     <string name="for_you">为你推荐</string>
     <string name="hidden_folders">隐藏文件夹</string>
@@ -258,6 +259,8 @@
     <string name="pick_a_song">选择一首歌曲开始播放</string>
     <string name="play">播放</string>
     <string name="play_all">全部播放</string>
+    <string name="play_all_songs_desc">播放所有歌曲</string>
+    <string name="play_favorites_desc">播放你的收藏</string>
     <string name="playlist_name">歌单名称</string>
     <string name="previous">上一首</string>
     <string name="privacy_policy">隐私政策</string>
@@ -316,6 +319,7 @@
     <string name="settings_widget_desc">将小组件添加到主屏幕</string>
     <string name="shuffle">随机播放</string>
     <string name="shuffle_all">随机播放全部</string>
+    <string name="shuffle_all_songs_desc">随机播放所有歌曲</string>
     <string name="sleep_timer">睡眠定时器</string>
     <string name="sort_album">专辑名称</string>
     <string name="sort_artist">歌手名</string>

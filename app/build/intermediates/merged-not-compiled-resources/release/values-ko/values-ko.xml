@@ -157,6 +157,7 @@
     <string name="favorite">즐겨찾기</string>
     <string name="favorites">즐겨찾기</string>
     <string name="feedback">피드백</string>
+    <string name="find_music_desc">기기에서 음악 찾기</string>
     <string name="folders_count">폴더 %d개</string>
     <string name="for_you">추천</string>
     <string name="hidden_folders">숨겨진 폴더</string>
@@ -258,6 +259,8 @@
     <string name="pick_a_song">곡을 선택하여 재생을 시작하세요</string>
     <string name="play">재생</string>
     <string name="play_all">전체 재생</string>
+    <string name="play_all_songs_desc">모든 노래 재생</string>
+    <string name="play_favorites_desc">즐겨찾기 재생</string>
     <string name="playlist_name">플레이리스트 이름</string>
     <string name="previous">이전</string>
     <string name="privacy_policy">개인정보 처리방침</string>
@@ -316,6 +319,7 @@
     <string name="settings_widget_desc">홈 화면에 위젯 추가</string>
     <string name="shuffle">셔플</string>
     <string name="shuffle_all">전체 셔플</string>
+    <string name="shuffle_all_songs_desc">모든 노래 셔플</string>
     <string name="sleep_timer">수면 타이머</string>
     <string name="sort_album">앨범</string>
     <string name="sort_artist">아티스트</string>

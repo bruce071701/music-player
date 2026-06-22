@@ -29,6 +29,10 @@
     <string name="shuffle_all">Lecture aléatoire de tout</string>
     <string name="for_you">Pour vous</string>
     <string name="scan_music">Scanner la musique</string>
+    <string name="shuffle_all_songs_desc">Lecture aléatoire de toutes les chansons</string>
+    <string name="play_favorites_desc">Lire vos favoris</string>
+    <string name="find_music_desc">Trouver la musique sur l\'appareil</string>
+    <string name="play_all_songs_desc">Lire toutes les chansons</string>
     <string name="scan_videos">Scanner les vidéos</string>
     <string name="feedback">Commentaires</string>
     <string name="no_tracks">Aucun morceau</string>

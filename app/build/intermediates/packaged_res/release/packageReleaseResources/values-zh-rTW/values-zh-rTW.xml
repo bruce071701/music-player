@@ -47,6 +47,7 @@
     <string name="favorite">收藏</string>
     <string name="favorites">收藏</string>
     <string name="feedback">意見回饋</string>
+    <string name="find_music_desc">在裝置上尋找音樂</string>
     <string name="folders_count">%d 個資料夾</string>
     <string name="for_you">為你推薦</string>
     <string name="hidden_folders">隱藏資料夾</string>
@@ -80,6 +81,8 @@
     <string name="pick_a_song">選擇一首歌曲開始播放</string>
     <string name="play">播放</string>
     <string name="play_all">全部播放</string>
+    <string name="play_all_songs_desc">播放所有歌曲</string>
+    <string name="play_favorites_desc">播放你的收藏</string>
     <string name="playlist_name">播放列表名稱</string>
     <string name="previous">上一首</string>
     <string name="privacy_policy">隱私權政策</string>
@@ -134,6 +137,7 @@
     <string name="settings_widget_desc">將小工具新增至主畫面</string>
     <string name="shuffle">隨機播放</string>
     <string name="shuffle_all">隨機播放全部</string>
+    <string name="shuffle_all_songs_desc">隨機播放所有歌曲</string>
     <string name="sleep_timer">睡眠定時器</string>
     <string name="sort_album">專輯名稱</string>
     <string name="sort_artist">歌手名</string>

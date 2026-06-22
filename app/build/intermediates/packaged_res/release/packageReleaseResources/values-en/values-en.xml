@@ -47,6 +47,7 @@
     <string name="favorite">Favorite</string>
     <string name="favorites">Favorites</string>
     <string name="feedback">Feedback</string>
+    <string name="find_music_desc">Find music on device</string>
     <string name="folders_count">%d folders</string>
     <string name="for_you">For You</string>
     <string name="hidden_folders">Hidden Folders</string>
@@ -80,6 +81,8 @@
     <string name="pick_a_song">Select a song to start playing</string>
     <string name="play">Play</string>
     <string name="play_all">Play All</string>
+    <string name="play_all_songs_desc">Play all songs</string>
+    <string name="play_favorites_desc">Play your favorites</string>
     <string name="playlist_name">Playlist name</string>
     <string name="previous">Previous</string>
     <string name="privacy_policy">Privacy Policy</string>
@@ -134,6 +137,7 @@
     <string name="settings_widget_desc">Add widget to home screen</string>
     <string name="shuffle">Shuffle</string>
     <string name="shuffle_all">Shuffle All</string>
+    <string name="shuffle_all_songs_desc">Shuffle all songs</string>
     <string name="sleep_timer">Sleep Timer</string>
     <string name="sort_album">Album</string>
     <string name="sort_artist">Artist</string>

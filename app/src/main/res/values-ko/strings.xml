@@ -29,6 +29,10 @@
     <string name="shuffle_all">전체 셔플</string>
     <string name="for_you">추천</string>
     <string name="scan_music">음악 스캔</string>
+    <string name="shuffle_all_songs_desc">모든 노래 셔플</string>
+    <string name="play_favorites_desc">즐겨찾기 재생</string>
+    <string name="find_music_desc">기기에서 음악 찾기</string>
+    <string name="play_all_songs_desc">모든 노래 재생</string>
     <string name="scan_videos">동영상 스캔</string>
     <string name="feedback">피드백</string>
     <string name="no_tracks">곡이 없습니다</string>

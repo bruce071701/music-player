@@ -47,6 +47,7 @@
     <string name="favorite">お気に入り</string>
     <string name="favorites">お気に入り</string>
     <string name="feedback">フィードバック</string>
+    <string name="find_music_desc">デバイスで音楽を検索</string>
     <string name="folders_count">%d フォルダ</string>
     <string name="for_you">あなたへのおすすめ</string>
     <string name="hidden_folders">非表示フォルダ</string>
@@ -80,6 +81,8 @@
     <string name="pick_a_song">曲を選んで再生を開始</string>
     <string name="play">再生</string>
     <string name="play_all">すべて再生</string>
+    <string name="play_all_songs_desc">すべての曲を再生</string>
+    <string name="play_favorites_desc">お気に入りを再生</string>
     <string name="playlist_name">プレイリスト名</string>
     <string name="previous">前へ</string>
     <string name="privacy_policy">プライバシーポリシー</string>
@@ -134,6 +137,7 @@
     <string name="settings_widget_desc">ホーム画面にウィジェットを追加</string>
     <string name="shuffle">シャッフル</string>
     <string name="shuffle_all">すべてシャッフル</string>
+    <string name="shuffle_all_songs_desc">すべての曲をシャッフル</string>
     <string name="sleep_timer">スリープタイマー</string>
     <string name="sort_album">アルバム名</string>
     <string name="sort_artist">アーティスト名</string>
